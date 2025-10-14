@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wire-O Hero and TOC Snippet | ColorCopiesUSA</title>
+
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* ================================================================= */
+      /*  WIRE-O HERO & TOC - GLOBAL STYLES                              */
+      /* ================================================================= */
+      /* HERO SECTION */
+      .wire-o-hero {
+        padding: 2.5rem 1rem !important;
+        margin-bottom: 0 !important;
+        position: relative;
+        z-index: 1;
+        background: linear-gradient(
+          rgba(28, 52, 129, 0.75),
+          rgba(28, 52, 129, 0.85)
+        ) !important;
+      }
+      .wire-o-hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--hero-bg-image) !important;
+        background-size: cover !important;
+        background-position: center !important;
+        opacity: 0.3; /* CONTROLS IMAGE FADE: Lower is more faded */
+        z-index: -1;
+      }
+      .wire-o-hero h1 {
+        font-size: 2.4rem;
+        margin: 0 0 0.5rem;
+      }
+      .wire-o-hero .subhead-hero {
+        font-size: 1.25rem;
+        max-width: 1500px;
+        margin: 0 auto 1rem;
+      }
+      .wire-o-hero .d-flex {
+        margin-top: 1rem !important;
+        margin-bottom: 0;
+      }
+
+      /* STICKY NAV */
+      .wire-o-nav {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #dee2e6;
+        margin-bottom: 0.5rem;
+        position: sticky;
+        top: 70px; /* Adjust if your main site header has a different height */
+        z-index: 1020;
+      }
+      .wire-o-nav .container {
+        position: relative; /* Needed for positioning the arrows */
+      }
+      .wire-o-nav .nav-link {
+        padding: 0.5rem 0.65rem;
+        font-weight: 500;
+        font-size: 0.85rem;
+        color: #1c3481;
+      }
+      .wire-o-nav .nav-link:hover {
+        color: #0000cd;
+        text-decoration: underline;
+      }
+      .wire-o-nav .custom-blue-button {
+        margin-left: 0.5rem;
+        padding: 0.3rem 0.75rem !important;
+        font-size: 0.8rem !important;
+        text-transform: none !important;
+      }
+      .nav-arrow {
+        display: none;
+      }
+
+      /* ================================================================= */
+      /*  RESPONSIVE STYLES (MOBILE)                                     */
+      /* ================================================================= */
+      @media (max-width: 991.98px) {
+        /* Make Hero section more compact on mobile */
+        .wire-o-hero {
+          padding-top: 2rem !important;
+          padding-bottom: 2rem !important;
+        }
+        .wire-o-hero h1 {
+          font-size: 1.8rem;
+        }
+        .wire-o-hero .subhead-hero {
+          font-size: 1rem;
+          margin-bottom: 1.5rem;
+        }
+        .wire-o-hero .d-flex span {
+          font-size: 0.8rem;
+        }
+
+        /* Make navigation non-sticky */
+        .wire-o-nav {
+          position: static;
+          margin-bottom: 1.5rem;
+        }
+
+        /* Styles for the horizontal scroll container */
+        .toc-scroll-wrapper {
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none;
+        }
+        .toc-scroll-wrapper::-webkit-scrollbar {
+          display: none;
+        }
+        .wire-o-nav .nav {
+          flex-wrap: nowrap;
+          justify-content: flex-start !important;
+          padding-bottom: 0.5rem;
+        }
+        .wire-o-nav .nav-link {
+          font-size: 0.9rem;
+          padding: 0.4rem 0.75rem;
+          white-space: nowrap;
+        }
+        .wire-o-nav .custom-blue-button {
+          margin-left: 0.5rem;
+          flex-shrink: 0;
+        }
+
+        /* Style and show the navigation arrows on mobile */
+        .nav-arrow {
+          display: flex;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 30px;
+          height: 30px;
+          background-color: rgba(255, 255, 255, 0.9);
+          border: 1px solid #dee2e6;
+          border-radius: 50%;
+          align-items: center;
+          justify-content: center;
+          color: #1c3481;
+          font-size: 1.2rem;
+          cursor: pointer;
+          z-index: 10;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .nav-arrow.arrow-left {
+          left: 5px;
+        }
+        .nav-arrow.arrow-right {
+          right: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cms_page">
+      <div id="site-wrapper">
+        <section
+          class="hero-block on-dark wire-o-hero"
+          style="
+            --hero-bg-image: url('https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/products_gallery_images/Menu-Coil-1x1_0_5x_1756314992149.jpg.webp?v=4324');
+          "
+        >
+          <div class="container">
+            <h1>
+              Wire-O Binding: Sophisticated &amp; Durable Lay-Flat Solution
+            </h1>
+            <p class="subhead-hero">
+              Discover Wire-O (Twin Loop) binding for a professional, lay-flat
+              finish on your reports, manuals, calendars, and notebooks.
+            </p>
+            <div class="d-flex justify-content-center flex-wrap mt-4">
+              <span class="mr-3 mr-md-4"
+                ><i class="bi bi-layout-text-window-reverse mr-1"></i> Lays
+                Completely Flat</span
+              >
+              <span class="mr-3 mr-md-4"
+                ><i class="bi bi-arrow-repeat mr-1"></i> 360° Page
+                Rotation</span
+              >
+              <span class="mr-3 mr-md-4"
+                ><i class="bi bi-gem mr-1"></i> Professional Metal Finish</span
+              >
+            </div>
+          </div>
+        </section>
+
+        <nav class="wire-o-nav" id="wireOPageNav">
+          <div class="container">
+            <span class="nav-arrow arrow-left" id="scroll-left"
+              ><i class="bi bi-chevron-left"></i
+            ></span>
+
+            <div class="toc-scroll-wrapper">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#introduction">Intro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#what-is-wire-o">What It Is</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pros-wire-o">Pros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cons-wire-o">Cons</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#use-cases-wire-o">Use Cases</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#comparison-wire-o">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#designer-guide-wire-o"
+                    >Designer Guide</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#specs-wire-o">Specs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery-wire-o">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#faq-wire-o">FAQs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#why-us">Why Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link btn custom-blue-button btn-sm"
+                    href="https://www.colorcopiesusa.com/wire-o-bound-books-printing-wire-binding/"
+                    >Order Wire-O Books</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <span class="nav-arrow arrow-right" id="scroll-right"
+              ><i class="bi bi-chevron-right"></i
+            ></span>
+          </div>
+        </nav>
+
+        <!-- Main Page Content Container -->
+        <div class="container">
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+          <p>Additional Content lives here</p>
+          <br />
+
+          <!-- FAQ Section -->
+          <section id="faq-wire-o" class="mb-5 pb-4">
+            <h2 class="mb-3">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+              <div class="card">
+                <div class="card-header" id="faq1">
+                  <h3 class="h5 mb-0">
+                    <button
+                      class="faq-toggle collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapse1"
+                    >
+                      How many pages can Wire-O binding handle?
+                      <span class="faq-icon"
+                        ><i class="bi bi-chevron-down"></i
+                      ></span>
+                    </button>
+                  </h3>
+                </div>
+                <div
+                  id="collapse1"
+                  class="collapse"
+                  data-parent="#faqAccordion"
+                >
+                  <div class="card-body">
+                    <p>
+                      Wire-O binding can typically accommodate between 20 and
+                      250 sheets (40-500 pages). The exact capacity depends on
+                      paper weight and wire diameter. For reference:
+                    </p>
+                    <ul>
+                      <li>20lb bond paper: up to 250 sheets</li>
+                      <li>28lb premium paper: up to 200 sheets</li>
+                      <li>70lb text weight: up to 150 sheets</li>
+                    </ul>
+                    <p>
+                      For documents under 20 sheets, the binding may not be
+                      secure enough—consider saddle-stitch binding instead. For
+                      documents over 250 sheets, you'll need to split into
+                      multiple volumes or choose perfect binding.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="faq2">
+                  <h3 class="h5 mb-0">
+                    <button
+                      class="faq-toggle collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapse2"
+                    >
+                      What's the difference between Wire-O and spiral coil
+                      binding?
+                      <span class="faq-icon"
+                        ><i class="bi bi-chevron-down"></i
+                      ></span>
+                    </button>
+                  </h3>
+                </div>
+                <div
+                  id="collapse2"
+                  class="collapse"
+                  data-parent="#faqAccordion"
+                >
+                  <div class="card-body">
+                    <p>
+                      Both allow pages to lay flat and rotate 360°, but there
+                      are key differences:
+                    </p>
+                    <ul>
+                      <li>
+                        <strong>Wire-O:</strong> Uses twin metal loops that
+                        interlock. More professional appearance, slightly more
+                        durable, but can snag on fabric. Better for business
+                        documents and presentations.
+                      </li>
+                      <li>
+                        <strong>Spiral Coil:</strong> Uses a single continuous
+                        plastic or metal coil. Less likely to snag, can hold
+                        slightly more pages, costs 10-20% less. Better for
+                        documents that will be carried frequently.
+                      </li>
+                    </ul>
+                    <p>
+                      For most small business applications like reports and
+                      manuals, Wire-O provides the best balance of appearance
+                      and functionality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="faq3">
+                  <h3 class="h5 mb-0">
+                    <button
+                      class="faq-toggle collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapse3"
+                    >
+                      Can I add or remove pages from a Wire-O bound book?
+                      <span class="faq-icon"
+                        ><i class="bi bi-chevron-down"></i
+                      ></span>
+                    </button>
+                  </h3>
+                </div>
+                <div
+                  id="collapse3"
+                  class="collapse"
+                  data-parent="#faqAccordion"
+                >
+                  <div class="card-body">
+                    <p>
+                      Technically yes, but it requires specialized equipment.
+                      You would need to:
+                    </p>
+                    <ol>
+                      <li>
+                        Un-crimp the wire ends (requires a wire closer tool)
+                      </li>
+                      <li>Thread the wire out of all the pages</li>
+                      <li>Add or remove pages</li>
+                      <li>Re-thread the wire through all pages</li>
+                      <li>Cut and crimp the wire ends again</li>
+                    </ol>
+                    <p>
+                      For most users, it's easier to simply reorder the book
+                      with updated content. However, if you regularly need to
+                      update materials, consider loose-leaf ring binders which
+                      are designed for easy page changes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="faq4">
+                  <h3 class="h5 mb-0">
+                    <button
+                      class="faq-toggle collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapse4"
+                    >
+                      What file format should I submit for printing?
+                      <span class="faq-icon"
+                        ><i class="bi bi-chevron-down"></i
+                      ></span>
+                    </button>
+                  </h3>
+                </div>
+                <div
+                  id="collapse4"
+                  class="collapse"
+                  data-parent="#faqAccordion"
+                >
+                  <div class="card-body">
+                    <p>
+                      We accept several formats, but PDF is strongly preferred:
+                    </p>
+                    <ul>
+                      <li>
+                        <strong>Best:</strong> PDF/X-1a or PDF/X-4 with embedded
+                        fonts
+                      </li>
+                      <li>
+                        <strong>Good:</strong> Standard PDF with fonts embedded
+                        and images at 300 DPI
+                      </li>
+                      <li>
+                        <strong>Acceptable:</strong> Microsoft Word, PowerPoint
+                        (but we'll convert to PDF and may need to confirm
+                        formatting)
+                      </li>
+                    </ul>
+                    <p>
+                      Make sure to use CMYK color mode (not RGB) and include
+                      0.125" bleed on the top, bottom, and outside edges. Keep
+                      important content at least 0.5" away from the binding
+                      edge.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Why Us Section -->
+          <section id="why-us" class="mb-5 pb-4">
+            <h2 class="mb-3">Why Choose ColorCopiesUSA?</h2>
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <div class="light-modern-gray-block info-card-hover p-3 h-100">
+                  <h4 class="h6">
+                    <i class="bi bi-check-circle text-success mr-2"></i>Quality
+                    Guaranteed
+                  </h4>
+                  <p class="small mb-0">
+                    We check every file before printing and will contact you if
+                    we spot any issues. Our quality control process ensures your
+                    Wire-O bound materials look professional and meet your
+                    expectations.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="light-modern-gray-block info-card-hover p-3 h-100">
+                  <h4 class="h6">
+                    <i class="bi bi-lightning text-warning mr-2"></i>Fast
+                    Turnaround
+                  </h4>
+                  <p class="small mb-0">
+                    Most Wire-O binding orders ship within 3-5 business days.
+                    Need it faster? Ask about our rush service options for
+                    urgent deadlines.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="light-modern-gray-block info-card-hover p-3 h-100">
+                  <h4 class="h6">
+                    <i class="bi bi-people text-primary mr-2"></i>Small Business
+                    Friendly
+                  </h4>
+                  <p class="small mb-0">
+                    No minimum order requirements. Whether you need 5 copies or
+                    500, we treat every order with the same care and attention
+                    to detail.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- About Us Section -->
+          <section id="about-us" class="mb-5 pb-4">
+            <h2 class="mb-3">About ColorCopiesUSA</h2>
+            <p>
+              ColorCopiesUSA has been serving small businesses, community
+              organizations, and creative professionals since 2005. We
+              understand that your printed materials represent your brand and
+              your mission, which is why we're committed to delivering quality
+              printing and binding services at fair prices.
+            </p>
+            <p>
+              Our team combines modern digital printing technology with
+              traditional binding craftsmanship. We're not just a print
+              shop—we're your partner in creating professional materials that
+              help your business or organization succeed.
+            </p>
+            <div class="trust-blue-block on-dark p-4 mt-4">
+              <h3 class="h4">Ready to Get Started?</h3>
+              <p>
+                Upload your files, choose your options, and get an instant
+                quote. Our team will review your files and confirm your order
+                details. Most Wire-O binding orders ship within 3-5 business
+                days.
+              </p>
+              <p class="mb-0">
+                <a
+                  href="https://www.colorcopiesusa.com/wire-o-bound-books-printing-wire-binding/"
+                  class="custom-red-button"
+                  >Start Your Order Now</a
+                >
+              </p>
+            </div>
+          </section>
+        </div>
+        <!-- End Main Page Content Container -->
+      </div>
+      <!-- /#site-wrapper -->
+    </div>
+    <!-- /#cms_page -->
+
+    <!-- CONSOLIDATED SCRIPT BLOCK -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // --- SMOOTH SCROLL SCRIPT ---
+        function easeInOutCubic(t) {
+          return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+        }
+        function smoothScrollTo(targetPosition, duration) {
+          const startPosition = window.pageYOffset;
+          const distance = targetPosition - startPosition;
+          let startTime = null;
+          function animation(currentTime) {
+            if (startTime === null) startTime = currentTime;
+            const timeElapsed = currentTime - startTime;
+            const progress = Math.min(timeElapsed / duration, 1);
+            const ease = easeInOutCubic(progress);
+            window.scrollTo(0, startPosition + distance * ease);
+            if (timeElapsed < duration) {
+              requestAnimationFrame(animation);
+            }
+          }
+          requestAnimationFrame(animation);
+        }
+        document
+          .querySelectorAll('.wire-o-nav .nav-link[href^="#"]')
+          .forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
+              e.preventDefault();
+              const targetId = this.getAttribute("href");
+              const target = document.querySelector(targetId);
+              if (target) {
+                const nav = document.getElementById("wireOPageNav");
+                let offset = 20;
+                offset += 70; // Site header height
+                if (nav && window.getComputedStyle(nav).position === "sticky") {
+                  offset += nav.offsetHeight;
+                }
+                const targetPosition = target.getBoundingClientRect().top;
+                const scrollPosition =
+                  targetPosition + window.pageYOffset - offset;
+                smoothScrollTo(scrollPosition, 800);
+              } else {
+                console.warn("Target " + targetId + " not found");
+              }
+            });
+          });
+
+        // --- HORIZONTAL SCROLL ARROWS SCRIPT ---
+        const scrollWrapper = document.querySelector(".toc-scroll-wrapper");
+        const scrollLeftBtn = document.getElementById("scroll-left");
+        const scrollRightBtn = document.getElementById("scroll-right");
+
+        if (scrollWrapper && scrollLeftBtn && scrollRightBtn) {
+          const updateArrowVisibility = () => {
+            const scrollLeft = scrollWrapper.scrollLeft;
+            const scrollWidth = scrollWrapper.scrollWidth;
+            const clientWidth = scrollWrapper.clientWidth;
+            scrollLeftBtn.style.display = scrollLeft > 10 ? "flex" : "none";
+            scrollRightBtn.style.display =
+              scrollWidth - (scrollLeft + clientWidth) > 10 ? "flex" : "none";
+          };
+          scrollRightBtn.addEventListener("click", () => {
+            scrollWrapper.scrollBy({ left: 200, behavior: "smooth" });
+          });
+          scrollLeftBtn.addEventListener("click", () => {
+            scrollWrapper.scrollBy({ left: -200, behavior: "smooth" });
+          });
+          scrollWrapper.addEventListener("scroll", updateArrowVisibility);
+          window.addEventListener("resize", updateArrowVisibility);
+          setTimeout(updateArrowVisibility, 150); // Initial check
+        }
+      });
+    </script>
+  </body>
+</html>
