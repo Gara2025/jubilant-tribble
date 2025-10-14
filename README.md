@@ -20,7 +20,7 @@ When instructed, please refer to this manifest to understand the available compo
 ### 1. FAQ Accordion
 
 *   **Description:** A responsive and accessible accordion section for displaying a list of frequently asked questions. It uses the semantic `<details>` and `<summary>` tags for built-in functionality and accessibility.
-*   **File Location:** [01-FAQ-formatting-2025-10-14.html](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-formatting-2025-10-14.html)
+*   **File Location:** [01-FAQ-formatting-2025-10-14.html](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-formatting-2025-10-14)
 
 ### 2. Product Card (Example for future)
 
