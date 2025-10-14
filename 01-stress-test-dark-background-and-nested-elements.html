@@ -1,0 +1,529 @@
+<!-- ====================================================== -->
+<!--      START: FINAL VERIFICATION & STRESS TEST         -->
+<!-- ====================================================== -->
+
+<h2 style="color: #333; border-bottom: 1px solid #ddd; padding-bottom: 10px">
+  All-in-One Live Example / Stress Test
+</h2>
+
+<!-- ====================================================== -->
+<!--      START: HERO BLOCK EXAMPLE                       -->
+<!-- ====================================================== -->
+
+<!-- 
+  Instructions for Use:
+  1. This is a real-world example of combining our components.
+  2. The background image is set in the inline style.
+  3. The ".hero-block" class provides the gradient and structure.
+  4. The ".on-dark" class makes all the text white.
+  5. The ".readable-width" class makes the paragraph easier to read.
+  6. The button has the ".animate-pulse" modifier to attract attention.
+-->
+<div
+  class="hero-block on-dark readable-width"
+  style="
+    --hero-bg-image: url('https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/products_gallery_images/vinyl-banners-hemm-ColorCopiesUSA.jpg.webp?v=7943');
+  "
+>
+  <h1>This is a Powerful Hero Title</h1>
+  <p style="font-size: 1.2rem">
+    This hero combines multiple components: a background image, a gradient
+    overlay, white text, a readable width, and an animated call-to-action
+    button.
+  </p>
+  <a href="#" class="custom-red-button animate-pulse" style="margin-top: 20px">
+    GET STARTED NOW
+  </a>
+</div>
+
+<!-- ====================================================== -->
+<!--       END: HERO BLOCK EXAMPLE                        -->
+<!-- ====================================================== -->
+
+<hr />
+<!-- Add a line to separate it from the next section -->
+
+<h3 style="margin-top: 40px">
+  Test 1: Standard Elements on a White Background
+</h3>
+
+<!-- A gray promo box that is visually highlighted -->
+<div class="promoBox is-featured" style="text-align: center">
+  <h2>This is Our Best Offer!</h2>
+  <p>
+    The '.is-featured' class adds a prominent border and shadow to draw
+    attention.
+  </p>
+</div>
+
+-----------------------------------
+<!-- A blue button with a subtle "breathing" animation -->
+<a href="#" class="custom-blue-button animate-pulse"
+  >Click Here to Get Started</a
+>
+-----------------------
+<!-- A colored block where the line-length is optimized for reading -->
+<div class="dark-background-block on-dark readable-width">
+  <h1>A Long Article Title</h1>
+  <p>
+    This paragraph contains a lot of text. By adding the '.readable-width'
+    class, we ensure the lines don't stretch across the entire screen, which is
+    much more comfortable for the user to read, especially on large monitors.
+  </p>
+</div>
+
+<!-- ====================================================== -->
+<!--      START: HOVER-LIFT MODIFIER CLASS TEST           -->
+<!-- ====================================================== -->
+
+<h2 style="color: #333; border-bottom: 1px solid #ddd; padding-bottom: 10px">
+  Testing the Universal .hover-lift Modifier Class
+</h2>
+
+<!-- TEST 1: The Baseline Component (No Effect) -->
+<h3 style="margin-top: 30px">Test 1: Standard Component (No Effect)</h3>
+<p>This is a standard <code>.promoBox</code>. It should NOT lift on hover.</p>
+<div class="promoBox" style="text-align: center">
+  <h4>I am a standard gray box.</h4>
+  <p>Nothing should happen when you hover over me.</p>
+</div>
+
+<!-- TEST 2: The Original Class (For Comparison) -->
+<h3 style="margin-top: 30px">Test 2: Original Hover Class (For Comparison)</h3>
+<p>
+  This div uses the original <code>.info-card-hover</code> class. It SHOULD lift
+  on hover.
+</p>
+<div
+  class="info-card-hover"
+  style="
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+  "
+>
+  <h4>I am an info card.</h4>
+  <p>I should lift up when you hover over me.</p>
+</div>
+
+<!-- TEST 3: The New Modifier Class on a Gray Box -->
+<h3 style="margin-top: 30px">Test 3: Standard Component + .hover-lift</h3>
+<p>
+  This is a <code>.promoBox</code> with the new <code>.hover-lift</code> class
+  added. It SHOULD lift on hover, just like the info card above.
+</p>
+<div class="promoBox hover-lift" style="text-align: center">
+  <h4>I am a gray box with the lift effect.</h4>
+  <p>I should also lift up when you hover over me.</p>
+</div>
+
+<!-- TEST 4: The New Modifier Class on a Colored Block -->
+<h3 style="margin-top: 30px">Test 4: Colored Block + .hover-lift</h3>
+<p>
+  This is a <code>.blue-background-block</code> with the
+  <code>.hover-lift</code> class. It should also lift, proving the modifier is
+  universal.
+</p>
+<div class="blue-background-block on-dark hover-lift">
+  <h4>I am a blue block with the lift effect.</h4>
+  <p>I should also lift up when you hover over me.</p>
+</div>
+
+<!-- ====================================================== -->
+<!--       END: HOVER-LIFT MODIFIER CLASS TEST            -->
+<!-- ====================================================== -->
+
+====================================================
+
+<!-- ====================================================== -->
+<!--      START: NESTED HOVER-LIFT TEST                   -->
+<!-- ====================================================== -->
+
+<h3 style="margin-top: 30px">Test 5: Nested Hover Effect</h3>
+<p>
+  In this test, only the inner blue block should lift on hover. The outer gray
+  box should remain static.
+</p>
+
+<!-- The outer gray box does NOT have the .hover-lift class -->
+<div class="promoBox" style="padding: 25px">
+  <p>This is the outer gray box. It should NOT lift on hover.</p>
+
+  <!-- The inner blue block DOES have the .hover-lift class -->
+  <div class="blue-background-block on-dark hover-lift">
+    <h4>I am the Inner Blue Block</h4>
+    <p>
+      Hover over just me. I should lift up, but the gray box around me should
+      not.
+    </p>
+  </div>
+</div>
+
+<!-- ====================================================== -->
+<!--       END: NESTED HOVER-LIFT TEST                    -->
+<!-- ====================================================== -->
+=====================================================================
+
+<!-- ====================================================== -->
+<!--      START: FINAL NESTED CONTENT STRESS TEST         -->
+<!-- ====================================================== -->
+
+<h2 style="color: #333; border-bottom: 1px solid #ddd; padding-bottom: 10px">
+  Final Test: Nested Blocks and Content Inheritance
+</h2>
+
+<!-- 1. The Outer Gray Container -->
+<div class="promoBox" style="padding: 25px">
+  <h3>Content Inside the Gray Box (Should Have Theme Defaults)</h3>
+  <p>
+    This is a paragraph in the gray box with <strong>strong text</strong> and a
+    <a href="#">standard link</a>.
+  </p>
+
+  <h4>Unordered List in Gray Box:</h4>
+  <ul>
+    <li>Gray box - List item one.</li>
+    <li>Gray box - List item two.</li>
+  </ul>
+
+  <h4>Ordered List in Gray Box:</h4>
+  <ol>
+    <li>Gray box - First item.</li>
+    <li>Gray box - Second item.</li>
+  </ol>
+  <hr />
+
+  <!-- 2. The Inner Blue Container (Nested) -->
+  <div class="blue-background-block on-dark">
+    <h3>Content Inside the Blue Box (Should be White)</h3>
+    <p>
+      This is a paragraph in the blue box with <strong>strong text</strong> and
+      a <a href="#">standard link</a>.
+    </p>
+
+    <h4>Unordered List in Blue Box:</h4>
+    <ul>
+      <li>Blue box - List item one.</li>
+      <li>
+        Blue box - List item two with a nested list:
+        <ul>
+          <li>Nested item A.</li>
+          <li>Nested item B.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>Ordered List in Blue Box:</h4>
+    <ol>
+      <li>Blue box - First item.</li>
+      <li>Blue box - Second item.</li>
+    </ol>
+
+    <h4>Table in Blue Box:</h4>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Header 1</th>
+          <th>Header 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data cell 1</td>
+          <td>Data cell 2</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="margin-top: 20px">
+      <a href="#" class="custom-red-button">Button in Blue Box</a>
+    </p>
+  </div>
+  <!-- End of Inner Blue Container -->
+
+  <p style="margin-top: 20px">
+    This final paragraph is back in the gray box. Its text should be black.
+  </p>
+  <a href="#" class="custom-green-button">Button in Gray Box</a>
+</div>
+
+<!-- ====================================================== -->
+<!--       END: FINAL NESTED CONTENT STRESS TEST          -->
+<!-- ====================================================== -->
+
+<!-- ====================================================== -->
+<!--      START: FINAL VERIFICATION & STRESS TEST         -->
+<!-- ====================================================== -->
+
+<h2 style="color: #333; border-bottom: 1px solid #ddd; padding-bottom: 10px">
+  Test 1: Standard Elements on a White Background
+</h2>
+
+<h1>H1 Heading (Theme Default)</h1>
+<p>
+  This is a standard paragraph with <strong>strong text</strong>,
+  <strong>bold text</strong>, <em>emphasized text</em>, <em>italic text</em>,
+  <u>underlined text</u>, and <s>strikethrough text</s>. It also includes a
+  <a href="#">standard link</a>.
+</p>
+
+<h3>H3 Subheading</h3>
+<p>An unordered list:</p>
+<ul>
+  <li>List item one.</li>
+  <li>
+    List item two with a <a href="#" class="alert-link">special alert link</a>.
+  </li>
+  <li>List item three.</li>
+</ul>
+
+<h4>H4 Subheading</h4>
+<p>An ordered (numbered) list:</p>
+<ol>
+  <li>First item.</li>
+  <li>Second item.</li>
+  <li>
+    Third item with a nested list:
+    <ul>
+      <li>Nested bullet A.</li>
+      <li>Nested bullet B.</li>
+    </ul>
+  </li>
+  <li>Fourth item.</li>
+</ol>
+
+<h5>H5 Subheading</h5>
+<blockquote>
+  This is a blockquote, used for quoting text. It might have unique styling from
+  the theme.
+</blockquote>
+<p>A horizontal rule follows below:</p>
+<hr />
+
+<h6>H6 Subheading</h6>
+<p>A simple table:</p>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data cell 1</td>
+      <td>Data cell 2</td>
+    </tr>
+    <tr>
+      <td>Data cell 3</td>
+      <td>Data cell 4</td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+<p>And our buttons for confirmation:</p>
+<p>
+  <a href="#" class="custom-blue-button">Blue Button</a>
+  <a href="#" class="custom-red-button">Red Button</a>
+  <a href="#" class="custom-green-button">Green Button</a>
+</p>
+
+<!-- =================================================================== -->
+
+<h2
+  style="
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  "
+>
+  Test 2: Standard Elements on a Dark Background
+</h2>
+
+<div class="dark-background-block on-dark">
+  <h1>H1 Heading (Should be White)</h1>
+  <p>
+    This is a standard paragraph with <strong>strong text</strong>,
+    <strong>bold text</strong>, <em>emphasized text</em>, <em>italic text</em>,
+    <u>underlined text</u>, and <s>strikethrough text</s>. It also includes a
+    <a href="#">standard link (should be light blue)</a>.
+  </p>
+
+  <h3>H3 Subheading (Should be White)</h3>
+  <p>An unordered list:</p>
+  <ul>
+    <li>List item one.</li>
+    <li>
+      List item two with a
+      <a href="#" class="alert-link">special alert link (high-contrast blue)</a
+      >.
+    </li>
+    <li>List item three.</li>
+  </ul>
+
+  <h4>H4 Subheading (Should be White)</h4>
+  <p>An ordered (numbered) list:</p>
+  <ol>
+    <li>First item.</li>
+    <li>Second item.</li>
+    <li>
+      Third item with a nested list:
+      <ul>
+        <li>Nested bullet A.</li>
+        <li>Nested bullet B.</li>
+      </ul>
+    </li>
+    <li>Fourth item.</li>
+  </ol>
+
+  <h5>H5 Subheading (Should be White)</h5>
+  <blockquote>
+    This is a blockquote. All text inside should be white.
+  </blockquote>
+  <p>A horizontal rule follows below (may be hard to see):</p>
+  <hr style="border-color: #555" />
+  <!-- Added a light border to make it visible -->
+
+  <h6>H6 Subheading (Should be White)</h6>
+  <p>A simple table:</p>
+  <!-- Note: Tables might require extra styling to look good on a dark background -->
+  <table class="table table-bordered" style="color: white">
+    <thead>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Data cell 1</td>
+        <td>Data cell 2</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br />
+  <p>And our buttons for confirmation:</p>
+  <p>
+    <a href="#" class="custom-blue-button">Blue Button</a>
+    <a href="#" class="custom-red-button">Red Button</a>
+    <a href="#" class="custom-green-button">Green Button</a>
+  </p>
+</div>
+
+<!-- ====================================================== -->
+<!--       END: FINAL VERIFICATION & STRESS TEST          -->
+<!-- ====================================================== -->
+
+<!-- Test Case 1: Buttons on a White Background -->
+<h2 style="color: #333">Button Tests on White Background</h2>
+
+<!-- Blue Button -->
+<p><strong>Test 1.1: The Blue Button</strong></p>
+<a href="#" class="custom-blue-button">This is a Blue Button</a>
+<hr />
+
+<!-- Red Button -->
+<p><strong>Test 1.2: The Red Button</strong></p>
+<a href="#" class="custom-red-button">This is a Red Button</a>
+<hr />
+
+<!-- Green Button -->
+<p><strong>Test 1.3: The Green Button (Requires New Style)</strong></p>
+<a href="#" class="custom-green-button">This is a Green Button</a>
+----------------------------------------
+
+<!-- Test Case 2: Buttons on a Colored Background -->
+<div class="dark-background-block on-dark">
+  <h2>Button Tests on a Dark Background</h2>
+
+  <!-- Blue Button -->
+  <p><strong>Test 2.1: The Blue Button</strong></p>
+  <a href="#" class="custom-blue-button">This is a Blue Button</a>
+  <hr style="border-color: #555" />
+
+  <!-- Red Button -->
+  <p><strong>Test 2.2: The Red Button</strong></p>
+  <a href="#" class="custom-red-button">This is a Red Button</a>
+  <hr style="border-color: #555" />
+
+  <!-- Green Button -->
+  <p><strong>Test 2.3: The Green Button (Requires New Style)</strong></p>
+  <a href="#" class="custom-green-button">This is a Green Button</a>
+</div>
+
+---------------------------------------------------------------
+<!-- Test Case 3: Nested Colored Blocks -->
+<h2 style="color: #333">Nested Blocks Test</h2>
+
+<!-- 1. The outer gray container -->
+<div class="promoBox">
+  <p style="text-align: center">This is some copy inside the main gray box.</p>
+
+  <!-- 2. The inner blue container -->
+  <div class="blue-background-block on-dark">
+    <h2>Title Inside Blue Block</h2>
+    <p>This text is inside the blue block and should be white.</p>
+
+    <!-- 3. The red button inside the blue block -->
+    <a href="#" class="custom-red-button">A Red Button</a>
+  </div>
+</div>
+
+<!-- Blue Content Block -->
+<div class="blue-background-block on-dark">
+  <h1>This is a Blue Block</h1>
+  <p>
+    All the text inside this block is white because the container has the
+    ".on-dark" class.
+  </p>
+  <ul>
+    <li>A <a href="#">Standard Link</a> will be Light Sky Blue.</li>
+    <li>
+      An <a href="#" class="alert-link">Alert Link</a> will be a high-contrast
+      light blue.
+    </li>
+    <li>
+      You can place a
+      <a href="#" class="custom-red-button">Red Button</a> inside.
+    </li>
+  </ul>
+</div>
+
+<!-- Dark Gray Content Block -->
+<div class="dark-background-block on-dark">
+  <h1>This is a Dark Gray Block</h1>
+  <p>
+    The content styling is identical to the blue block, managed entirely by the
+    ".on-dark" class.
+  </p>
+  <ul>
+    <li>A <a href="#">Standard Link</a> is also Light Sky Blue here.</li>
+    <li>
+      An <a href="#" class="alert-link">Alert Link</a> is also high-contrast
+      blue here.
+    </li>
+    <li>
+      You can place a
+      <a href="#" class="custom-blue-button">Blue Button</a> inside.
+    </li>
+  </ul>
+</div>
+
+<!-- Green Content Block -->
+<div class="green-background-block on-dark">
+  <h1>This is a Green Block</h1>
+  <p>
+    This demonstrates the power of our scalable system. We only defined the
+    background color and let ".on-dark" handle the rest.
+  </p>
+  <ul>
+    <li>A <a href="#">Standard Link</a> still works perfectly.</li>
+    <li>
+      An <a href="#" class="alert-link">Alert Link</a> also works perfectly.
+    </li>
+  </ul>
+</div>
