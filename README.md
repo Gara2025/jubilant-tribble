@@ -1,6 +1,12 @@
 # jubilant-tribble
 premade components
 
+## Usage Rules for AI and Developers
+
+1.  **Do Not Modify Styles:** The class names and HTML structure of these components are considered the single source of truth. They must be implemented *exactly* as provided. Do not add, remove, or change any classes.
+2.  **Content is Variable:** The inner text, `src` attributes for images, and `href` attributes for links are placeholders and should be populated with the appropriate content for the new implementation.
+3.  **Respect the Structure:** Do not alter the semantic structure (e.g., changing an `<article>` to a `<div>` or altering the heading levels) unless explicitly instructed.
+
 # My Reusable Component Library
 
 This repository contains a set of reusable, semantic HTML components styled with utility-first CSS. This document serves as the manifest for all available components.
