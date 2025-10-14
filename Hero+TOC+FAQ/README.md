@@ -11,17 +11,25 @@ This is a responsive HTML template for creating a detailed guide or feature page
 - ✅ **Mobile-Friendly:** The design automatically adapts to smaller screens. The navigation becomes a horizontally-scrolling list with arrows, saving valuable screen space.
 - ✅ **Modular Content:** You can add different types of content blocks (like FAQs, feature lists, etc.) into the main content area.
 
+### 2. Implementation Rules
+- **Do Not Modify Structure:** The class names and HTML structure...
+- **Content is Variable:** You should always replace placeholder text...
+- ✅ **Use Placeholder Images:** When a component requires an image and a specific one isn't provided, use the following default placeholder image. This ensures the layout is complete and the image can be easily replaced later.
+https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/products_gallery_images/business-card_1.jpg.webp?v=4324
+
+
+
 ## How to Use This Template
 
-1.  **Start with `template.html`**: This is your main file.
-2.  **Add Content**: Copy the HTML for the content blocks you want (e.g., from the `/_snippets` folder) and paste them into the main content area of `template.html`.
+1.  **Start with `011-Hero+stickyTOC+FAQ+other-bottom-content.html`**: This is your main file.
+2.  **Add Content**: Copy the HTML for the content blocks you want (e.g., from the `/_snippets` folder) and paste them into the main content area of 011-Hero+stickyTOC+FAQ+other-bottom-content.html. As a reference you will identify an area that reads -Additional content lives here-
 3.  **Customize**: Follow the guide below to change the text, image, and links to match your needs.
 
 ---
 
 ## Customizable Parts
 
-This table explains exactly what to change in the `template.html` file.
+This table explains exactly what to change in the `011-Hero+stickyTOC+FAQ+other-bottom-content.html` file.
 
 | What to Change | Where to Find It in the Code | How to Change It |
 | :--- | :--- | :--- |
@@ -37,7 +45,9 @@ This table explains exactly what to change in the `template.html` file.
 
 This repository includes the template itself and a folder with reusable content ideas.
 
-- `template.html` - The main file you will edit.
-- `template-preview.png` - A screenshot showing what the template looks like.
+
+- `011-Hero+stickyTOC+FAQ+other-bottom-content.html` - The main HTML file to use.
+- `011-Hero+stickyTOC+FAQ+other-bottom-content.jpg` - A screenshot showing what the template looks like.
 - `README.md` - This instruction file.
 - `/_snippets/` - A folder containing different content blocks you can copy and paste into your page.
+
