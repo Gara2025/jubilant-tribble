@@ -1,1 +1,34 @@
-
+{
+  "name": "Jubilant Tribble Component Library",
+  "description": "A collection of reusable HTML components for the Bootstrap 4.6 CMS environment.",
+  "usage_rules": {
+    "structure": "Do not modify the class names or HTML structure of components.",
+    "content": "Inner text, image src, and link href attributes are placeholders and should be populated.",
+    "styles": "All components depend on Bootstrap 4.6 and a global custom stylesheet located at https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css"
+  },
+  "global_defaults": {
+    "placeholder_image_url": "https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/products_gallery_images/business-card_1.jpg.webp?v=4324"
+  },
+  "components": [
+    {
+      "id": "faq-accordion",
+      "name": "FAQ Accordion",
+      "description": "A responsive and accessible accordion section for displaying a list of frequently asked questions. Uses semantic <details> and <summary> tags.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-Accordion/01-faq-formatting.html"
+    },
+    {
+      "id": "full-page-hero-sticky-nav",
+      "name": "Full Page Layout: Hero + Sticky Nav + Content Blocks",
+      "description": "A complete page template that includes a hero section, a sticky internal navigation bar, and several content blocks for the bottom of the page (FAQs, Why Us, About Us, CTA).",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero-Sticky-Nav/011-Hero+stickyTOC+FAQ+other-bottom-content.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero-Sticky-Nav/011-Hero+stickyTOC+FAQ+other-bottom-content.jpg"
+    },
+    {
+      "id": "dark-product-card",
+      "name": "Dark Product Card",
+      "description": "A card component stress-tested to ensure content (text, links, buttons) remains readable on dark backgrounds.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-stress-test-dark-background-and-nested-elements.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-stress-test-dark-color-background-and-nested-elements.jpg"
+    }
+  ]
+}
