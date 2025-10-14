@@ -1,6 +1,6 @@
 # Template: Single-Page Guide with Sticky Internal Navigation
 
-![Template Preview](template-preview.png)
+![Template Preview](Hero+TOC+FAQ/011-Hero+stickyTOC+FAQ+other-bottom-content.jpg)
 
 This is a responsive HTML template for creating a detailed guide or feature page. It includes a hero section with a faded background image, a navigation bar that sticks to the top on desktop, and a main content area for your information.
 
