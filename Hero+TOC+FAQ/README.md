@@ -1,1 +1,43 @@
+# Template: Single-Page Guide with Sticky Internal Navigation
 
+![Template Preview](template-preview.png)
+
+This is a responsive HTML template for creating a detailed guide or feature page. It includes a hero section with a faded background image, a navigation bar that sticks to the top on desktop, and a main content area for your information.
+
+## Key Features
+
+- ✅ **Faded Hero Image:** An eye-catching hero section with a customizable background image and color overlay.
+- ✅ **Sticky Navigation:** On desktop, the navigation bar stays visible at the top as you scroll down the page.
+- ✅ **Mobile-Friendly:** The design automatically adapts to smaller screens. The navigation becomes a horizontally-scrolling list with arrows, saving valuable screen space.
+- ✅ **Modular Content:** You can add different types of content blocks (like FAQs, feature lists, etc.) into the main content area.
+
+## How to Use This Template
+
+1.  **Start with `template.html`**: This is your main file.
+2.  **Add Content**: Copy the HTML for the content blocks you want (e.g., from the `/_snippets` folder) and paste them into the main content area of `template.html`.
+3.  **Customize**: Follow the guide below to change the text, image, and links to match your needs.
+
+---
+
+## Customizable Parts
+
+This table explains exactly what to change in the `template.html` file.
+
+| What to Change | Where to Find It in the Code | How to Change It |
+| :--- | :--- | :--- |
+| **Hero Background Image** | The `<section>` tag with the class `wire-o-hero` | Replace the URL inside the `style="..."` attribute with your new image URL. |
+| **Main Title** | The `<h1>` tag inside the hero section. | Change the text inside the `<h1>` tag. |
+| **Subtitle / Paragraph**| The `<p>` tag with the class `subhead-hero`.| Change the text inside the `<p>` tag. |
+| **Navigation Links** | The `<ul>` list inside the `<nav>` tag. | Edit the text and the `href="#..."` for each `<a>` tag to match your section IDs. |
+| **Main Page Content** | The area below the `<nav>` tag. | This is where you will paste the HTML for your content sections, like the FAQs. |
+
+---
+
+## File Structure
+
+This repository includes the template itself and a folder with reusable content ideas.
+
+- `template.html` - The main file you will edit.
+- `template-preview.png` - A screenshot showing what the template looks like.
+- `README.md` - This instruction file.
+- `/_snippets/` - A folder containing different content blocks you can copy and paste into your page.
