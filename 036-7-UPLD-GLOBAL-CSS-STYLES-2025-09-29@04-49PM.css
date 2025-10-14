@@ -1,0 +1,847 @@
+@media only screen and (min-width: 1248px) {
+  #product-info #price_calculator .ld-ext-right {
+    bottom: 0.5rem !important;
+  }
+}
+#product_info #price_calculator label {
+  margin-bottom: 0.3125rem !important;
+}
+#trust-signals {
+  font-weight: normal !important;
+  font-family: "latobold", sans-serif !important;
+  color: #1e337e !important;
+  margin-bottom: 1rem;
+  font-size: 22px;
+}
+#calculate_button {
+  padding-left: 0 !important;
+}
+
+/* ================================================================= */
+/*  START: DEFINITIVE MASTER CUSTOM CSS FOR COLORCOPIESUSA (FINAL)   */
+/* ================================================================= */
+
+/* --- SECTION 1: LEGACY STYLES (PRESERVED FOR EXISTING PAGES) --- */
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-collapse .navbar-nav .nav-item.dropdown > a {
+    padding: 0.7rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .top-header .lady {
+    max-width: 80px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar-nav .nav-item .card-columns {
+    column-count: 3;
+  }
+}
+#normalcalc .fa-question-circle {
+  font-size: 15px;
+  color: #1e3480;
+}
+#normalcalc label a:hover .fa-question-circle {
+  color: #ec1c24;
+}
+#site-wrapper .green-action-block h1,
+#site-wrapper .green-action-block h2,
+#site-wrapper .green-action-block h3,
+#site-wrapper .green-action-block h4,
+#site-wrapper .green-action-block p,
+#site-wrapper .green-action-block li,
+#site-wrapper .green-action-block div {
+  color: #ffffff !important;
+}
+#site-wrapper .green-action-block a {
+  color: #ffffe0 !important;
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+#site-wrapper .green-action-block a:hover {
+  color: #ffffff !important;
+}
+.menuid_58 .nav-link,
+.menuid_58 .nav-link span,
+.menuid_58 .dropdown-toggle {
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  word-wrap: break-word !important;
+  word-break: normal !important;
+}
+.menuid_58 .nav-link {
+  display: inline-block !important;
+  max-width: 100%;
+}
+.menuid_58 .nav,
+.menuid_58 .navbar-nav {
+  flex-wrap: wrap !important;
+}
+#site-wrapper .dark-background-section .content-in-dark-section a {
+  color: #66aaff !important;
+  text-decoration: underline !important;
+}
+#site-wrapper .dark-background-section .content-in-dark-section a:hover {
+  color: #88ccff !important;
+  text-decoration: underline !important;
+}
+#site-wrapper .dark-background-section .content-in-dark-section a.alert-link {
+  color: #d7e9fc !important;
+  text-decoration: underline !important;
+  font-weight: 600 !important;
+}
+#site-wrapper
+  .dark-background-section
+  .content-in-dark-section
+  a.alert-link:hover {
+  color: #74b9ff !important;
+  text-decoration: underline !important;
+}
+#site-wrapper .dark-background-section .content-in-dark-section .btn {
+  text-decoration: none !important;
+}
+.dark-background-section a.alert-link {
+  color: #74b9ff !important;
+  text-decoration: underline;
+}
+.dark-background-section a.alert-link:hover {
+  color: #ffffff !important;
+}
+
+/* --- DEVELOPER ADDED STYLES (PRESERVED) --- */
+h2 a:hover,
+.h2 a:hover,
+#product_info h2 a,
+#product_info .h2 a {
+  color: #162965 !important;
+}
+
+/* ================================================================= */
+/*  SECTION 2: UNIVERSAL COMPONENT DEFINITIONS                       */
+/* ================================================================= */
+
+/* --- 2.1: Universal Buttons --- */
+.custom-blue-button {
+  background-color: #1c3481 !important;
+  color: #ffffff !important;
+  border: 1px solid #1c3481 !important;
+  border-radius: 4px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  line-height: 1.5 !important;
+  text-transform: uppercase;
+  padding: 15px 30px;
+}
+.custom-blue-button:hover {
+  background-color: #162965 !important;
+  border-color: #162965 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+.custom-red-button {
+  background-color: #d01e25 !important;
+  color: #ffffff !important;
+  border-color: #d01e25 !important;
+  text-transform: uppercase !important;
+  border-radius: 4px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  padding: 15px 30px;
+}
+.custom-red-button:hover {
+  background-color: #a8181e !important;
+  border-color: #a8181e !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+.custom-green-button {
+  background-color: #28a745 !important;
+  color: #ffffff !important;
+  border-color: #28a745 !important;
+  text-transform: uppercase !important;
+  border-radius: 4px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  padding: 15px 30px;
+}
+.custom-green-button:hover {
+  background-color: #218838 !important;
+  border-color: #1e7e34 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* --- 2.2: Universal Colored Blocks --- */
+.blue-background-block {
+  background-color: #1c3481 !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.dark-background-block {
+  background-color: #282828 !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.green-background-block {
+  background-color: #28a745 !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.hero-block {
+  background-image: linear-gradient(
+      rgba(28, 52, 129, 0.7),
+      rgba(28, 52, 129, 0.8)
+    ),
+    var(--hero-bg-image) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 6rem 1rem;
+  text-align: center !important;
+  margin-bottom: 3rem;
+}
+
+/* --- 2.3: Universal Modifiers --- */
+.info-card-hover,
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.info-card-hover:hover,
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.is-featured {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border: 2px solid #1c3481;
+}
+.animate-pulse {
+  animation: pulse-animation 2s infinite;
+}
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(28, 52, 129, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(28, 52, 129, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(28, 52, 129, 0);
+  }
+}
+.readable-width {
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.promoBox .on-dark,
+.promoBox .on-dark strong {
+  color: #ffffff !important;
+}
+
+/* ================================================================= */
+/*  SECTION 3: UNIVERSAL THEME OVERRIDES (THE FINAL FIX)             */
+/* ================================================================= */
+
+/* --- 3.1: Hierarchical Heading Styles --- */
+/* Rule 1: Set a strong, correct DEFAULT for h2 on all page types. This fixes the red h2 bug. */
+#product-description h2,
+#cms_page h2 {
+  color: #08076b !important; /* Corporate Blue */
+}
+
+/* Rule 2: Override the default ONLY when h2 is in a dark block. */
+#product_info #site-wrapper .on-dark h2,  /* For Product Pages (High Rank) */
+#product_info #product-description .on-dark h2,
+#product_info .on-dark h2,
+#product-description .on-dark h2,
+#cms_page .on-dark h2,
+#site-wrapper .on-dark h2 {
+  color: #ffffff !important;
+}
+
+/* Rule 3: Allow for intentional RED h2s with a utility class. */
+#product-description h2.text-info,
+#cms_page h2.text-info {
+  color: #e7131a !important;
+}
+
+/* --- 3.2: Universal ".on-dark" Content Styling --- */
+/* This covers all other text elements inside dark blocks. */
+#product-description .on-dark h1,
+#cms_page .on-dark h1,
+#site-wrapper .on-dark h1,
+#product-description .on-dark h3,
+#cms_page .on-dark h3,
+#site-wrapper .on-dark h3,
+#product-description .on-dark h4,
+#cms_page .on-dark h4,
+#site-wrapper .on-dark h4,
+#product-description .on-dark h5,
+#cms_page .on-dark h5,
+#site-wrapper .on-dark h5,
+#product-description .on-dark h6,
+#cms_page .on-dark h6,
+#site-wrapper .on-dark h6,
+#product-description .on-dark p,
+#cms_page .on-dark p,
+#site-wrapper .on-dark p,
+#product-description .on-dark li,
+#cms_page .on-dark li,
+#site-wrapper .on-dark li,
+#product-description .on-dark span,
+#cms_page .on-dark span,
+#site-wrapper .on-dark span,
+#product-description .on-dark strong,
+#cms_page .on-dark strong,
+#site-wrapper .on-dark strong,
+#product-description .on-dark div,
+#cms_page .on-dark div,
+#site-wrapper .on-dark div,
+#product-description .on-dark blockquote,
+#cms_page .on-dark blockquote,
+#site-wrapper .on-dark blockquote,
+#product-description .on-dark .table,
+#cms_page .on-dark .table,
+#site-wrapper .on-dark .table,
+#product-description .on-dark .table td,
+#cms_page .on-dark .table td,
+#site-wrapper .on-dark .table td,
+#product-description .on-dark .table th,
+#cms_page .on-dark .table th,
+#site-wrapper .on-dark .table th {
+  color: #ffffff !important;
+}
+#product-description .on-dark a,
+#cms_page .on-dark a,
+#site-wrapper .on-dark a {
+  color: #87cefa !important;
+  text-decoration: underline !important;
+}
+#product-description .on-dark a.alert-link,
+#cms_page .on-dark a.alert-link,
+#site-wrapper .on-dark a.alert-link {
+  color: #d7e9fc !important;
+  font-weight: bold !important;
+}
+#product-description .on-dark a:hover,
+#cms_page .on-dark a:hover,
+#site-wrapper .on-dark a:hover {
+  color: #ffffff !important;
+}
+#product-description .on-dark a.custom-blue-button,
+#cms_page .on-dark a.custom-blue-button,
+#site-wrapper .on-dark a.custom-blue-button,
+#product-description .on-dark a.custom-red-button,
+#cms_page .on-dark a.custom-red-button,
+#site-wrapper .on-dark a.custom-red-button,
+#product-description .on-dark a.custom-green-button,
+#cms_page .on-dark a.custom-green-button,
+#site-wrapper .on-dark a.custom-green-button {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+#product-description .on-dark .table thead th,
+#cms_page .on-dark .table thead th,
+#site-wrapper .on-dark .table thead th {
+  border-bottom-color: #6c757d !important;
+}
+#product-description .on-dark .table-bordered,
+#cms_page .on-dark .table-bordered,
+#site-wrapper .on-dark .table-bordered,
+#product-description .on-dark .table-bordered td,
+#cms_page .on-dark .table-bordered td,
+#site-wrapper .on-dark .table-bordered td,
+#product-description .on-dark .table-bordered th,
+#cms_page .on-dark .table-bordered th,
+#site-wrapper .on-dark .table-bordered th {
+  border-color: #6c757d !important;
+}
+
+/* --- 3.3: Final Fix for Button Hover States on #cms_page --- */
+#cms_page a.custom-blue-button:hover {
+  background-color: #162965 !important;
+  border-color: #162965 !important;
+  color: #ffffff !important;
+}
+#cms_page a.custom-red-button:hover {
+  background-color: #a8181e !important;
+  border-color: #a8181e !important;
+  color: #ffffff !important;
+}
+#cms_page a.custom-green-button:hover {
+  background-color: #218838 !important;
+  border-color: #1e7e34 !important;
+  color: #ffffff !important;
+}
+
+/* ================================================================= */
+/*  END: DEFINITIVE MASTER CUSTOM CSS                                */
+/* ================================================================= */
+/* ================================================================= */
+/*  START: FINAL, DEFINITIVE OVERRIDE FOR PRODUCT PAGE CONFLICTS     */
+/* ================================================================= */
+
+/* This block uses maximum specificity to override any remaining theme conflicts */
+/* for our custom components, without altering the theme's base styles. */
+
+/* --- 1. Fixes the Button Styles (Universal for CMS & Product Pages) --- */
+#cms_page a.custom-blue-button,
+#cms_page a.custom-red-button,
+#cms_page a.custom-green-button,
+#product-description a.custom-blue-button,
+#product-description a.custom-red-button,
+#product-description a.custom-green-button {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+#product-description a.custom-blue-button {
+  background-color: #1c3481 !important;
+}
+#product-description a.custom-red-button {
+  background-color: #d01e25 !important;
+}
+#product-description a.custom-green-button {
+  background-color: #28a745 !important;
+}
+
+/* --- 2. Fixes the H1 Color in ALL Dark Blocks on Product Pages --- */
+/* This is the most specific rule and will win the specificity battle. */
+#product_info #product-description .on-dark h1 {
+  color: #ffffff !important;
+}
+
+/* --- 3. Fixes the H2 Color on Product Pages --- */
+#product_info #product-description h2 {
+  color: #08076b !important; /* Corporate Blue */
+}
+#product_info #product-description .on-dark h2 {
+  color: #ffffff !important;
+}
+
+/* ================================================================= */
+/*  END: FINAL, DEFINITIVE OVERRIDE                                  */
+/* ================================================================= */
+/* ================================================================= */
+/*  START: FINAL FIX FOR ALL HEADINGS ON PRODUCT PAGES               */
+/* ================================================================= */
+
+/* This block uses maximum specificity to override any remaining theme conflicts */
+/* for ALL heading levels (h1-h6) inside our custom components on product pages. */
+
+#product_info #product-description .on-dark h1,
+#product_info #product-description .on-dark h2,
+#product_info #product-description .on-dark h3,
+#product_info #product-description .on-dark h4,
+#product_info #product-description .on-dark h5,
+#product_info #product-description .on-dark h6 {
+  color: #ffffff !important;
+}
+
+/* ================================================================= */
+/*  END: FINAL FIX FOR ALL HEADINGS                                  */
+/* ================================================================= */
+
+/* ================================================================= */
+/*  Gray background Gradients                                        */
+/* ================================================================= */
+
+.steel-gradient-block-2 {
+  background-image: linear-gradient(to right, #f0f1f2, #d9dbdd) !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+/* ================================================================= */
+/* En Gray Backgrounds                                               */
+/* ================================================================= */
+
+/* ================================================================= */
+/*  START: NEW BRAND COLOR PALETTE BLOCKS                            */
+/* ================================================================= */
+
+/* --- Professional Trust Palette --- */
+.trust-blue-block {
+  background-color: #1e337e !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.light-trust-blue-block {
+  background-color: #e8f4fd !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* --- Classic Authority Palette --- */
+.authority-red-block {
+  background-color: #d22027 !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* --- Fresh and Modern Palette --- */
+.fresh-blue-block {
+  background-color: #4a90c2 !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.modern-green-block {
+  background-color: #2ecc71 !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.light-modern-gray-block {
+  background-color: #f8f9fa !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* --- Light Gray Palette --- */
+.subtle-gray-block {
+  background-color: #dcdcdc !important; /* Corrected from #dbc37 */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* ================================================================= */
+/*  END: NEW BRAND COLOR PALETTE BLOCKS                              */
+/* ================================================================= */
+
+/* ================================================================= */
+/*  START: FAQ ACCORDION STYLING                                     */
+/* ================================================================= */
+#faqAccordion .card {
+  border: 0;
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0.25rem;
+}
+#faqAccordion .card-header {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+#faqAccordion .faq-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  padding: 0.9rem 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #1e337e;
+  transition: background 0.2s, box-shadow 0.2s;
+  border-radius: 0.5rem;
+}
+#faqAccordion .faq-toggle:hover {
+  background: #f6f8fb;
+  text-decoration: none;
+}
+#faqAccordion .faq-toggle:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(30, 64, 128, 0.18);
+}
+#faqAccordion .faq-icon {
+  margin-left: 1rem;
+  transition: transform 0.2s;
+}
+#faqAccordion .faq-toggle.collapsed .faq-icon {
+  transform: none;
+}
+#faqAccordion .faq-toggle:not(.collapsed) .faq-icon {
+  transform: rotate(180deg);
+}
+#faqAccordion .faq-content {
+  border-left: 3px solid #1e337e;
+  margin: 0.25rem 0 1rem 0.5rem;
+}
+#faqAccordion .faq-body {
+  padding: 0.5rem 1.25rem 1rem 1rem;
+}
+/* ================================================================= */
+/*  END: FAQ ACCORDION STYLING                                     */
+/* ================================================================= */
+
+/* ================================================================= */
+/*  START: ULTIMATE FAQ ACCORDION OVERRIDE                             */
+/* ================================================================= */
+
+/* --- 1. Style the Question Button (smaller font size) --- */
+/* This part remains the same and should be working. */
+#faqAccordion .faq-toggle {
+  font-size: clamp(1.0625rem, 1.02rem + 0.18vw, 1.1875rem) !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  padding: 0.75rem 1rem !important;
+  margin: 0 !important;
+}
+
+/* --- 2. Directly Style the Text Elements Inside the Answer --- */
+/* This is the new, more specific rule that will override the theme. */
+#faqAccordion .faq-body p,
+#faqAccordion .faq-body li {
+  font-size: clamp(
+    1rem,
+    0.98rem + 0.2vw,
+    1.125rem
+  ) !important; /* Sets font to ≈16-18px */
+  line-height: 1.6 !important;
+  color: #222 !important;
+}
+
+/* --- 3. Manage Spacing and Lists --- */
+/* These rules handle the layout. */
+#faqAccordion .faq-body {
+  max-width: 65ch; /* Keeps readability */
+}
+
+#faqAccordion .faq-body p {
+  margin-bottom: 1rem !important;
+}
+
+#faqAccordion .faq-body ul {
+  margin: 0 0 1rem 1.25rem !important;
+  padding-left: 1rem !important;
+  list-style-position: outside !important;
+}
+
+#faqAccordion .faq-body li {
+  margin-bottom: 0.5rem !important;
+}
+
+#faqAccordion .faq-body ul ul {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+#faqAccordion .faq-body ul ul li {
+  list-style-type: circle !important;
+}
+/*  END: ULTIMATE FAQ ACCORDION OVERRIDE                               */
+
+/* ===== Reusable Specs component for product pages ===== */
+
+/* Base wrapper */
+.specs {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+.specs .card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Rows (Bootstrap grid handles responsiveness) */
+.specs__row {
+  padding: 0.2rem 0;
+}
+.specs__row + .specs__row {
+  margin-top: 0.25rem;
+} /* vertical rhythm */
+
+/* Label (dt) */
+.specs__term {
+  margin: 0;
+  padding: 0.5rem 0.85rem 0.5rem 0.6rem; /* extra right pad for gap */
+  background: #f3f5f9;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
+  border-radius: 0.375rem;
+  font-weight: 600;
+  color: #2d3a45;
+}
+
+/* Value (dd) */
+.specs__def {
+  margin: 0;
+  padding: 0.5rem 0 0.7rem 1.5rem; /* more left pad; taller bottom */
+  line-height: 1.5;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+}
+/* Remove divider on last value */
+.specs__list > dd:last-of-type {
+  border-bottom: 0;
+}
+
+/* Note bar */
+.specs__note {
+  background: #fff9e6;
+  color: #664d03;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+/* ===== Compact modifier (for narrow columns) ===== */
+.specs--compact .card-header {
+  padding: 0.45rem 0.75rem;
+}
+.specs--compact .specs__row {
+  padding: 0.1rem 0;
+}
+.specs--compact .specs__term {
+  padding: 0.25rem 0.6rem 0.25rem 0.4rem;
+  font-size: 0.875rem; /* ~14px */
+  border-radius: 0.3rem;
+}
+.specs--compact .specs__def {
+  padding: 0.25rem 0 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.06);
+}
+/* Make links inside the Specs block look like links */
+.specs__def a {
+  color: #1e337e; /* brand navy */
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(30, 51, 126, 0.35);
+  text-underline-offset: 2px;
+}
+.specs__def a:hover,
+.specs__def a:focus {
+  text-decoration-color: currentColor;
+}
+
+/* Dark background variant */
+.on-dark .specs__def a {
+  color: #d7e9fc;
+  text-decoration-color: rgba(215, 233, 252, 0.6);
+}
+
+/* ===== Dark background support (wrap parent in .on-dark) ===== */
+.on-dark .specs {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+}
+.on-dark .specs .card-header {
+  background: rgba(255, 255, 255, 0.08);
+  border-bottom-color: rgba(255, 255, 255, 0.18);
+}
+.on-dark .specs__term {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.on-dark .specs__def {
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+.on-dark .specs__note {
+  background: rgba(255, 210, 88, 0.16);
+  color: #fff;
+  border-top-color: rgba(255, 255, 255, 0.18);
+}
+
+/* Dark-mode tweaks remain inherited from .on-dark rules you added */
+/* ===== END - Reusable Specs component for product pages ===== */
+
+/* Compact reviews pill (white, one line) */
+.reviews-pill {
+  margin-top: 0.35rem;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  line-height: 1;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  color: #243b55;
+  text-decoration: none;
+}
+.reviews-pill:hover {
+  text-decoration: none;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+.reviews-pill .rp-star {
+  color: #1aa34a;
+  margin-right: 0.25rem;
+}
+.reviews-pill .rp-score {
+  font-weight: 700;
+}
+.reviews-pill .dot {
+  opacity: 0.4;
+  margin: 0 0.35rem;
+}
+.reviews-pill .rp-count {
+  color: #6c757d;
+  font-weight: 600;
+}
+/* Force the pill to keep its own tiny sizing inside card titles */
+.card-title .reviews-pill {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  line-height: 1 !important;
+  font-size: 12px !important; /* shrink */
+  font-weight: 600 !important;
+  padding: 0.18rem 0.45rem !important; /* compact */
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+  background: #fff;
+  color: #243b55 !important;
+  text-decoration: none !important;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+  margin-top: 0.35rem; /* space under title */
+  margin-bottom: 0.05rem;
+}
+.card-title .reviews-pill:hover {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card-title .reviews-pill .rp-star {
+  color: #1aa34a;
+  margin-right: 0.25rem;
+  font-size: 13px !important;
+}
+.card-title .reviews-pill .rp-score {
+  font-weight: 700;
+}
+.card-title .reviews-pill .dot {
+  opacity: 0.4;
+  margin: 0 0.35rem;
+}
+.card-title .reviews-pill .rp-count {
+  color: #6c757d;
+  font-weight: 600;
+}
+
+/* Toggle label swap based on Bootstrap's .collapsed state */
+.specs-toggle .when-expanded {
+  display: none;
+}
+.specs-toggle.collapsed .when-collapsed {
+  display: inline;
+}
+.specs-toggle:not(.collapsed) .when-collapsed {
+  display: none;
+}
+.specs-toggle:not(.collapsed) .when-expanded {
+  display: inline;
+}
+/* ================================================================= */
