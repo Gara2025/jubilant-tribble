@@ -14,7 +14,7 @@ This is a responsive HTML template for creating a detailed guide or feature page
 ### 2. Implementation Rules
 - **Do Not Modify Structure:** The class names and HTML structure...
 - **Content is Variable:** You should always replace placeholder text...
-- ✅ **Use Placeholder Images:** When a component requires an image and a specific one isn't provided, use the following default placeholder image. This ensures the layout is complete and the image can be easily replaced later.
+- ✅ **Use Placeholder Images:** When a component requires an image and a specific one isn't provided, use the following default placeholder image. This ensures the layout is complete and the image can be easily replaced later. In case you can't provide any other image use this default image:
 https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/products_gallery_images/business-card_1.jpg.webp?v=4324
 
 
@@ -46,7 +46,7 @@ This table explains exactly what to change in the `011-Hero+stickyTOC+FAQ+other-
 This repository includes the template itself and a folder with reusable content ideas.
 
 
-- `011-Hero+stickyTOC+FAQ+other-bottom-content.html` - The main HTML file to use.
+- [011-Hero+stickyTOC+FAQ+other-bottom-content.html](./ 011-Hero+stickyTOC+FAQ+other-bottom-content.html) |- The main HTML file to use.
 - `011-Hero+stickyTOC+FAQ+other-bottom-content.jpg` - A screenshot showing what the template looks like.
 - `README.md` - This instruction file.
 - `/_snippets/` - A folder containing different content blocks you can copy and paste into your page.
