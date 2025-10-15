@@ -19,3 +19,5 @@ This is a visual guide to the reusable blocks available in the `/_snippets` subf
 | ![snippet-binding-method-cards](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/snippet-binding-method-cards.jpg)| `snippet-binding-cards.html`|6 cards with image, title and specs for pillar page |
 | ![Card-light-green-2-images](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/Card-light-green-2-images.jpg)| `Card-light-green-2-images.html`|Light Green Block with two pictures |
 
+
+| ![Preview](./_snippets/card-light-green.jpg) | [Card-light-green-2-images.html](./_snippets/card-light-green-2-images.html) | A block with a light green background... |
