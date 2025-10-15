@@ -502,12 +502,87 @@
     color: #1c3481;
   }
 
+       /* Reset list styling */
+  .breadcrumb_arrow {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* Individual breadcrumb items */
+  .breadcrumb_arrow li {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  /* Links styling */
+  .breadcrumb_arrow li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  /* Link hover effect */
+  .breadcrumb_arrow li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  /* Active/current page styling */
+  .breadcrumb_arrow li.active .a {
+    color: #6c757d;
+    font-weight: 500;
+  }
+
+  /* Arrow separator */
+  .breadcrumb_arrow li + li::before {
+    content: "›";
+    padding: 0 10px;
+    color: #6c757d;
+    font-size: 16px;
+  }
+
+  /* Responsive styling for mobile */
+  @media (max-width: 768px) {
+    .breadcrumb_arrow {
+      font-size: 13px;
+    }
+
+    .breadcrumb_arrow li + li::before {
+      padding: 0 6px;
+      font-size: 14px;
+    }
+  }
+
       
     </style>
   </head>
   <body>
     <div id="cms_page">
       <div id="site-wrapper">
+       <!-- Semantic breadcrumb with proper HTML5 elements -->
+<nav aria-label="Breadcrumb">
+  <ol class="breadcrumb_arrow">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/printing-academy-101.html">Printing Academy</a>
+    </li>
+    <li>
+      <a href="/printing-academy-101.html#Books-Finishing"
+        >Books: Finishing Options</a
+      >
+    </li>
+    <li class="active" aria-current="page">
+      Types of Booklets and Book binding
+    </li>
+  </ol>
+</nav>
         <section
           class="hero-block on-dark wire-o-hero"
           style="
@@ -980,5 +1055,6 @@
     </script>
   </body>
 </html>
+
 
 
