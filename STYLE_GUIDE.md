@@ -38,3 +38,37 @@ These are the standard colors for typography and UI elements.
 | **Dark Text** | ![](https://placehold.co/60x30/343a40/343a40.png) | `#343a40` | Main body copy and paragraph text. |
 | **Grey Text** | ![](https://placehold.co/60x30/6c757d/6c757d.png) | `#6c757d` | Subheadings, meta-data, and less important text. |
 | **Grey Border** | ![](https://placehold.co/60x30/dee2e6/dee2e6.png) | `#dee2e6` | Standard borders for cards, tables, and dividers. |
+
+
+
+## Text Link Styles
+
+This section defines the standard appearance for text links (`<a>` tags) and their special variations.
+
+### Standard Links (on Light Backgrounds)
+
+This is the default style for all links on white or light grey backgrounds.
+
+| State | Color | Swatch | Hex Code | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Default** | Corporate Red | <span style="font-size:2em; color:#d01e25;">&#9632;</span> | `#d01e25` | All standard links should use the primary red color. |
+| **Hover** | Darker Red | <span style="font-size:2em; color:#a8181e;">&#9632;</span> | `#a8181e` | Links should darken and become underlined on hover. |
+
+### Links on Dark Backgrounds (e.g., inside a Blue Block)
+
+When placing a link on a dark background (like Corporate Blue), the standard red color will be hard to read. In these cases, you **must** use a special class to ensure accessibility and visibility.
+
+| State | Color | Swatch | Hex Code | Required Class |
+| :--- | :--- | :--- | :--- | :--- |
+| **Default** | Light Yellow | <span style="font-size:2em; color:#ffc107;">&#9632;</span> | `#ffc107` | Add the class `link-alert` to the `<a>` tag. |
+| **Hover** | White | <span style="font-size:2em; color:#ffffff; border: 1px solid #ccc;">&#9632;</span> | `#ffffff` | The link will turn white and become underlined on hover. |
+
+**Example Usage:**
+```html
+<!-- Standard link on a light background -->
+<a href="#">This is a standard red link.</a>
+
+<!-- Special link on a dark background -->
+<div style="background-color: #1c3481; padding: 20px;">
+  <a href="#" class="link-alert">This is a special yellow link for dark backgrounds.</a>
+</div>
