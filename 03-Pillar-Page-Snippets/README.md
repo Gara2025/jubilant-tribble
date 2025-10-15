@@ -21,3 +21,8 @@ This is a visual guide to the reusable blocks available in the `/_snippets` subf
 
 
 | ![Preview](./_snippets/card-light-green.jpg) | [Card-light-green-2-images.html](./_snippets/card-light-green-2-images.html) | A block with a light green background... |
+
+
+| ![Preview](./_snippets/card-light-green.jpg) | [Card-light-green-2-images.html](../_snippets/card-light-green-2-images.html) | A block with a light green background... |
+
+| ![Preview](./_snippets/card-light-green.jpg) | [Card-light-green-2-images.html](../_snippets/card-light-green-2-images.html) | A block with a light green background... |
