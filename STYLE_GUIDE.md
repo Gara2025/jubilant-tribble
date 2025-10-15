@@ -36,3 +36,16 @@ These are the standard colors for typography and UI elements.
 | **Dark Text** | <span style="font-size:2em; color:#343a40;">&#9632;</span> | `#343a40` | Main body copy and paragraph text. |
 | **Grey Text** | <span style="font-size:2em; color:#6c757d;">&#9632;</span> | `#6c757d` | Subheadings, meta-data, and less important text. |
 | **Grey Border** | <span style="font-size:2em; color:#dee2e6;">&#9632;</span> | `#dee2e6` | Standard borders for cards, tables, and dividers. |
+
+
+## ColorCopiesUSA Brand Colors
+
+| Color Name | Swatch | Hex Code | RGB | Usage |
+| :--- | :---: | :--- | :--- | :--- |
+| **Corporate Blue** | ![#1c3481](https://via.placeholder.com/60x30/1c3481/1c3481.png) | `#1c3481` | `rgb(28, 52, 129)` | Primary brand color, headers, buttons |
+| **Corporate Red** | ![#d01e25](https://via.placeholder.com/60x30/d01e25/d01e25.png) | `#d01e25` | `rgb(208, 30, 37)` | Accent color, CTAs, highlights |
+| **Blue Light** | ![#e8ebf3](https://via.placeholder.com/60x30/e8ebf3/e8ebf3.png) | `#e8ebf3` | `rgb(232, 235, 243)` | Background tints, light sections |
+| **Dark Text** | ![#343a40](https://via.placeholder.com/60x30/343a40/343a40.png) | `#343a40` | `rgb(52, 58, 64)` | Main body copy, paragraph text |
+| **Grey Text** | ![#6c757d](https://via.placeholder.com/60x30/6c757d/6c757d.png) | `#6c757d` | `rgb(108, 117, 125)` | Subheadings, meta-data, secondary text |
+| **Light Grey** | ![#f8f9fa](https://via.placeholder.com/60x30/f8f9fa/f8f9fa.png) | `#f8f9fa` | `rgb(248, 249, 250)` | Backgrounds, dividers |
+| **Border Grey** | ![#dee2e6](https://via.placeholder.com/60x30/dee2e6/dee2e6.png) | `#dee2e6` | `rgb(222, 226, 230)` | Borders, separators |
