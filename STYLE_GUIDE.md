@@ -49,3 +49,14 @@ These are the standard colors for typography and UI elements.
 | **Grey Text** | ![#6c757d](https://via.placeholder.com/60x30/6c757d/6c757d.png) | `#6c757d` | `rgb(108, 117, 125)` | Subheadings, meta-data, secondary text |
 | **Light Grey** | ![#f8f9fa](https://via.placeholder.com/60x30/f8f9fa/f8f9fa.png) | `#f8f9fa` | `rgb(248, 249, 250)` | Backgrounds, dividers |
 | **Border Grey** | ![#dee2e6](https://via.placeholder.com/60x30/dee2e6/dee2e6.png) | `#dee2e6` | `rgb(222, 226, 230)` | Borders, separators |
+
+
+| Color Name | Swatch | Hex Code | RGB | Usage |
+| :--- | :---: | :--- | :--- | :--- |
+| **Corporate Blue** | ![](https://placehold.co/60x30/1c3481/1c3481.png) | `#1c3481` | `rgb(28, 52, 129)` | Primary brand color, headers, buttons |
+| **Corporate Red** | ![](https://placehold.co/60x30/d01e25/d01e25.png) | `#d01e25` | `rgb(208, 30, 37)` | Accent color, CTAs, highlights |
+| **Blue Light** | ![](https://placehold.co/60x30/e8ebf3/e8ebf3.png) | `#e8ebf3` | `rgb(232, 235, 243)` | Background tints, light sections |
+| **Dark Text** | ![](https://placehold.co/60x30/343a40/343a40.png) | `#343a40` | `rgb(52, 58, 64)` | Main body copy, paragraph text |
+| **Grey Text** | ![](https://placehold.co/60x30/6c757d/6c757d.png) | `#6c757d` | `rgb(108, 117, 125)` | Subheadings, meta-data, secondary text |
+| **Light Grey** | ![](https://placehold.co/60x30/f8f9fa/f8f9fa.png) | `#f8f9fa` | `rgb(248, 249, 250)` | Backgrounds, dividers |
+| **Border Grey** | ![](https://placehold.co/60x30/dee2e6/dee2e6.png) | `#dee2e6` | `rgb(222, 226, 230)` | Borders, separators |
