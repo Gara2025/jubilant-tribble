@@ -16,7 +16,7 @@ This is a visual guide to the reusable blocks available in the `/_snippets` subf
 | Preview | Snippet Name | Description |
 | :--- | :--- | :--- |
 | ![Final CTA Preview] (https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/final-cta-3-buttons.jpg) | `snippet-final-cta.html` | A full-width, blue-background call-to-action section with multiple buttons. |
-| ![Comparison Table Preview](_snippets/snippet-comparison-table.jpg) | `snippet-comparison-table.html` | A responsive table for comparing features across different items, with a star rating system. |
+| ![Comparison Table 7-cols-7-rows](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/Table-7-rows-7cols.jpg) | `Table-7-rows-7cols.html` | A responsive table for comparing features across different items, with a star rating system. |
 | ![snippet-binding-method-cards] (https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/snippet-binding-method-cards.jpg)| `snippet-binding-cards.html`|6 cards with image, title and specs for pillar page |
 
 
