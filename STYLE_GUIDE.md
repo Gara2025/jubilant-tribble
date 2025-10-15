@@ -87,7 +87,7 @@ There are two types of links available on dark backgrounds:
 | **Alert Link** | Add the class `link-alert` to the `<a>` tag. | **High-Contrast Blue/Yellow** | Use this for special links that need to stand out even more. |
 
 **Example Usage (from `01-stress-test-dark-background-and-nested-elements.html`):**
-**Live Example File:** For a complete, working example of all these rules, see the file: [`01-stress-test-dark-background-and-nested-elements.html`](https://github.com/Gara2025/jubilant-tribble/blob/main/02-Dark-Product-Card/01-stress-test-dark-background-and-nested-elements.html).
+**Live Example File:** For a complete, working example of all these rules, see the file: [`01-stress-test-dark-background-and-nested-elements.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/01-stress-test-dark-background-and-nested-elements.html)).
 
 
 ```html
