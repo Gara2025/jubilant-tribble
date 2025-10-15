@@ -29,15 +29,17 @@ https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/products_gallery_imag
 
 ## Customizable Parts
 
-This table explains exactly what to change in the `011-Hero+stickyTOC+FAQ+other-bottom-content.html` file.
+This table explains exactly what to change in the `011-Hero+stickyTOC+FAQ+other-bottom-content.html` file when creating a new page.
 
 | What to Change | Where to Find It in the Code | How to Change It |
 | :--- | :--- | :--- |
-| **Hero Background Image** | The `<section>` tag with the class `wire-o-hero` | Replace the URL inside the `style="..."` attribute with your new image URL. |
+| **Breadcrumbs** | The `<ul class="breadcrumb">` near the top. | Update the text and `href` for each `<li>` to match the new page's location in the site hierarchy. |
+| **Author, Dates & Reading Time** | The `<div class="author-meta-data">` section. | Update the text for the author's name, publish date, last updated date, and estimated reading time. |
+| **Hero Background Image** | The `<section>` tag with the class `wire-o-hero`. | Replace the URL inside the `style="..."` attribute with your new image URL. |
 | **Main Title** | The `<h1>` tag inside the hero section. | Change the text inside the `<h1>` tag. |
 | **Subtitle / Paragraph**| The `<p>` tag with the class `subhead-hero`.| Change the text inside the `<p>` tag. |
-| **Navigation Links** | The `<ul>` list inside the `<nav>` tag. | Edit the text and the `href="#..."` for each `<a>` tag to match your section IDs. |
-| **Main Page Content** | The area below the `<nav>` tag. | This is where you will paste the HTML for your content sections, like the FAQs. |
+| **Internal Navigation Links** | The `<ul>` list inside the `<nav>` tag. | Edit the text and the `href="#..."` for each `<a>` tag to match the IDs of the content sections you add. |
+| **Main Page Content** | The area designated for page content. | This is where you will paste the HTML for your content snippets (e.g., from the Pillar Page collection). |
 
 ---
 
