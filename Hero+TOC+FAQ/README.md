@@ -2,7 +2,7 @@
 
 ![Template Preview](Hero+TOC+FAQ/011-Hero+stickyTOC+FAQ+other-bottom-content.jpg)
 
-This is a responsive HTML template for creating a detailed guide or feature page. It includes a hero section with a faded background image, a navigation bar that sticks to the top on desktop, and a main content area for your information.
+This is a responsive HTML template for creating a detailed guide or feature page. It includes a hero section with a faded background image, a navigation bar that sticks to the top on desktop, and a main content area for where most of the creative activity will happen. Based on the main content, the titles will need to be provided, internal links created and reflected in the internal navigation bar and a specific call to action might need to be changed as well.
 
 ## Key Features
 
@@ -50,4 +50,13 @@ This repository includes the template itself and a folder with reusable content 
 - `011-Hero+stickyTOC+FAQ+other-bottom-content.jpg` - A screenshot showing what the template looks like.
 - `README.md` - This instruction file.
 - `/_snippets/` - A folder containing different content blocks you can copy and paste into your page.
+
+### Requirements
+
+This component is not standalone. It requires the following from the main project environment to function correctly:
+- Bootstrap 4.6
+- The Global Custom Styles
+
+For details, please refer to the **main project `README.md` file**.
+
 
