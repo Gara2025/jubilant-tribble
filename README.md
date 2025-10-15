@@ -44,3 +44,7 @@ A card component stress-tested to ensure content (text, links, buttons) remains 
 
 - **HTML File:** [`01-stress-test-dark-background-and-nested-elements.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-stress-test-dark-background-and-nested-elements.html)
 - **Reference Image:** [`screenshot.jpg`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-stress-test-dark-color-background-and-nested-elements.jpg)
+
+### 4. Pillar Page Content Snippets
+A collection of reusable content blocks originally designed for a pillar page. These snippets can be mixed and matched to build detailed informational pages. They are designed to be placed inside the "Full Page Layout: Hero + Sticky Nav" template.
+- **Folder Location:** `03-Pillar-Page-Snippets/_snippets/`
