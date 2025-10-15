@@ -65,50 +65,16 @@ This is the default style for all content placed on a white or light grey backgr
 | **Link Hover** | Darker Red (`#a8181e`) | Links darken and are underlined on hover. |
 
 ---
+---
 
-### Dark Context (The "on-dark" Rule)
+## 3. Global CSS Components & Effects
 
-To ensure all text is automatically styled to be white and readable on a dark background, you **must** wrap the content in a container with the class `.on-dark`.
+This section documents the special global CSS classes that can be applied to elements to add visual styles and effects. For a live demonstration of all these classes working together, see the file in the `_demonstrations` folder.
 
-**The Rule:** Use a container like `<div class="dark-background-block on-dark">` or `<div class="trust-blue-block on-dark">`.
-
-**What it does automatically:**
-- All headings (`H1`, `H2`, etc.) become **white**.
-- All paragraphs (`<p>`) and list items (`<li>`) become **white**.
-- **Standard links** become **light blue** for readability.
-
-#### **Links within the "on-dark" Context**
-
-There are two types of links available on dark backgrounds:
-
-| Link Type | How to Create It | Appearance | Usage |
-| :--- | :--- | :--- | :--- |
-| **Standard Link** | A normal `<a>` tag. | **Light Blue** | This is the automatic, default style for any link inside an `.on-dark` container. |
-| **Alert Link** | Add the class `link-alert` to the `<a>` tag. | **High-Contrast Blue/Yellow** | Use this for special links that need to stand out even more. |
-
-**Example Usage (from `01-stress-test-dark-background-and-nested-elements.html`):**
-**Live Example File:** For a complete, working example of all these rules, see the file: [`01-stress-test-dark-background-and-nested-elements.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/01-stress-test-dark-background-and-nested-elements.html)).
-
-
-```html
-<!-- This is the container that makes everything work -->
-<div class="dark-background-block on-dark">
-
-  <h1>H1 Heading (This is automatically white)</h1>
-  
-  <p>
-    This paragraph is automatically white. It includes a
-    <!-- This is the standard link on a dark background -->
-    <a href="#">standard link (automatically light blue)</a>.
-  </p>
-
-  <ul>
-    <li>List item one (automatically white).</li>
-    <li>
-      List item two with a 
-      <!-- This is the special, high-contrast link -->
-      <a href="#" class="link-alert">special alert link</a>.
-    </li>
-  </ul>
-
-</div>
+| Component / Effect | Context | How to Use (CSS Class) | Preview | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dark Context** | Any | Add `.on-dark` to a container with a dark background. | ![On-Dark Preview](./_assets/style-guide-images/effect-on-dark.jpg) | **Crucial Rule:** Automatically styles all inner text (headings, paragraphs, standard links) to be white or light blue for readability. |
+| **Lift on Hover** | Light or Dark | Add `.lift` to a card, block, or link element. | ![Lift Preview](./_assets/style-guide-images/effect-lift.jpg) | Adds a subtle shadow and "lifts" the element off the page on hover. Ideal for making elements feel interactive. |
+| **Button Aura** | Light or Dark | Add `.aura` to a button (`<a>` or `<button>`). | ![Aura Preview](./_assets/style-guide-images/effect-aura.jpg) | Adds a glowing "aura" effect to a button. Best used for primary calls-to-action to draw attention. |
+| **Nested Hover** | N/A | Structure your HTML normally (e.g., a button inside a `.lift` card). | ![Nested Hover Preview](./_assets/style-guide-images/effect-nested-hover.jpg) | The global CSS automatically handles nested effects. A button's hover effect will work correctly even if it's inside a card that also has a hover effect. |
+| **Alert Link** | Dark Only | Add `.link-alert` to an `<a>` tag that is inside an `.on-dark` container. | ![Alert Link Preview](./_assets/style-guide-images/effect-link-alert.jpg) | A special high-contrast link style (yellow/blue) designed to stand out on dark backgrounds. |
