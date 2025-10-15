@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Wire-O Hero and TOC Snippet | ColorCopiesUSA</title>
 
-    <!-- Bootstrap Icons -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
 
     <style>
       /* ================================================================= */
@@ -161,428 +152,595 @@
           right: 5px;
         }
       }
-/* === STYLES FOR PILLAR PAGE CONTENT SNIPPETS === */
+      /* === STYLES FOR PILLAR PAGE CONTENT SNIPPETS === */
 
-    /* --- Base Variables --- */
-    :root {
-      --corp-blue: #1c3481;
-      --corp-red: #d01e25;
-      --corp-blue-light: #e8ebf3;
-      --corp-grey-light: #f8f9fa;
-      --corp-grey-text: #6c757d;
-      --corp-grey-border: #dee2e6;
-      --corp-blue-darker: #162965;
-      --corp-text-dark: #343a40;
-      --font-primary: "Roboto", sans-serif;
-      --font-secondary: "Lato", sans-serif;
-    }
-
-    /* --- General Typography & Section Structure (Used by Snippets) --- */
-    h2, h3, h4, h5, h6 {
-      font-family: var(--font-primary);
-      font-weight: 700;
-      color: var(--corp-blue);
-    }
-    .lead {
-      font-size: 1.15rem;
-      color: var(--corp-grey-text);
-    }
-    a {
-      color: var(--corp-red);
-      text-decoration: none;
-    }
-    a:hover {
-      color: #a8181e;
-      text-decoration: underline;
-    }
-    .section-padding {
-      padding: 4rem 0;
-    }
-    .section-bg-light {
-      background-color: var(--corp-grey-light);
-    }
-    .section-title {
-      margin-bottom: 3rem;
-      text-align: center;
-    }
-    .section-title h2 {
-      font-size: 2.2rem;
-      position: relative;
-      display: inline-block;
-      padding-bottom: 0.5rem;
-    }
-    .section-title h2::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 60px;
-      height: 3px;
-      background-color: var(--corp-red);
-    }
-    hr.section-divider {
-      border-top: 1px solid var(--corp-grey-border);
-      margin: 3rem 0;
-    }
-
-    /* --- SNIPPET: Binding Method Cards --- */
-    .binding-card {
-      border: 1px solid var(--corp-grey-border);
-      border-radius: 8px;
-      overflow: hidden;
-      background-color: #fff;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-    .binding-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-    }
-    .binding-card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-bottom: 1px solid var(--corp-grey-border);
-    }
-    .binding-card .card-body {
-      padding: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-    }
-    .binding-card .card-title {
-      font-weight: 700;
-      font-size: 1.3rem;
-      margin-bottom: 0.75rem;
-    }
-    .binding-card .card-text {
-      font-size: 0.95rem;
-      color: var(--corp-grey-text);
-      margin-bottom: 1rem;
-    }
-    .binding-card .key-specs-title {
-      font-weight: 600;
-      color: var(--corp-blue);
-      font-size: 0.95rem;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 0.5rem;
-      display: block;
-    }
-    .binding-card .key-specs {
-      font-size: 0.9rem;
-      margin-bottom: 1rem;
-      padding-left: 0;
-      list-style: none;
-    }
-    .binding-card .key-specs li {
-      margin-bottom: 0.4rem;
-      padding-left: 1.5em;
-      position: relative;
-    }
-    .binding-card .key-specs li::before {
-      font-family: "bootstrap-icons";
-      content: "\\F28A";
-      position: absolute;
-      left: 0;
-      top: 2px;
-      color: var(--corp-red);
-      font-size: 0.9em;
-    }
-    .binding-card .run-size-info {
-      font-size: 0.85rem;
-      color: var(--corp-blue);
-      background-color: var(--corp-blue-light);
-      padding: 0.3rem 0.6rem;
-      border-radius: 4px;
-      display: inline-block;
-      margin-bottom: 1rem;
-    }
-    .binding-card .run-size-info i {
-      margin-right: 0.3rem;
-    }
-    .binding-card .usage-section {
-      font-size: 0.85rem;
-      margin-top: auto;
-      padding-top: 1rem;
-      border-top: 1px solid var(--corp-grey-light);
-    }
-    .binding-card .usage-section strong {
-      color: var(--corp-blue);
-    }
-
-    /* --- SNIPPET: Tools Introduction Section --- */
-    .interactive-tools-container {
-      border-top: 1px solid var(--corp-grey-border);
-      border-bottom: 1px solid var(--corp-grey-border);
-    }
-    .tool-introduction {
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    }
-    .border-start-md { border-left: none; }
-    @media (min-width: 768px) {
-      .border-start-md {
-        border-left: 1px solid var(--corp-grey-light) !important;
-        padding-left: 1.5rem;
+      /* --- Base Variables --- */
+      :root {
+        --corp-blue: #1c3481;
+        --corp-red: #d01e25;
+        --corp-blue-light: #e8ebf3;
+        --corp-grey-light: #f8f9fa;
+        --corp-grey-text: #6c757d;
+        --corp-grey-border: #dee2e6;
+        --corp-blue-darker: #162965;
+        --corp-text-dark: #343a40;
+        --font-primary: "Roboto", sans-serif;
+        --font-secondary: "Lato", sans-serif;
       }
-    }
 
-    /* --- SNIPPET: Comparison Table --- */
-    .table-comparison {
-      border: 1px solid var(--corp-grey-border);
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-      margin-top: 2rem;
-    }
-    .table-comparison thead th {
-      background-color: var(--corp-blue);
-      color: #fff;
-      padding: 1rem 0.75rem;
-      text-align: center;
-      vertical-align: middle;
-      font-weight: 600;
-      border-color: var(--corp-blue-darker);
-    }
-    .table-comparison tbody tr:nth-child(even) {
-      background-color: var(--corp-blue-light);
-    }
-    .table-comparison tbody td {
-      padding: 0.9rem 0.75rem;
-      vertical-align: middle;
-      text-align: center;
-      border-color: var(--corp-grey-border);
-    }
-    .table-comparison tbody td:first-child {
-      text-align: left;
-      font-weight: 500;
-      color: var(--corp-blue);
-    }
-    .table-comparison .star-rating { color: #ffc107; }
+      /* --- General Typography & Section Structure (Used by Snippets) --- */
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: var(--font-primary);
+        font-weight: 700;
+        color: var(--corp-blue);
+      }
+      .lead {
+        font-size: 1.15rem;
+        color: var(--corp-grey-text);
+      }
+      a {
+        color: var(--corp-red);
+        text-decoration: none;
+      }
+      a:hover {
+        color: #a8181e;
+        text-decoration: underline;
+      }
+      .section-padding {
+        padding: 4rem 0;
+      }
+      .section-bg-light {
+        background-color: var(--corp-grey-light);
+      }
+      .section-title {
+        margin-bottom: 3rem;
+        text-align: center;
+      }
+      .section-title h2 {
+        font-size: 2.2rem;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 0.5rem;
+      }
+      .section-title h2::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background-color: var(--corp-red);
+      }
+      hr.section-divider {
+        border-top: 1px solid var(--corp-grey-border);
+        margin: 3rem 0;
+      }
 
-    /* --- SNIPPET: Glossary & Design Tips --- */
-    .glossary-section dt { font-weight: 700; color: var(--corp-blue); }
-    .glossary-section dd { margin-left: 1.5rem; margin-bottom: 1rem; }
-    .design-tips-section ul { list-style: none; padding-left: 0; }
-    .design-tips-section li { margin-bottom: 1rem; padding-left: 2em; position: relative; }
-    .design-tips-section li::before {
-      font-family: "bootstrap-icons";
-      content: "\\F4A1";
-      position: absolute;
-      left: 0;
-      top: 1px;
-      color: var(--corp-red);
-      font-size: 1.1em;
-    }
+      /* --- SNIPPET: Binding Method Cards --- */
+      .binding-card {
+        border: 1px solid var(--corp-grey-border);
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      .binding-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      }
+      .binding-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 1px solid var(--corp-grey-border);
+      }
+      .binding-card .card-body {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+      .binding-card .card-title {
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin-bottom: 0.75rem;
+      }
+      .binding-card .card-text {
+        font-size: 0.95rem;
+        color: var(--corp-grey-text);
+        margin-bottom: 1rem;
+      }
+      .binding-card .key-specs-title {
+        font-weight: 600;
+        color: var(--corp-blue);
+        font-size: 0.95rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+      .binding-card .key-specs {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        padding-left: 0;
+        list-style: none;
+      }
+      .binding-card .key-specs li {
+        margin-bottom: 0.4rem;
+        padding-left: 1.5em;
+        position: relative;
+      }
+      .binding-card .key-specs li::before {
+        font-family: "bootstrap-icons";
+        content: "\\F28A";
+        position: absolute;
+        left: 0;
+        top: 2px;
+        color: var(--corp-red);
+        font-size: 0.9em;
+      }
+      .binding-card .run-size-info {
+        font-size: 0.85rem;
+        color: var(--corp-blue);
+        background-color: var(--corp-blue-light);
+        padding: 0.3rem 0.6rem;
+        border-radius: 4px;
+        display: inline-block;
+        margin-bottom: 1rem;
+      }
+      .binding-card .run-size-info i {
+        margin-right: 0.3rem;
+      }
+      .binding-card .usage-section {
+        font-size: 0.85rem;
+        margin-top: auto;
+        padding-top: 1rem;
+        border-top: 1px solid var(--corp-grey-light);
+      }
+      .binding-card .usage-section strong {
+        color: var(--corp-blue);
+      }
 
-    /* --- SNIPPET: Cost & Quality Factors --- */
-    .cost-factors-section .factor-item { margin-bottom: 1.5rem; padding-left: 2.5em; position: relative; }
-    .cost-factors-section .factor-item i { position: absolute; left: 0; top: 0px; font-size: 1.5rem; color: var(--corp-blue); opacity: 0.7; }
-    .cost-factors-section .factor-item h5 { font-weight: 600; color: var(--corp-blue); }
-    .cost-factors-section .factor-item ul { list-style: disc; }
+      /* --- SNIPPET: Tools Introduction Section --- */
+      .interactive-tools-container {
+        border-top: 1px solid var(--corp-grey-border);
+        border-bottom: 1px solid var(--corp-grey-border);
+      }
+      .tool-introduction {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+      .border-start-md {
+        border-left: none;
+      }
+      @media (min-width: 768px) {
+        .border-start-md {
+          border-left: 1px solid var(--corp-grey-light) !important;
+          padding-left: 1.5rem;
+        }
+      }
 
-    /* --- SNIPPET: Author Box --- */
-    .author-box {
-      background-color: var(--corp-blue-light);
-      border: 1px solid var(--corp-grey-border);
-      border-left: 5px solid var(--corp-blue);
-      padding: 1.5rem 2rem;
-      margin-top: 4rem;
-      border-radius: 8px;
-    }
-    .author-box strong { color: var(--corp-blue); }
-    .author-box .author-title { font-weight: 700; }
+      /* --- SNIPPET: Comparison Table --- */
+      .table-comparison {
+        border: 1px solid var(--corp-grey-border);
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        margin-top: 2rem;
+      }
+      .table-comparison thead th {
+        background-color: var(--corp-blue);
+        color: #fff;
+        padding: 1rem 0.75rem;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 600;
+        border-color: var(--corp-blue-darker);
+      }
+      .table-comparison tbody tr:nth-child(even) {
+        background-color: var(--corp-blue-light);
+      }
+      .table-comparison tbody td {
+        padding: 0.9rem 0.75rem;
+        vertical-align: middle;
+        text-align: center;
+        border-color: var(--corp-grey-border);
+      }
+      .table-comparison tbody td:first-child {
+        text-align: left;
+        font-weight: 500;
+        color: var(--corp-blue);
+      }
+      .table-comparison .star-rating {
+        color: #ffc107;
+      }
 
-    /* --- SNIPPET: Final CTA --- */
-    .final-cta {
-      background-color: var(--corp-blue);
-      color: white;
-      padding: 4rem 1rem;
-      text-align: center;
-      margin-top: 4rem;
-      border-top: 5px solid var(--corp-red);
-    }
-    .final-cta a { color: white; text-decoration: underline; }
-    .final-cta .cta-subtext { color: rgba(255, 255, 255, 0.7); }
-    .final-cta .btn { margin: 0.5rem; }
+      /* --- SNIPPET: Glossary & Design Tips --- */
+      .glossary-section dt {
+        font-weight: 700;
+        color: var(--corp-blue);
+      }
+      .glossary-section dd {
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .design-tips-section ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      .design-tips-section li {
+        margin-bottom: 1rem;
+        padding-left: 2em;
+        position: relative;
+      }
+      .design-tips-section li::before {
+        font-family: "bootstrap-icons";
+        content: "\\F4A1";
+        position: absolute;
+        left: 0;
+        top: 1px;
+        color: var(--corp-red);
+        font-size: 1.1em;
+      }
 
-    /* --- SNIPPET: Industry Selector Tool (Full Styling) --- */
-    #industry-selector-app-container { background-color: #fff; border-radius: 8px; }
-    #industry-selector-app-container #industrySelector { border-color: var(--corp-blue); }
-    #industry-selector-app-container h4.text-center { color: var(--corp-blue); }
-    #industry-selector-app-container #resultsArea { margin-top: 2rem; }
-    #industry-selector-app-container #resultsArea .binding-card {
-      border-left: 5px solid var(--corp-blue) !important;
-    }
-    #industry-selector-app-container #resultsArea .binding-card .card-header {
-      background-color: var(--corp-blue-light) !important;
-      color: var(--corp-blue) !important;
-    }
-    #industry-selector-app-container #resultsArea .binding-name {
-      font-weight: bold !important;
-      color: var(--corp-blue) !important;
-    }
-    #industry-selector-app-container #resultsArea .initial-prompt {
-      border: 2px dashed var(--corp-grey-border) !important;
-      background-color: var(--corp-grey-light) !important;
-    }
-    #industry-selector-app-container .modal-header {
-      background-color: var(--corp-blue);
-      color: white !important;
-    }
-    #industry-selector-app-container .modal-header .modal-title { color: #ffffff !important; }
-    #industry-selector-app-container .modal-body ul#modalBindingPros li::before {
+      /* --- SNIPPET: Cost & Quality Factors --- */
+      .cost-factors-section .factor-item {
+        margin-bottom: 1.5rem;
+        padding-left: 2.5em;
+        position: relative;
+      }
+      .cost-factors-section .factor-item i {
+        position: absolute;
+        left: 0;
+        top: 0px;
+        font-size: 1.5rem;
+        color: var(--corp-blue);
+        opacity: 0.7;
+      }
+      .cost-factors-section .factor-item h5 {
+        font-weight: 600;
+        color: var(--corp-blue);
+      }
+      .cost-factors-section .factor-item ul {
+        list-style: disc;
+      }
+
+      /* --- SNIPPET: Author Box --- */
+      .author-box {
+        background-color: var(--corp-blue-light);
+        border: 1px solid var(--corp-grey-border);
+        border-left: 5px solid var(--corp-blue);
+        padding: 1.5rem 2rem;
+        margin-top: 4rem;
+        border-radius: 8px;
+      }
+      .author-box strong {
+        color: var(--corp-blue);
+      }
+      .author-box .author-title {
+        font-weight: 700;
+      }
+
+      /* --- SNIPPET: Final CTA --- */
+      .final-cta {
+        background-color: var(--corp-blue);
+        color: white;
+        padding: 4rem 1rem;
+        text-align: center;
+        margin-top: 4rem;
+        border-top: 5px solid var(--corp-red);
+      }
+      .final-cta a {
+        color: white;
+        text-decoration: underline;
+      }
+      .final-cta .cta-subtext {
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .final-cta .btn {
+        margin: 0.5rem;
+      }
+
+      /* --- SNIPPET: Industry Selector Tool (Full Styling) --- */
+      #industry-selector-app-container {
+        background-color: #fff;
+        border-radius: 8px;
+      }
+      #industry-selector-app-container #industrySelector {
+        border-color: var(--corp-blue);
+      }
+      #industry-selector-app-container h4.text-center {
+        color: var(--corp-blue);
+      }
+      #industry-selector-app-container #resultsArea {
+        margin-top: 2rem;
+      }
+      #industry-selector-app-container #resultsArea .binding-card {
+        border-left: 5px solid var(--corp-blue) !important;
+      }
+      #industry-selector-app-container #resultsArea .binding-card .card-header {
+        background-color: var(--corp-blue-light) !important;
+        color: var(--corp-blue) !important;
+      }
+      #industry-selector-app-container #resultsArea .binding-name {
+        font-weight: bold !important;
+        color: var(--corp-blue) !important;
+      }
+      #industry-selector-app-container #resultsArea .initial-prompt {
+        border: 2px dashed var(--corp-grey-border) !important;
+        background-color: var(--corp-grey-light) !important;
+      }
+      #industry-selector-app-container .modal-header {
+        background-color: var(--corp-blue);
+        color: white !important;
+      }
+      #industry-selector-app-container .modal-header .modal-title {
+        color: #ffffff !important;
+      }
+      #industry-selector-app-container
+        .modal-body
+        ul#modalBindingPros
+        li::before {
         font-family: "Font Awesome 6 Free";
         content: "\\f00c";
         color: #198754;
-    }
-    #industry-selector-app-container .modal-body ul#modalBindingCons li::before {
+      }
+      #industry-selector-app-container
+        .modal-body
+        ul#modalBindingCons
+        li::before {
         font-family: "Font Awesome 6 Free";
         content: "\\f00d";
         color: var(--corp-red);
-    }
-    /* ... (other tool-specific styles are included but shortened for this view) ... */
+      }
+      /* ... (other tool-specific styles are included but shortened for this view) ... */
 
-    /* --- Responsive Adjustments for Snippets --- */
-    @media (max-width: 767px) {
-      .section-padding { padding: 2.5rem 0; }
-      .section-title h2 { font-size: 1.8rem; }
-      .binding-card img { height: 150px; }
-      .table-comparison thead th, .table-comparison tbody td { font-size: 0.85rem; }
-      .author-box { padding: 1rem 1.5rem; }
-      .final-cta h2 { font-size: 1.8rem; }
-    }
-       /* Highlight box for "Utilizing Spine for Design" and other highlights */
+      /* --- Responsive Adjustments for Snippets --- */
+      @media (max-width: 767px) {
+        .section-padding {
+          padding: 2.5rem 0;
+        }
+        .section-title h2 {
+          font-size: 1.8rem;
+        }
+        .binding-card img {
+          height: 150px;
+        }
+        .table-comparison thead th,
+        .table-comparison tbody td {
+          font-size: 0.85rem;
+        }
+        .author-box {
+          padding: 1rem 1.5rem;
+        }
+        .final-cta h2 {
+          font-size: 1.8rem;
+        }
+      }
+      /* Highlight box for "Utilizing Spine for Design" and other highlights */
 
-  .square-spine-binding-page .highlight-box-design {
-    background-color: #e8f5e9; /* Light green */
-    border-left: 4px solid #4caf50; /* Green */
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    border-radius: 0 4px 4px 0;
-  }
+      .square-spine-binding-page .highlight-box-design {
+        background-color: #e8f5e9; /* Light green */
+        border-left: 4px solid #4caf50; /* Green */
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        border-radius: 0 4px 4px 0;
+      }
 
-  .square-spine-binding-page .highlight-box-design h4 {
-    margin-top: 0;
-    color: #2e7d32; /* Darker Green */
-    font-weight: bold;
-  }
-  /* Comparison Table Styles */
+      .square-spine-binding-page .highlight-box-design h4 {
+        margin-top: 0;
+        color: #2e7d32; /* Darker Green */
+        font-weight: bold;
+      }
+      /* Comparison Table Styles */
 
-  .square-spine-binding-page .comparison-table {
-    width: 100%;
-    margin-bottom: 1.5rem;
-    border-collapse: collapse;
-  }
+      .square-spine-binding-page .comparison-table {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        border-collapse: collapse;
+      }
 
-  .square-spine-binding-page .comparison-table th,
-  .square-spine-binding-page .comparison-table td {
-    border: 1px solid #dee2e6;
-    padding: 0.75rem;
-    text-align: left;
-    vertical-align: top;
-  }
+      .square-spine-binding-page .comparison-table th,
+      .square-spine-binding-page .comparison-table td {
+        border: 1px solid #dee2e6;
+        padding: 0.75rem;
+        text-align: left;
+        vertical-align: top;
+      }
 
-  .square-spine-binding-page .comparison-table thead th {
-    background-color: #f8f9fa;
-    font-weight: bold;
-    color: #1c3481;
-  }
+      .square-spine-binding-page .comparison-table thead th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+        color: #1c3481;
+      }
 
-  .square-spine-binding-page .comparison-table tbody tr:nth-child(odd) {
-    background-color: #fdfdfe;
-  }
+      .square-spine-binding-page .comparison-table tbody tr:nth-child(odd) {
+        background-color: #fdfdfe;
+      }
 
-  .square-spine-binding-page .comparison-table strong {
-    /* Make strong stand out in table */
-    color: #1c3481;
-  }
+      .square-spine-binding-page .comparison-table strong {
+        /* Make strong stand out in table */
+        color: #1c3481;
+      }
 
-       /* Reset list styling */
-  .breadcrumb_arrow {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+      /* Reset list styling */
+      .breadcrumb_arrow {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
 
-  /* Individual breadcrumb items */
-  .breadcrumb_arrow li {
-    display: inline-flex;
-    align-items: center;
-    font-size: 14px;
-  }
+      /* Individual breadcrumb items */
+      .breadcrumb_arrow li {
+        display: inline-flex;
+        align-items: center;
+        font-size: 14px;
+      }
 
-  /* Links styling */
-  .breadcrumb_arrow li a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
+      /* Links styling */
+      .breadcrumb_arrow li a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
 
-  /* Link hover effect */
-  .breadcrumb_arrow li a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
+      /* Link hover effect */
+      .breadcrumb_arrow li a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+      }
 
-  /* Active/current page styling */
-  .breadcrumb_arrow li.active .a {
-    color: #6c757d;
-    font-weight: 500;
-  }
+      /* Active/current page styling */
+      .breadcrumb_arrow li.active .a {
+        color: #6c757d;
+        font-weight: 500;
+      }
 
-  /* Arrow separator */
-  .breadcrumb_arrow li + li::before {
-    content: "›";
-    padding: 0 10px;
-    color: #6c757d;
-    font-size: 16px;
-  }
+      /* Arrow separator */
+      .breadcrumb_arrow li + li::before {
+        content: "›";
+        padding: 0 10px;
+        color: #6c757d;
+        font-size: 16px;
+      }
 
-  /* Responsive styling for mobile */
-  @media (max-width: 768px) {
-    .breadcrumb_arrow {
-      font-size: 13px;
-    }
+      /* Responsive styling for mobile */
+      @media (max-width: 768px) {
+        .breadcrumb_arrow {
+          font-size: 13px;
+        }
 
-    .breadcrumb_arrow li + li::before {
-      padding: 0 6px;
-      font-size: 14px;
-    }
-  }
+        .breadcrumb_arrow li + li::before {
+          padding: 0 6px;
+          font-size: 14px;
+        }
+      }
+      /* ================================================================= */
+      /*  ARTICLE METADATA BAR                                            */
+      /* ================================================================= */
+      .article-metadata-bar {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #dee2e6;
+        padding: 8px 0;
+        font-size: 0.8rem;
+        color: #6c757d;
+      }
 
-      
+      .article-metadata-bar .metadata-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+
+      .article-metadata-bar .metadata-item {
+        display: inline-flex;
+        align-items: center;
+        white-space: nowrap;
+      }
+
+      .article-metadata-bar .metadata-item strong {
+        color: #495057;
+        font-weight: 600;
+        margin-right: 0.3rem;
+      }
+
+      .article-metadata-bar .metadata-divider {
+        color: #dee2e6;
+        margin: 0 0.3rem;
+      }
+
+      /* Mobile responsive */
+      @media (max-width: 767px) {
+        .article-metadata-bar {
+          font-size: 0.7rem;
+          padding: 6px 0;
+        }
+
+        .article-metadata-bar .metadata-content {
+          gap: 0.3rem;
+        }
+
+        .article-metadata-bar .metadata-divider {
+          display: none;
+        }
+
+        .article-metadata-bar .metadata-item {
+          flex-basis: 100%;
+          justify-content: center;
+          padding: 2px 0;
+        }
+      }
+
+      @media (max-width: 575px) {
+        .article-metadata-bar .metadata-item strong {
+          font-size: 0.75rem;
+        }
+      }
     </style>
   </head>
   <body>
     <div id="cms_page">
       <div id="site-wrapper">
-       <!-- Semantic breadcrumb with proper HTML5 elements -->
-<nav aria-label="Breadcrumb">
-  <ol class="breadcrumb_arrow">
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="/printing-academy-101.html">Printing Academy</a>
-    </li>
-    <li>
-      <a href="/printing-academy-101.html#Books-Finishing"
-        >Books: Finishing Options</a
-      >
-    </li>
-    <li class="active" aria-current="page">
-      Types of Booklets and Book binding
-    </li>
-  </ol>
-</nav>
+        <!-- Semantic breadcrumb with proper HTML5 elements -->
+        <nav aria-label="Breadcrumb">
+          <ol class="breadcrumb_arrow">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/printing-academy-101.html">Printing Academy</a>
+            </li>
+            <li>
+              <a href="/printing-academy-101.html#Books-Finishing"
+                >Books: Finishing Options</a
+              >
+            </li>
+            <li class="active" aria-current="page">
+              Types of Booklets and Book binding
+            </li>
+          </ol>
+        </nav>
+
+        <!-- Article Metadata Bar with Schema Markup -->
+        <aside class="article-metadata-bar">
+          <div class="container">
+            <div class="metadata-content">
+              <span class="metadata-item">
+                <strong>Originally Published:</strong>
+                <time datetime="2020-03-15">March 15, 2020</time>
+              </span>
+              <span class="metadata-divider">|</span>
+              <span class="metadata-item">
+                <strong>Last Updated:</strong>
+                <time datetime="2025-10-13">October 13, 2025</time>
+              </span>
+              <span class="metadata-divider">|</span>
+              <span class="metadata-item">
+                <strong>Reading Time:</strong>
+                <span>8 minutes</span>
+              </span>
+              <span class="metadata-divider">|</span>
+              <span class="metadata-item">
+                <strong>Author:</strong>
+                <span>ColorCopiesUSA Technical Team</span>
+              </span>
+            </div>
+          </div>
+        </aside>
+
         <section
           class="hero-block on-dark wire-o-hero"
           style="
@@ -1055,6 +1213,3 @@
     </script>
   </body>
 </html>
-
-
-
