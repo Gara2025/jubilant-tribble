@@ -23,7 +23,7 @@ These colors are used for backgrounds, borders, and text to support the primary 
 | :--- | :--- | :--- | :--- |
 | **Light Blue** | <span style="font-size:2em; color:#e8ebf3;">&#9632;</span> | `#e8ebf3` | Light backgrounds for info boxes and subtle highlights. |
 | **Light Grey** | <span style="font-size:2em; color:#f8f9fa;">&#9632;</span> | `#f8f9fa` | Default background color for sections to create visual separation. |
-| **Darker Blue** | <span style-="font-size:2em; color:#162965;">&#9632;</span> | `#162965` | Hover state for primary blue buttons and elements. |
+| **Darker Blue** | <span style="font-size:2em; color:#162965;">&#9632;</span> | `#162965` | Hover state for primary blue buttons and elements. |
 
 ---
 
