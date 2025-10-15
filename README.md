@@ -1,33 +1,46 @@
-# jubilant-tribble
-premade components
+# Reusable Component Library for CMS
 
-## Usage Rules for AI and Developers
-
-1.  **Do Not Modify Styles:** The class names and HTML structure of these components are considered the single source of truth. They must be implemented *exactly* as provided. Do not add, remove, or change any classes.
-2.  **Content is Variable:** The inner text, `src` attributes for images, and `href` attributes for links are placeholders and should be populated with the appropriate content for the new implementation.
-3.  **Respect the Structure:** Do not alter the semantic structure (e.g., changing an `<article>` to a `<div>` or altering the heading levels) unless explicitly instructed.
-
-# My Reusable Component Library
-
-This repository contains a set of reusable, semantic HTML components styled with utility-first CSS. This document serves as the manifest for all available components.
-
-When instructed, please refer to this manifest to understand the available components and use the linked files as the single source of truth for structure and styling.
+This repository contains a library of premade HTML components designed to work within our Bootstrap 4.6-based CMS.
 
 ---
 
-## Component Manifest
+## How to Use This Library (For Developers)
+
+### 1. Development Environment
+
+- **Bootstrap 4.6:** All components are built on this framework. Do not add CDN links; the CMS already provides it.
+- **Custom CSS:** In addition to Bootstrap, a global custom stylesheet is used. You can view it here: [GLOBAL-CSS-STYLES.css](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css)
+- **JavaScript:** jQuery 3.7.1
+- **Fancybox** 5.0.36
+- **Font Awesome** 6.7.2 
+
+### 2. Implementation Rules
+
+- **Do Not Modify Structure:** The class names and HTML structure of these components must be used _exactly_ as provided. This ensures they work correctly within the CMS.
+- **Content is Variable:** You should always replace placeholder text, image `src` paths, and link `href` paths with your final content.
+
+---
+
+## Available Components
+
+This is the list of all available, ready-to-use components.
 
 ### 1. FAQ Accordion
 
-*   **Description:** A responsive and accessible accordion section for displaying a list of frequently asked questions. It uses the semantic `<details>` and `<summary>` tags for built-in functionality and accessibility.
-*   **File Location:** [01-FAQ-formatting-2025-10-14.html](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-formatting-2025-10-14)
+A responsive and accessible accordion section for frequently asked questions. Uses semantic `<details>` and `<summary>` tags.
 
-### 2. Product Card (Example for future)
+- **HTML File:** [`01-FAQ-formatting-2025-10-14.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-formatting-2025-10-14)
 
-*   **Description:** A card component for showcasing a product with an image, title, description, and a call-to-action button. Ideal for use in a grid layout on e-commerce pages.
-*   **File Location:** `(Link to the raw file once you create it)`
+### 2. Full Page Layout: Hero + Sticky Nav + Content Blocks
 
-### 3. Main Navigation Bar (Example for future)
+A complete page template that includes a hero section, a sticky internal navigation bar, and several content blocks for the bottom of the page (FAQs, Why Us, About Us, CTA).
 
-*   **Description:** A responsive top-level navigation bar with a logo and a list of links.
-*   **File Location:** `(Link to the raw file once you create it)`
+- **HTML File:** [`011-Hero+stickyTOC+FAQ+other-bottom-content.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero+stickyTOC+FAQ+other-bottom-content.html)
+- **Reference Image:** [`screenshot.jpg`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero+stickyTOC+FAQ+other-bottom-content.jpg)
+
+### 3. Dark Product Cards with white fonts, and embedded components
+
+A card component stress-tested to ensure content (text, links, buttons) remains readable on dark backgrounds.
+
+- **HTML File:** [`01-stress-test-dark-background-and-nested-elements.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-stress-test-dark-background-and-nested-elements.html)
+- **Reference Image:** [`screenshot.jpg`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-stress-test-dark-color-background-and-nested-elements.jpg)
