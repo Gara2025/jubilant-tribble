@@ -25,6 +25,6 @@ This is a visual guide to the reusable blocks available in the `/_snippets` subf
 
 | Preview | Snippet Name | Description |
 | :--- | :--- | :--- |
-| ![Final CTA Preview](_snippets/snippet-final-cta.jpg) | `snippet-final-cta.html` | A full-width, blue-background call-to-action section with multiple buttons. |
+| ![Final CTA Preview](/snippet-final-cta.jpg) | `snippet-final-cta.html` | A full-width, blue-background call-to-action section with multiple buttons. |
 | ![Comparison Table Preview](_snippets/snippet-comparison-table.jpg) | `snippet-comparison-table.html` | A responsive table for comparing features across different items, with a star rating system. |
 | ... | *(add a new row for every snippet)* | ... |
