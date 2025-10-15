@@ -7,12 +7,18 @@ This repository contains a library of premade HTML components designed to work w
 ## How to Use This Library (For Developers)
 
 ### 1. Development Environment
+All components are designed to work within the following pre-existing environment.
 
-- **Bootstrap 4.6:** All components are built on this framework. Do not add CDN links; the CMS already provides it.
-- **Custom CSS:** In addition to Bootstrap, a global custom stylesheet is used. You can view it here: [GLOBAL-CSS-STYLES.css](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css)
-- **JavaScript:** jQuery 3.7.1
-- **Fancybox** 5.0.36
-- **Font Awesome** 6.7.2 
+| Technology | Version | Notes |
+| :--- | :--- | :--- |
+| **Bootstrap** | `4.6.2` | Provided by the CMS. Do not add CDN links. |
+| **jQuery** | `3.7.1` | Provided by the CMS. |
+| **Fancybox** | `5.0.36` | Provided by the CMS. |
+| **Font Awesome**| `5.0.36` | Provided by the CMS. |
+| **Custom CSS** | `N/A` | A global stylesheet is required. [Link to file](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css). |
+
+
+
 
 ### 2. Implementation Rules
 
