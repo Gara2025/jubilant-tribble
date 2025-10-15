@@ -46,7 +46,7 @@ This table explains exactly what to change in the `011-Hero+stickyTOC+FAQ+other-
 This repository includes the template itself and a folder with reusable content ideas.
 
 
-- [011-Hero+stickyTOC+FAQ+other-bottom-content.html](./ 011-Hero+stickyTOC+FAQ+other-bottom-content.html) |- The main HTML file to use.
+- [011-Hero+stickyTOC+FAQ+other-bottom-content.html](./011-Hero+stickyTOC+FAQ+other-bottom-content.html) |- The main HTML file to use.
 - `011-Hero+stickyTOC+FAQ+other-bottom-content.jpg` - A screenshot showing what the template looks like.
 - `README.md` - This instruction file.
 - `/_snippets/` - A folder containing different content blocks you can copy and paste into your page.
