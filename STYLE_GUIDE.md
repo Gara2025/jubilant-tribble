@@ -52,7 +52,7 @@ This is the default style for all links on white or light grey backgrounds.
 | State | Color | Swatch | Hex Code | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | **Default** | Corporate Red | ![](https://placehold.co/60x30/d01e25/d01e25.png) | `#d01e25` | All standard links should use the primary red color. |
-| **Hover** | Darker Red | <span style="font-size:2em; color:#a8181e;">&#9632;</span> | `#a8181e` | Links should darken and become underlined on hover. |
+| **Hover** | Darker Red | ![](https://placehold.co/60x30/a8181e/a8181e.png) | `#a8181e` | Links should darken and become underlined on hover. |
 
 ### Links on Dark Backgrounds (e.g., inside a Blue Block)
 
@@ -60,8 +60,8 @@ When placing a link on a dark background (like Corporate Blue), the standard red
 
 | State | Color | Swatch | Hex Code | Required Class |
 | :--- | :--- | :--- | :--- | :--- |
-| **Default** | Light Yellow | <span style="font-size:2em; color:#ffc107;">&#9632;</span> | `#ffc107` | Add the class `link-alert` to the `<a>` tag. |
-| **Hover** | White | <span style="font-size:2em; color:#ffffff; border: 1px solid #ccc;">&#9632;</span> | `#ffffff` | The link will turn white and become underlined on hover. |
+| **Default** | Light Yellow | ![](https://placehold.co/60x30/ffc107/ffc107.png)  | `#ffc107` | Add the class `link-alert` to the `<a>` tag. |
+| **Hover** | White | ![](https://placehold.co/60x30/ffffff/ffffff.png)  | `#ffffff` | The link will turn white and become underlined on hover. |
 
 **Example Usage:**
 ```html
