@@ -10,6 +10,4 @@ They **MUST** be placed inside the **`011-Hero+stickyTOC+FAQ+other-bottom-conten
 
 ### Available Snippets
 (You can list the snippet files here, like `snippet-comparison-table.html`, etc.)
-**6 binding cards with images and links** [`03-Pillar-Page-Snippets/_snippets/snippet-binding-method-cards.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/03-Pillar-Page-Snippets/_snippets/snippet-binding-method-cards.html
-)
-(https://github.com/Gara2025/jubilant-tribble/blob/main/03-Pillar-Page-Snippets/_snippets/snippet-binding-method-cards.html)
+**6 binding cards with images and links** [`03-Pillar-Page-Snippets/_snippets/snippet-binding-method-cards.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/snippet-binding-method-cards.html)
