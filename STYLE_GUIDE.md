@@ -24,6 +24,7 @@ These colors are used for backgrounds, borders, and text to support the primary 
 | **Light Blue** | ![](https://placehold.co/60x30/e8ebf3/e8ebf3.png) | `#e8ebf3` | Light backgrounds for info boxes and subtle highlights. |
 | **Light Grey** | ![](https://placehold.co/60x30/f8f9fa/f8f9fa.png) | `#f8f9fa` | Default background color for sections to create visual separation. |
 | **Darker Blue** | ![](https://placehold.co/60x30/162965/162965.png) | `#162965` | Hover state for primary blue buttons and elements. |
+| **Charcoal Gray** | ![](https://placehold.co/60x30/34495E/34495E.png) | `#34495E` | Hover state for primary blue buttons and elements. |
 
 ---
 
