@@ -51,7 +51,7 @@ This is the default style for all links on white or light grey backgrounds.
 
 | State | Color | Swatch | Hex Code | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| **Default** | Corporate Red | <span style="font-size:2em; color:#d01e25;">&#9632;</span> | `#d01e25` | All standard links should use the primary red color. |
+| **Default** | Corporate Red | ![](https://placehold.co/60x30/d01e25/d01e25.png) | `#d01e25` | All standard links should use the primary red color. |
 | **Hover** | Darker Red | <span style="font-size:2em; color:#a8181e;">&#9632;</span> | `#a8181e` | Links should darken and become underlined on hover. |
 
 ### Links on Dark Backgrounds (e.g., inside a Blue Block)
