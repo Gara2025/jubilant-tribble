@@ -15,16 +15,9 @@ This is a visual guide to the reusable blocks available in the `/_snippets` subf
 
 | Preview | Snippet Name | Description |
 | :--- | :--- | :--- |
-| ![Final CTA Preview] (https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/final-cta-3-buttons.jpg)
- | `snippet-final-cta.html` | A full-width, blue-background call-to-action section with multiple buttons. |
+| ![Final CTA Preview] (https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/final-cta-3-buttons.jpg) | `snippet-final-cta.html` | A full-width, blue-background call-to-action section with multiple buttons. |
 | ![Comparison Table Preview](_snippets/snippet-comparison-table.jpg) | `snippet-comparison-table.html` | A responsive table for comparing features across different items, with a star rating system. |
-| ... | *(add a new row for every snippet)* | ... |
+| ![snippet-binding-method-cards] (https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/03-Pillar-Page-Snippets/_snippets/snippet-binding-method-cards.jpg)| `snippet-binding-cards.html`|6 cards with image, title and specs for pillar page |
 
 
 
-
-| Preview | Snippet Name | Description |
-| :--- | :--- | :--- |
-| ![Final CTA Preview](/_snippets/snippet-final-cta.jpg) | `snippet-final-cta.html` | A full-width, blue-background call-to-action section with multiple buttons. |
-| ![Comparison Table Preview](_snippets/snippet-comparison-table.jpg) | `snippet-comparison-table.html` | A responsive table for comparing features across different items, with a star rating system. |
-| ... | *(add a new row for every snippet)* | ... |
