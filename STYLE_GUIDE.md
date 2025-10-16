@@ -107,5 +107,71 @@ Add `.animate-pulse` to a `.custom-red-button` to make it pulse.
 <a href="#" class="custom-red-button animate-pulse" style="margin-top: 20px;">
   A Pulsing Button
 </a>             
-                                                                                                                                                                                                                                                                                                                  
-   
+
+#### 3. Featured Promo Box
+Use .promoBox.is-featured to create a white card with a blue outline and shadow.
+
+```html
+<div class="promoBox is-featured" style="text-align: center;">
+  <p>This is a featured promotional box.</p>
+</div>
+
+#### 4. Pulsing Blue Button
+Add .animate-pulse to a .custom-blue-button.
+
+```html
+<a href="#" class="custom-blue-button animate-pulse">A Pulsing Blue Button</a>
+
+#### 5. Readable Width Text
+Add .readable-width to a container to constrain the width of the text inside for better readability.
+
+```html
+<div class="dark-background-block on-dark readable-width">
+  <p>This line of text will not stretch across the entire screen, making it much easier to read.</p>
+</div>
+
+#### 6. Table on Dark Background
+Place a standard table inside an .on-dark container. You must also add an inline style color: white to the table itself to force the text to be white.
+
+```html
+<div class="dark-background-block on-dark">
+  <table class="table table-bordered" style="color: white;">
+    <!-- table content -->
+  </table>
+</div>
+
+
+#### 7. Nested Hover/Lift Box
+Add the .hover-lift class to a block to make it lift on hover. The CSS will handle nested effects correctly.
+
+```html
+<div class="promoBox">
+  <div class="blue-background-block on-dark hover-lift">
+    <p>This blue box will lift on hover, even though it is inside another container.</p>
+  </div>
+</div>
+
+
+#### 8.Standard Buttons
+Use these classes for consistently styled buttons. They will have built-in hover effects.
+
+```html
+<a href="#" class="custom-blue-button">Blue Button</a>
+<a href="#" class="custom-red-button">Red Button</a>
+<a href="#" class="custom-green-button">Green Button</a>
+
+
+#### 9. Nested Green Button
+Placing a button inside another block like a .promoBox works automatically.
+
+```html
+<div class="promoBox" style="padding: 25px;">
+  <a href="#" class="custom-green-button">A Green Button</a>
+</div>
+
+
+#### 10. Alert Link
+Use the .alert-link class on an <a> tag only when it is inside an .on-dark container to create a high-contrast link. It will appear yellow/blue.
+
+
+```html
