@@ -71,17 +71,45 @@ This is the default style for all content placed on a white or light grey backgr
 
 This section documents the special global CSS classes that can be applied to elements to add visual styles and effects. For a live demonstration of all these classes working together, see the file in the `_demonstrations` folder.
                                                                                         
-                                                                                                                                                     
+                                                                                                                                        ---
+
+## 3. Global CSS Components & Effects
+
+This section documents the special global CSS classes that can be applied to elements to add visual styles and effects. For a live demonstration of all these classes working together, see the file in the `_demonstrations` folder.
+
+### Summary Table
+
+| Component / Effect | Context | Key CSS Classes | Preview |
+| :--- | :--- | :--- | :--- |
+| **White Fonts on Dark BG (Hero)** | Hero Section | `` `.hero-block` ``, `` `.on-dark` `` | ![Hero Preview](./_assets/style-guide-images/hero-block-on-dark-readable-width.jpg) |
+| **Pulsing Red Button** | On Hero / Dark BG | `` `.custom-red-button` ``, `` `.animate-pulse` `` | ![Pulsing Red Button Preview](./_assets/style-guide-images/custom-red-button-animate-pulse.gif) |
+| **Featured Promo Box** | Message Block | `` `.promoBox` ``, `` `.is-featured` `` | ![Featured Card Preview](./_assets/style-guide-images/promobox-is-featured.jpg) |
+| **Pulsing Blue Button** | On Light BG | `` `.custom-blue-button` ``, `` `.animate-pulse` `` | ![Pulsing Blue Button Preview](./_assets/style-guide-images/custom-blue-button-animate-pulse.gif) |
+| **Readable Width Text** | Inside Dark Block | `` `.readable-width` `` | ![Readable Width Preview](./_assets/style-guide-images/readable-width.jpg) |
+| **Table on Dark BG** | Inside Dark Block | `` `.on-dark` ``, `style="color: white"` | ![Table on Dark BG Preview](./_assets/style-guide-images/table-black-bkgd-white-fonts.jpg) |
+| **Nested Hover/Lift Box** | Nesting Blocks | `` `.hover-lift` `` | ![Nested Hover/Lift Preview](./_assets/style-guide-images/blue-bx-nested-gray-hover-lift.gif) |
+| **Standard Buttons** | Any | `` `.custom-blue-button` ``, etc. | ![Standard Buttons Preview](./_assets/style-guide-images/blue-red-green-buttons.gif) |
+| **Nested Green Button** | Button in Box | `` `.promoBox` ``, `` `.custom-green-button` `` | ![Nested Green Button Preview](./_assets/style-guide-images/green-btn-neste-on-promobox-hover.gif) |
+| **Alert Link** | Dark BG Only | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-blue.jpg) |
+
+---
+
+### Code Examples
+
+#### 1. White Fonts on Dark Background (Hero)
+Use `.hero-block` and `.on-dark` to create a hero with white text.
+
+```html
+<div class="hero-block on-dark readable-width" style="--hero-bg-image: url('...');">
+  <h1>This text will be white.</h1>
+</div>```
+
+#### 2. Pulsing Red Button
+Add `.animate-pulse` to a `.custom-red-button` to make it pulse.
+
+```html
+<a href="#" class="custom-red-button animate-pulse" style="margin-top: 20px;">
+  A Pulsing Button
+</a>             
                                                                                                                                                                                                                                                                                                                   
-                                                                                                                                                                                                                                                                                                                                |Component / Effect                    | Context                 | Preview                                                                               | Description                                                                                      | Code - how to use |                                                                         | :---                                                                                                       | :---                                                                                                                                                                                                                                                                            
-| white fonts on dark background with or without image | on hero section       | ![On-Dark Preview](./_assets/style-guide-images/hero-block-on-dark-readable-width.jpg) | produces 'h1' and 'p' in white ovr hero section or similar                                                 | <div   class="hero-block on-dark readable-width"   style="     --hero-bg-image: url('https://d3...);                                                                                                                                                                            |
-| Red button animate on top of dark hero section       | on top of hero        | ![red-button](./_assets/style-guide-images/custom-red-button-animate-pulse.gif)        | the animate effect not visible                                                                             | a href="#" class="custom-red-button animate-pulse" style="margin-top: 20px"                                                                                                                                                                                                     |
-| White card with blue outline                         | message block         | ![card](./_assets/style-guide-images/promobox-is-featured.jpg)                         | The 'promobox .is-featured' class adds a prominent border and shadow to draw attention.                    | div class="promoBox is-featured" style="text-align: center"                                                                                                                                                                                                                     |
-| Blue button on white with PULSE                      | CALL attention button | ![card](./_assets/style-guide-images/custom-blue-button-animate-pulse.gif)             | blue button pulses with breathing animation on white background                                            | div class="promoBox is-featured" style="text-align: center"                                                                                                                                                                                                                     |
-| Readable Width: Improvement of reading               | inside a dark block   | ![card](./_assets/style-guide-images/readable-width.jpg)                               | By adding the '.readable-width'class, we ensure the lines don't stretch across the entire screen           | div class="dark-background-block on-dark readable-width"                                                                                                                                                                                                                        |
-| Table on black background                            | inside dark class     | ![card](./_assets/style-guide-images/table-black-bkgd-white-fonts.jpg)                 | to get white fonts on black background generated y the class "dark-background�" you need style color white | &lt;div class=&quot;dark-background-block on-dark&quot;&gt; &nbsp;&nbsp;&lt;table class=&quot;table table-bordered&quot; style=&quot;color: white&quot;&gt;                                                                                                                     |
-| Lift blue nested box on top of gay                   | nesting- Lift-hover   | ![card](./_assets/style-guide-images/blue-bx-nested-gray-hover-lift.gif)               | blue hover-lift card inside of promoBox                                                                    | &lt;div class=&quot;blue-background-block on-dark hover-lift&quot;&gt;&lt;div class=&quot;blue-background-block on-dark hover-lift&quot;&gt;                                                                                                                                    |
-| Blue Red Green buttons and hover                     | hover colored buttons | ![card](./_assets/style-guide-images/blue-red-green-buttons.gif)                       | 3 colors of buttons are defined with the hover features                                                    | &lt;a href=&quot;#&quot; class=&quot;custom-blue-button&quot;&gt;Blue Button&lt;/a&gt;&nbsp; &lt;a href=&quot;#&quot;class=&quot;custom-red-button&quot;&gt;Red Button&lt;/a&gt;&nbsp; &lt;a href=&quot;#&quot; class=&quot;custom-green-button&quot;&gt;Green Button&lt;/a&gt; |
-| Green Button Nested on PromoBox                      | Nest - Green Btn      | ![card](./_assets/style-guide-images/green-btn-neste-on-promobox-hover.gif)            | a green button on a light gray block (promobox)                                                            | &lt;div class=&quot;promoBox&quot; style=&quot;padding: 25px&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;custom-green-button&quot;&gt;                                                                                                                                        |
-| class= "alert-link" - white                          | on white background   | ![card](./_assets/style-guide-images/alert-link-on-white.jpg)                          | this what a link under the class alert-link looks like                                                     | &lt;div class="blue-background-block on-dark"&gt; &lt;a href="#" class="alert-link"&gt;Alert Link&lt;/a&gt; will be a high-contrast light blue. &lt;/div&gt;                                                                                                                    |
-| class= "alert-link" - blue                           | on blue background    | ![card](./_assets/style-guide-images/alert-link-on-blue.jpg)                           | the alert link looks different under white or dark background                                              | &lt;a href="#" class="alert-link"&gt;Alert Link&lt;/a&gt;                                                                                                                                                                                                                       |
+   
