@@ -67,11 +67,7 @@ This is the default style for all content placed on a white or light grey backgr
 ---
 ---
 
-## 3. Global CSS Components & Effects
 
-This section documents the special global CSS classes that can be applied to elements to add visual styles and effects. For a live demonstration of all these classes working together, see the file in the `_demonstrations` folder.
-                                                                                        
-                                                                                                                                        ---
 
 ## 3. Global CSS Components & Effects
 
