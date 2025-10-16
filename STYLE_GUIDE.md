@@ -87,6 +87,7 @@ This section documents the special global CSS classes that can be applied to ele
 | **Standard Buttons** | Any | `` `.custom-blue-button` ``, etc. | ![Standard Buttons Preview](./_assets/style-guide-images/blue-red-green-buttons.gif) |
 | **Nested Green Button** | Button in Box | `` `.promoBox` ``, `` `.custom-green-button` `` | ![Nested Green Button Preview](./_assets/style-guide-images/green-btn-neste-on-promobox-hover.gif) |
 | **Alert Link** | Dark BG Only | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-blue.jpg) |
+| **Alert Link on white bkg** | on White Option | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-white.jpg) |
 
 ---
 
