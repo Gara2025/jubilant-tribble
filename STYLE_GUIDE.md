@@ -179,3 +179,11 @@ Class .alert-link on white background (without the background-block on-dark will
 <div class="blue-background-block on-dark">
   This is a sentence with a special <a href="#" class="alert-link">Alert Link</a>.
 </div>
+
+#### 10. Alert Link on white bkg
+The same class looks differently under white background (when no dark-background classes are applied) producing a professional blue no-underline bold link. nice lookng
+
+```html
+  This is a sentence with a special <a href="#" class="alert-link">Alert Link</a>.
+</div>
+
