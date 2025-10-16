@@ -171,7 +171,10 @@ Placing a button inside another block like a .promoBox works automatically.
 
 
 #### 10. Alert Link
-Use the .alert-link class on an <a> tag only when it is inside an .on-dark container to create a high-contrast link. It will appear yellow/blue.
-
+Use the .alert-link class on an <a> tag only when it is inside an .on-dark container to create a high-contrast link. It will appear light-blue/white underlined.
+Class .alert-link on white background (without the background-block on-dark will look like  a "professional blue" with no underlining
 
 ```html
+<div class="blue-background-block on-dark">
+  This is a sentence with a special <a href="#" class="alert-link">Alert Link</a>.
+</div>
