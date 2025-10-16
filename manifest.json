@@ -1,14 +1,14 @@
 {
   "name": "Jubilant Tribble Component Library",
-  "description": "A collection of reusable HTML components for the CMS environment. Refer to the main README.md for human-friendly documentation.",
+  "description": "A collection of reusable HTML components for the Bootstrap 4.6 CMS environment. Refer to the main README.md for human-friendly documentation.",
   "usage_rules": {
     "structure": "Do not modify the class names or HTML structure of components. Use them exactly as provided in the files.",
     "content": "Inner text, image src, and link href attributes are placeholders and should always be populated with new content.",
     "environment_dependencies": {
       "bootstrap": "4.6",
-      "jquery": "3.7.1",
-      "fancybox": "5.0.36",
-      "font_awesome": "6.7.2",
+      "jquery": "3.5.1",
+      "fancybox": "3.5.7",
+      "font_awesome": "6.5.1",
       "custom_css": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css"
     }
   },
@@ -25,9 +25,39 @@
     {
       "id": "page-template-hero-sticky-nav",
       "name": "Page Template: Hero + Sticky Nav (The Shell)",
-      "description": "The main page template. Use this as the base for building new pages. It includes the hero section, the sticky navigation, and IMPORTANTLY, it also contains the necessary CSS to render the 'Pillar Page Snippets' correctly.",
+      "description": "The main page template for building new content pages. It includes the hero, sticky navigation, breadcrumbs, and author meta-data. IMPORTANTLY, it also contains the necessary CSS to render the 'Pillar Page Snippets' correctly.",
       "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero-Sticky-Nav/011-Hero+stickyTOC+FAQ+other-bottom-content.html",
-      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero-Sticky-Nav/011-Hero+stickyTOC+FAQ+other-bottom-content.jpg"
+      "visual_asset": "https://github.com/Gara2025/jubilant-tribble/blob/main/011-Hero-Sticky-Nav/011-Hero+stickyTOC+FAQ+other-bottom-content.jpg",
+      "placeholders": [
+        {
+          "name": "BREADCRUMB_HTML",
+          "description": "Replace the inner HTML of the `<ul class='breadcrumb'>` with the correct `<li>` elements for the new page's hierarchy."
+        },
+        {
+          "name": "AUTHOR_NAME",
+          "description": "Update the text of the author's name in the author-meta-data section."
+        },
+        {
+          "name": "PUBLISH_DATE",
+          "description": "Update the text of the publish date."
+        },
+        {
+          "name": "LAST_UPDATED_DATE",
+          "description": "Update the text of the last updated date."
+        },
+        {
+          "name": "HERO_TITLE",
+          "description": "Update the text inside the `<h1>` tag in the hero section."
+        },
+        {
+          "name": "HERO_SUBTITLE",
+          "description": "Update the text inside the `<p class='subhead-hero'>`."
+        },
+        {
+          "name": "INTERNAL_NAV_LINKS_HTML",
+          "description": "Replace the inner HTML of the `<ul class='nav'>` in the sticky navigation with the correct links for the page's content sections."
+        }
+      ]
     },
     {
       "id": "pillar-page-snippet-collection",
