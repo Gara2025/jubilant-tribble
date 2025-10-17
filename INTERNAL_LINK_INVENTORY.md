@@ -1,38 +1,53 @@
-# Internal Link Inventory
-
-This document is the master list of key pages on the website, generated from Semrush data. The keywords listed are the top traffic-driving terms for each URL and should be used to identify internal linking opportunities.
+Hello! I am the Creative Director for this project. I need your help as my Lead Researcher and Content Strategist to create a new, high-quality article for my website. Please follow our established collaborative, two-phase process.
 
 ---
 
-| Keywords | URL |
-| :--- | :--- |
-| `copies`, `color copy`, `color copies usa`, `where can i go to make copies`, `color copies` | `https://www.colorcopiesusa.com/` |
-| `6 x 9`, `envelopes 9 x 6`, `manila envelope sizes`, `6 by 9` | `https://www.colorcopiesusa.com/6x9-booklet-and-catalog-envelopes-custom-printing/` |
-| `kinkos`, `kinko's` | `https://www.colorcopiesusa.com/kinkos-locations.html` |
-| `banner sizes`, `usual banner sizes`, `banner measurements`, `banner length`, `common banner sizes` | `https://www.colorcopiesusa.com/vinyl-banner-sizing-what-size-should-your-vinyl-banner-be.html` |
-| `printing printing press` | `https://www.colorcopiesusa.com/blog/2018/09/07/overview-todays-printing-press-technology/` |
-| `a7 envelope dimensions`, `a7 envelope`, `what are the dimensions of an a7 envelope`, `what is the size of an a7 envelope`, `size of a7 envelope` | `https://www.colorcopiesusa.com/a7-envelopes-size-invitation-24lb-bright-white-custom-print/` |
-| `menu print waterproof`, `waterproof menus`, `synthetic paper for menus`, `plastic menu printing`, `synthetic menus` | `https://www.colorcopiesusa.com/print-menus-on-waterproof-synthetic-plastic-paper/` |
-| `a6 envelope size`, `a6 envelope dimensions` | `https://www.colorcopiesusa.com/a6-envelopes-size-invitation-24lb-bright-white-custom-print/` |
-| `2 part ncr paper image` | `https://www.colorcopiesusa.com/carbonless-paper-forms-2-parts-size-85x11/` |
-| `giant checkbook` | `https://www.colorcopiesusa.com/giant-checks-completely-customizable/` |
-| `poster print` | `https://www.colorcopiesusa.com/print-posters/` |
-| `fotocopias`, `donde sacar copias cerca de mi`, `sacar copias cerca de mi`, `donde puedo sacar copias cerca de mi`, `impresiones cerca de mi` | `https://www.colorcopiesusa.com/imprenta-y-carteleria-baratos-en-espanol-in-spanish.html` |
-| `discount color copies`, `cost of color copies`, `color printing cheap`, `cheap colour printing online`, `affordable printing color solutions` | `https://www.colorcopiesusa.com/cheap-color-copies/` |
-| `a2 envelope dimensions`, `what is an a2 envelope size`, `a2 size envelope`, `dimensions of an a2 envelope` | `https://www.colorcopiesusa.com/a2-announcement-envelopes-size-invitation-28lb-custom-print/` |
-| `print spiral bound`, `printing and binding`, `spiral bound booklets`, `coil binding services`, `spiral bound book printing` | `https://www.colorcopiesusa.com/spiral-or-coil-bound-books-training-and-seminar-manuals-printing/` |
-| `14 pt cardstock in lbs`, `card stock paper thickness`, `12 pt paper weight` | `https://www.colorcopiesusa.com/card-stock-paper-weight.html` |
-| `color copies`, `print color paper`, `color document printing`, `print colored pages`, `color printing cost` | `https://www.colorcopiesusa.com/color-copies/` |
-| `planning booklet`, `booklet content`, `creating booklets` | `https://www.colorcopiesusa.com/how-to-plan-create-and-design-booklets-for-printing.html` |
-| `horizontal booklet`, `landscape booklet` | `https://www.colorcopiesusa.com/landscape-booklets-85x11-or-55x85/` |
-| `how thick is 100lb paper` | `https://www.colorcopiesusa.com/what-is-the-difference-between-80-lb-and-100-lb-paper.html` |
-| `employee handbook printing` | `https://www.colorcopiesusa.com/employee-manuals.html` |
-| `hang up posters without damaging wall`, `poster hanger clips`, `how to stick posters on wall without damaging paint`, `hang posters without nails` | `https://www.colorcopiesusa.com/practical-ways-to-hang-poster-to-walls-without-damaging-the-poster-or-the-wall-in-the-process/` |
-| `pop up banner dimensions`, `roll up banner size` | `https://www.colorcopiesusa.com/how-to-design-a-retractable-banner.html` |
-| `size 10 envelope dimensions`, `what are the measurements of a 10 envelope` | `https://www.colorcopiesusa.com/number-10-envelopes-custom-printed-regular-or-with-window-printed/` |
-| `monarch envelope size` | `https://www.colorcopiesusa.com/9x12-envelopes-for-flat-letter-size-sheets/` |
-| `foam core posters`, `foam board for poster mounting` | `https://www.colorcopiesusa.com/posters-mounted-on-foamboard/` |
-| `17 x 11 frame`, `matted frame for 11x17`, `11 x 18`, `12x18 construction paper` | `https://www.colorcopiesusa.com/11x17-and-12x18-inch-posters/` |
-| `matte business cards` | `https://www.colorcopiesusa.com/matte-business-cards/` |
-| `black and white printing` | `https://www.colorcopiesusa.com/black-and-white-copies/` |
-| `13x19 poster printing` | `https://www.colorcopiesusa.com/13x19posters/` |
+### **Phase 0: Context Analysis (Your First Step)**
+
+Before you do anything else, you must re-familiarize yourself with our design system AND our website's structure.
+
+1.  **Go to our GitHub Repository:** `https://github.com/Gara2025/jubilant-tribble`
+2.  **Analyze the `manifest.json` file:** Your blueprint for all available components.
+3.  **Analyze the `STYLE_GUIDE.md` file:** Your rulebook for all brand styles and effects.
+4.  **Analyze the `INTERNAL_LINK_INVENTORY.md` file:** Your master list of available internal links and their associated keywords.
+
+Acknowledge when you have completed this full analysis. All work you produce MUST strictly adhere to this system.
+
+---
+
+### **Phase 1: Collaborative Research & Content Strategy**
+
+**Article Topic:** `[Your Article Topic Here]`
+
+#### **A. My Initial Creative Brief (Your Foundation)**
+*(This section remains the same)*
+
+#### **B. Your Research & Synthesis Tasks (Your Main Job)**
+
+Now, using my brief as your foundation, your job is to build upon it.
+
+1.  **Enrich & Expand:** *(This task remains the same)*
+2.  **Suggest Images:** *(This task remains the same)*
+3.  **Propose a Synthesized Outline & Linking Plan:** Combine my brief and your new research into a single, cohesive proposal. The proposal must include:
+    *   A detailed article outline with semantic `<h1>` and `<h2>` headings.
+    *   A plan for where all key data points and images will be placed.
+    *   Suggestions for which of our pre-built snippets to use.
+    *   **NEW & IMPROVED -> An "Internal Linking Plan"**: Present this as a simple table with two columns: "Keyword/Phrase to be Linked" and "Target URL from Inventory." This is your specific proposal for which links to create.
+
+**IMPORTANT: Do not write any HTML yet. This proposal is for my review. Wait for my final approval.**
+
+---
+
+### **Phase 2: HTML Assembly (After My Approval)**
+
+Once I approve your outline and linking plan, you will build the complete, final HTML file.
+
+**Your Tasks:**
+
+1.  **Use the Main Shell (`page-template-hero-sticky-nav`)** and populate all its placeholders.
+2.  **Assemble the Main Content:**
+    *   Write the full article content based on the approved outline.
+    *   Structure the content using the reusable snippets from your library.
+    *   **NEW & EXPLICIT COMMAND -> Implement the Internal Linking Plan:** As you write the body of the article, you **must** seamlessly integrate the links from the approved plan. When you encounter a target keyword or phrase from the plan, you must create a link to its corresponding target URL.
+    *   Add citations for all new data.
+    *   The final output should be a single, complete block of HTML code.
