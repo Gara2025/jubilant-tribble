@@ -1,7 +1,58 @@
-# Internal Link Inventory
+# Internal Link Inventory & Site Architecture
 
-This document is the master list of key pages on the website, generated from Semrush data. The keywords listed are the top traffic-driving terms for each URL and should be used to identify internal linking opportunities.
+This document defines the master map of our website's content architecture and provides a detailed keyword inventory for internal linking.
 
+## 1. Pillar Topic Hubs (The Strategic Architecture)
+
+This is the primary strategic guide. It organizes content into "Pillar Topic Hubs." When creating a new "Cluster" page, the primary SEO goal is to find a natural opportunity to link **up** to its corresponding "Pillar" page.
+
+---
+
+### Pillar Hub: Binding Methods
+
+*   **PILLAR PAGE:** [Types of Booklet and Book binding](https://www.colorcopiesusa.com/types-of-booklet-and-book-binding.html)
+*   **Description:** The central, comprehensive guide covering all binding methods.
+
+#### Key Cluster Pages for this Hub:
+*   [Saddle Stitch Binding Pros and Cons](https://www.colorcopiesusa.com/saddle-stitch-binding-pros-and-cons.html)
+*   [Wire-O Bound Books Printing](https://www.colorcopiesusa.com/wire-o-bound-books-printing-wire-binding/)
+*   [Spiral or Coil Bound Books](https://www.colorcopiesusa.com/spiral-or-coil-bound-books-training-and-seminar-manuals-printing/)
+*   [What Is Paper Creep?](https://www.colorcopiesusa.com/what-is-paper-creep.html)
+*   *(Add other binding-related pages here)*
+
+---
+
+### Pillar Hub: Envelopes
+
+*   **PILLAR PAGE:** `[URL to your main, comprehensive envelope guide page]`
+*   **Description:** The central guide for all envelope sizes, types, and printing.
+
+#### Key Cluster Pages for this Hub:
+*   [A7 Envelopes Size](https://www.colorcopiesusa.com/a7-envelopes-size-invitation-24lb-bright-white-custom-print/)
+*   [A6 Envelopes Size](https://www.colorcopiesusa.com/a6-envelopes-size-invitation-24lb-bright-white-custom-print/)
+*   [A2 Announcement Envelopes Size](https://www.colorcopiesusa.com/a2-announcement-envelopes-size-invitation-28lb-custom-print/)
+*   [#10 Envelopes Custom Printed](https://www.colorcopiesusa.com/number-10-envelopes-custom-printed-regular-or-with-window-printed/)
+*   *(Add other envelope-related pages here)*
+
+---
+
+### Pillar Hub: Banners
+
+*   **PILLAR PAGE:** [Vinyl Banner Sizing Guide](https://www.colorcopiesusa.com/vinyl-banner-sizing-what-size-should-your-vinyl-banner-be.html)
+*   **Description:** The main, authoritative guide on choosing the right banner size.
+
+#### Key Cluster Pages for this Hub:
+*   [How to Design a Retractable Banner](https://www.colorcopiesusa.com/how-to-design-a-retractable-banner.html)
+*   *(Add other banner-related pages here)*
+
+---
+---
+
+## 2. Detailed Keyword Inventory (The Tactical Reference)
+
+This is the detailed, data-driven list of all pages and their top-performing keywords. Use this as a reference to identify the specific anchor text to use when creating the links defined in the strategic architecture above.
+
+*(Your existing table of keywords and URLs starts below this line...)*
 ---
 
 | Keywords | URL |
