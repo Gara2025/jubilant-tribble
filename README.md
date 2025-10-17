@@ -1,14 +1,35 @@
-# Reusable Component Library for CMS
+# Jubilant Tribble: A Reusable Component Library
 
-This repository contains a library of premade HTML components designed to work within our Bootstrap 4.6-based CMS.
+This repository contains a complete design system for creating high-quality, consistent web pages for our CMS environment. It includes reusable HTML components, strategic documentation, and page templates.
+
+This document is the main "welcome mat" and directory for the entire project.
 
 ---
 
-## How to Use This Library (For Developers)
+## 1. Core System Documents (Start Here)
 
-### 1. Development Environment
+Before using any component, you **must** be familiar with the three core documents that govern this entire system. They are the single source of truth for all rules, styles, and architecture.
 
-All components are designed to work within the following pre-existing environment.
+- ### [**`manifest.json`**](./manifest.json)
+
+  **Purpose:** The AI's Blueprint. This is the machine-readable master list of all available components, their locations, and their placeholders.
+
+- ### [**`STYLE_GUIDE.md`**](./STYLE_GUIDE.md)
+
+  **Purpose:** The Brand Rulebook. This document defines the official color palette, typography scale, and special CSS effects (like `.on-dark`, `.lift`, and `.aura`).
+
+- ### [**`INTERNAL_LINK_INVENTORY.md`**](./INTERNAL_LINK_INVENTORY.md)
+  **Purpose:** The Website's Architectural Map. This document defines our "Pillar and Cluster" SEO strategy and provides a master list of key pages for internal linking.
+
+---
+
+## 2. Development Environment & Rules
+
+This section contains the critical technical information for any developer or AI working with this library.
+
+### Technical Environment
+
+All components are designed to work within the following pre-existing environment. **Do not** add CDN links for these libraries as they are already provided by the CMS.
 
 | Technology | Version | Notes |
 | :-- | :-- | :-- |
@@ -18,39 +39,41 @@ All components are designed to work within the following pre-existing environmen
 | **Font Awesome** | `6.7.2` | Provided by the CMS. |
 | **Custom CSS** | `N/A` | A global stylesheet is required. [Link to file](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css). |
 
-### 2. Implementation Rules
+### Implementation Rules
 
 - **Do Not Modify Structure:** The class names and HTML structure of these components must be used _exactly_ as provided. This ensures they work correctly within the CMS.
 - **Content is Variable:** You should always replace placeholder text, image `src` paths, and link `href` paths with your final content.
+- **Use Placeholder Images:** When a component requires an image and a specific one isn't provided, use the default placeholder image defined in the `manifest.json`.
 
 ---
 
-## Available Components
+## 3. The Component & Template Library
 
-This is the list of all available, ready-to-use components.
+This is the collection of all available, ready-to-use building blocks.
 
-### 1. FAQ Accordion
+### The Main Page Template (The "Shell")
 
-A responsive and accessible accordion section for frequently asked questions. Uses semantic `<details>` and `<summary>` tags.
+This is the primary template to use as the foundation for almost all new content pages. It contains the hero, sticky navigation, and all necessary CSS.
 
-- **HTML File:** [`01-FAQ-formatting-2025-10-14.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-formatting-2025-10-14)
+- **[011-Hero-Sticky-Nav](./011-Hero-Sticky-Nav/)** - Click to view the template and its specific documentation.
 
-### 2. Full Page Layout: Hero + Sticky Nav + Content Blocks
+### Snippet Collections (The "Parts")
 
-A complete page template that includes a hero section, a sticky internal navigation bar, and several content blocks for the bottom of the page (FAQs, Why Us, About Us, CTA).
+These are libraries of smaller, reusable HTML blocks designed to be placed inside the main shell template.
 
-- **HTML File:** [`011-Hero+stickyTOC+FAQ+other-bottom-content.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero+stickyTOC+FAQ+other-bottom-content.html)
-- **Reference Image:** [`screenshot.jpg`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero+stickyTOC+FAQ+other-bottom-content.jpg)
+- **[01-FAQ-Accordion](./01-FAQ-Accordion/)** - Contains a simple, accessible FAQ component.
+- **[03-Pillar-Page-Snippets](./03-Pillar-Page-Snippets/)** - A rich collection of advanced content blocks (comparison tables, feature cards, CTAs, etc.) for building detailed informational pages.
 
-### 3. Dark Product Cards with white fonts, and embedded components
+---
 
-A card component stress-tested to ensure content (text, links, buttons) remains readable on dark backgrounds.
+## 4. Live Demonstrations
 
-- **HTML File:** [`01-stress-test-dark-background-and-nested-elements.html`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-stress-test-dark-background-and-nested-elements.html)
-- **Reference Image:** [`screenshot.jpg`](https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-stress-test-dark-color-background-and-nested-elements.jpg)
+This folder contains live "showroom" pages that demonstrate how various styles and components from the `STYLE_GUIDE.md` work in practice. These are for reference only and are not reusable components.
 
-### 4. Pillar Page Content Snippets
+- **[\_demonstrations](./_demonstrations/)** - Click to view the available demo pages.
 
-A collection of reusable content blocks originally designed for a pillar page. These snippets can be mixed and matched to build detailed informational pages. They are designed to be placed inside the "Full Page Layout: Hero + Sticky Nav" template.
+---
 
-- **Folder Location:** `03-Pillar-Page-Snippets/_snippets/`
+## 5. How to Use This Library
+
+The primary workflow for this library is to use the **"Master Prompt"** to instruct an AI to assemble a new page. The prompt forces the AI to read the core system documents and use the pre-approved components, ensuring a consistent and high-quality result.
