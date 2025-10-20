@@ -1,10 +1,11 @@
 {
   "name": "Jubilant Tribble Component Library",
-  "description": "A collection of reusable HTML components for the Bootstrap 4.6 CMS environment. Refer to the main README.md for human-friendly documentation.",
+  "description": "A collection of reusable HTML components for the CMS environment.",
   "usage_rules": {
-    "structure": "Do not modify the class names or HTML structure of components. Use them exactly as provided in the files.",
-    "content": "Inner text, image src, and link href attributes are placeholders and should always be populated with new content.",
+    "structure": "Do not modify the class names or HTML structure of components.",
+    "content": "Inner text, image src, and link href attributes are placeholders.",
     "environment_dependencies": {
+      "description": "All components are designed to work within this specific technical environment. The custom_css file contains many important, pre-built styles that should be leveraged.",
       "bootstrap": "4.6",
       "jquery": "3.5.1",
       "fancybox": "3.5.7",
