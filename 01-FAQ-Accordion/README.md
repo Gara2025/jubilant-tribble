@@ -1,7 +1,7 @@
 # Component: FAQ Accordion
 
-![FAQ Accordion Preview](./01-faq-formatting.jpg)
-*(Note: You will need to create and upload a screenshot named `01-faq-formatting.jpg` for this preview to appear.)*
+![FAQ Accordion Preview](./01-faq-formatting.gif)
+*(Note: You will need to create and upload a screenshot named `01-faq-formatting.gif` for this preview to appear.)*
 
 This component is a responsive and accessible accordion section for displaying a list of frequently asked questions.
 
