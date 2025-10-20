@@ -4,6 +4,7 @@
   "usage_rules": {
     "structure": "Do not modify the class names or HTML structure of components. Use them exactly as provided in the files.",
     "content": "Inner text, image src, and link href attributes are placeholders and should always be populated with new content.",
+    "placeholder_content": "CRITICAL RULE: The content inside the component HTML files (text, images, links) is for demonstration only. When implementing a component, this placeholder content MUST be completely replaced with the new content. Do not merge or mix old and new content.",
     "environment_dependencies": {
       "description": "All components are designed to work within this specific technical environment. The custom_css file contains many important, pre-built styles that should be leveraged.",
       "bootstrap": "4.6",
