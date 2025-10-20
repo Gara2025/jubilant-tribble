@@ -43,8 +43,8 @@ All components are designed to work within the following pre-existing environmen
 
 ### Implementation Rules
 *   **Do Not Modify Structure:** The class names and HTML structure of these components must be used _exactly_ as provided.
-*   **Content is Variable:** You should always replace placeholder text, image `src` paths, and link `href` paths with your final content.
-*   **NEW RULE -> All Content is Placeholder:** The text, images, and links found inside the component HTML files are **examples only**. When using a component, you must **completely replace** this placeholder content with the new, required content for your project. Do not mix new and old content.
+*   **All Content is an Example:** The text, images, and links found inside the component HTML files are for demonstration purposes only. **Even though this content is not explicitly marked as a "placeholder," it MUST be treated as such.**
+*   **Content Must Be Replaced:** When using a component, you must **completely replace** the example content with the new, required content for your project. Do not mix or merge the new content with the example content.
 *   **Use Placeholder Images:** When a component requires an image and a specific one isn't provided, use the default placeholder image defined in the `manifest.json`.
 ---
 
