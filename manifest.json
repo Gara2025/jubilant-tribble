@@ -29,7 +29,7 @@
       "id": "page-template-hero-sticky-nav",
       "name": "Page Template: Hero + Sticky Nav (The Shell)",
       "description": "The main page template for building new content pages. It includes the hero, sticky navigation, breadcrumbs, and author meta-data. IMPORTANTLY, it also contains the necessary CSS to render the 'Pillar Page Snippets' correctly.",
-      "documentation_url": "https://github.com/Gara2025/jubilant-tribble/blob/main/011-Hero-Sticky-Nav/README.md",
+      "documentation_url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/Hero%2BTOC%2BFAQ/README.md",
       "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero-Sticky-Nav/011-Hero+stickyTOC%2BFAQ%2Bother-bottom-content.html",
       "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero-Sticky-Nav/011-Hero%2BstickyTOC%2BFAQ%2Bother-bottom-content.jpg",
       "placeholders": [
