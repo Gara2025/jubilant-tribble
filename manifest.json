@@ -25,6 +25,14 @@
       "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/01-FAQ-Accordion/01-faq-formatting.html",
       "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-Accordion/01-faq-formatting.gif"
     },
+  {
+      "id": "faq-with-infographic",
+      "name": "FAQ Section with Infographic",
+      "description": "A responsive, two-column component that displays a visual infographic on one side and a Bootstrap accordion for FAQs on the other. It is semantically structured with figure and figcaption.",
+      "documentation_url": "https://github.com/Gara2025/jubilant-tribble/blob/main/04-FAQ-with-Infographic/README.md",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/04-FAQ-with-Infographic/faq-with-infographic.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/04-FAQ-with-Infographic/faq-with-infographic.gif"
+    },
     {
       "id": "page-template-hero-sticky-nav",
       "name": "Page Template: Hero + Sticky Nav (The Shell)",
