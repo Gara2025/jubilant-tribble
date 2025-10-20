@@ -41,10 +41,11 @@ All components are designed to work within the following pre-existing environmen
 
 ### Implementation Rules
 
-- **Do Not Modify Structure:** The class names and HTML structure of these components must be used _exactly_ as provided. This ensures they work correctly within the CMS.
-- **Content is Variable:** You should always replace placeholder text, image `src` paths, and link `href` paths with your final content.
-- **Use Placeholder Images:** When a component requires an image and a specific one isn't provided, use the default placeholder image defined in the `manifest.json`.
-
+### Implementation Rules
+*   **Do Not Modify Structure:** The class names and HTML structure of these components must be used _exactly_ as provided.
+*   **Content is Variable:** You should always replace placeholder text, image `src` paths, and link `href` paths with your final content.
+*   **NEW RULE -> All Content is Placeholder:** The text, images, and links found inside the component HTML files are **examples only**. When using a component, you must **completely replace** this placeholder content with the new, required content for your project. Do not mix new and old content.
+*   **Use Placeholder Images:** When a component requires an image and a specific one isn't provided, use the default placeholder image defined in the `manifest.json`.
 ---
 
 ## 3. The Component & Template Library
