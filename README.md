@@ -62,6 +62,7 @@ This is the primary template to use as the foundation for almost all new content
 These are libraries of smaller, reusable HTML blocks designed to be placed inside the main shell template.
 
 - **[01-FAQ-Accordion](./01-FAQ-Accordion/)** - Contains a simple, accessible FAQ component.
+- **[04-FAQ-with-Infographic](./04-FAQ-with-Infographic/)** - A two-column component that pairs an infographic with an accordion.
 - **[03-Pillar-Page-Snippets](./03-Pillar-Page-Snippets/)** - A rich collection of advanced content blocks (comparison tables, feature cards, CTAs, etc.) for building detailed informational pages.
 
 ---
