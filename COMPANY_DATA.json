@@ -1,1 +1,83 @@
-
+{
+  "organization": {
+    "name": "ColorCopiesUSA®",
+    "alternateName": "CCUSA",
+    "legalName": "Mark V Printing LLC",
+    "url": "https://www.colorcopiesusa.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/contentimages/images/ColorCopiesUSA_Logo_Registered_Mark.png.webp?v=3523",
+      "caption": "ColorCopiesUSA - Registered Trademark",
+      "license": "Registered trademark of Mark V Printing LLC under USPTO Reg. No. 7,533,581."
+    },
+    "slogan": "Reliable Quality Partner for Print, Signs and Mail",
+    "description": "ColorCopiesUSA is a modern, experienced and trusted provider of high-quality printing services and print-on-demand for businesses, schools, governments and individuals.",
+    "foundingDate": "1972",
+    "founder": {
+      "@type": "Person",
+      "name": "Gustavo Baner"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "140 NE 32nd Court",
+      "addressLocality": "Oakland Park",
+      "addressRegion": "FL",
+      "postalCode": "33334",
+      "addressCountry": "US"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-877-421-0668",
+      "contactType": "Customer Service",
+      "email": "info@colorcopiesusa.com",
+      "areaServed": "Worldwide",
+      "availableLanguage": ["English", "Spanish"]
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "08:45",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "08:45",
+        "closes": "16:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.bbb.org/us/fl/ft-lauderdale/profile/printers/color-copies-usa-0633-92009924",
+      "https://www.trustpilot.com/review/colorcopiesusa.com",
+      "https://maps.google.com/?cid=12389715934237283075",
+      "https://www.youtube.com/c/ColorCopiesUSATradeShowPrinting",
+      "https://www.facebook.com/USAColorCopies/",
+      "https://www.instagram.com/colorcopiesusa/"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1120",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  },
+  "site_info": {
+    "website_url": "https://www.colorcopiesusa.com/",
+    "about_us_url": "https://www.colorcopiesusa.com/about-color-copies-usa.html",
+    "contact_us_url": "https://www.colorcopiesusa.com/contact-us.html",
+    "blog_hub_url": "https://www.colorcopiesusa.com/blog/",
+    "reviews_page_url": "https://www.colorcopiesusa.com/customers-reviews.html",
+    "printing_academy_url": "https://www.colorcopiesusa.com/printing-academy-101.html"
+  },
+  "authors": [
+    {
+      "id": "gustavo-baner",
+      "name": "Gustavo Baner",
+      "jobTitle": "Printing Expert and CEO",
+      "bioPageUrl": "https://www.colorcopiesusa.com/about-color-copies-usa.html",
+      "linkedInUrl": "https://www.linkedin.com/in/gustavobaner/"
+    }
+  ]
+}
