@@ -12,7 +12,7 @@ These pages demonstrate the practical application of the rules defined in the ma
 
 ### Stress Test Page
 
-![Stress Test Preview](./01-stress-test-dark-color-background-and-nested-elements.jpg)
+![Stress Test Preview](./Showroom/_demostrations/01-stress-test-dark-color-background-and-nested-elements.jpg)
 
 This page is a comprehensive "showroom" for our global CSS classes, especially those related to dark contexts and interactive effects.
 
