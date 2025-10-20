@@ -16,13 +16,14 @@
   "global_defaults": {
     "placeholder_image_url": "https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/products_gallery_images/business-card_1.jpg.webp?v=4324"
   },
-  "components": [
+"components": [
     {
       "id": "faq-accordion",
       "name": "FAQ Accordion",
       "description": "A responsive and accessible accordion section for displaying a list of frequently asked questions.",
       "documentation_url": "https://github.com/Gara2025/jubilant-tribble/blob/main/01-FAQ-Accordion/README.md",
-      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-Accordion/01-faq-formatting.html"
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-Accordion/01-faq-formatting.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-Accordion/01-faq-formatting.gif"
     },
     {
       "id": "page-template-hero-sticky-nav",
