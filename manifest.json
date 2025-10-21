@@ -80,7 +80,13 @@
           "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.html",
           "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.jpg"
         },
-  
+  {
+          "id": "snippet-quick-answers",
+          "name": "Snippet: Collapsible Quick Answers Block",
+          "description": "An interactive block that uses Bootstrap's collapse functionality to show key points upfront and reveal more details when a 'More details' button is clicked.",
+          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-quick-answers.html",
+          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-quick-answers.jpg"
+        },  
     {
       "id": "demonstration-stress-test",
       "name": "Demonstration: Stress Test Page",
