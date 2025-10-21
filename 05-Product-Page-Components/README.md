@@ -13,3 +13,5 @@ This is a visual guide to the reusable blocks available in the `/_snippets` subf
 | Preview | Snippet Name (Click to View Code) | Description |
 | :--- | :--- | :--- |
 | ![Specifications Table Preview](./_snippets/snippet-specifications-table.jpg) | [`snippet-specifications-table.html`](./_snippets/snippet-specifications-table.html) | A structured, two-column table for displaying key product features and specifications. This is intended for the `DESCRIPTION 1` area of a product page. |
+| ![Intro Summary Preview](./_snippets/snippet-intro-summary.jpg) | [`snippet-intro-summary.html`](./_snippets/snippet-intro-summary.html) | A detailed introduction block with a lead paragraph, key specifications, file requirements, and links to alternative products. |
+| ![Quick Answers Preview](./_snippets/snippet-quick-answers.jpg) | [`snippet-quick-answers.html`](./_snippets/snippet-quick-answers.html) | An interactive, collapsible block that shows key points upfront and reveals more details when a "More details" button is clicked. |
