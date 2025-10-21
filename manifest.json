@@ -73,6 +73,13 @@
         }
       ]
     },
+  {
+          "id": "snippet-best-practices-and-apps",
+          "name": "Snippet: Best Practices & Popular Applications",
+          "description": "A self-contained, two-part component with styled cards and 'chips' for showing file preparation guidelines and common product uses. It includes its own <style> block.",
+          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-practices-and-apps.html",
+          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-practices-and-apps.jpg"
+        },
 {
           "id": "snippet-visual-guide-tabs",
           "name": "Snippet: Visual Guide with Interactive Tabs",
