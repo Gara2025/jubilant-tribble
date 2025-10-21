@@ -1,1 +1,163 @@
+<!-- SNIPPET: Interactive Process Steps -->
+<!-- A 4-step process timeline that uses tabs to show detailed content for each step. -->
 
+<!-- 
+  IMPORTANT: This component requires the self-contained <style> and <script> blocks below to function correctly.
+  It also requires Bootstrap 4 JS and jQuery to be loaded on the page.
+-->
+
+<style>
+  /* --- Scoped Styles for Interactive Process Steps --- */
+  .booklet-process-step { text-align: center; margin-bottom: 1.5rem; }
+  .booklet-process-number { background-color: #d01e25; color: white !important; width: 36px; height: 36px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 1rem; font-weight: 700; }
+  .process-tab-btn { background-color: #1d3681; color: white !important; border-color: #1d3681; padding: 0.5rem 1.5rem; border-radius: 5px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; width: 100%; }
+  .process-tab-btn:hover { background-color: #152a6a; }
+  .process-tab-btn.active { background-color: #d01e25 !important; }
+  .process-tab-content .process-tab { display: none; }
+  .process-tab-content .process-tab.active { display: block; }
+  /* Mobile improvement: Add a separator line */
+  @media (max-width: 767px) {
+    .booklet-process-step:not(:last-child) {
+      border-bottom: 1px solid #dee2e6;
+      padding-bottom: 1.5rem;
+    }
+  }
+</style>
+
+<section class="booklet-section booklet-bg-light">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-md-8 mx-auto text-center">
+        <h2 class="booklet-section-title booklet-center-title">
+          [Main Title e.g., Our Booklet Printing Process]
+        </h2>
+        <p>[A brief introductory paragraph for the whole process.]</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Step 1 -->
+      <div class="col-md-3">
+        <div class="booklet-process-step">
+          <div class="booklet-process-number">1</div>
+          <h3 class="h5">[Step 1 Title]</h3>
+          <p class="small">[Brief description for step 1.]</p>
+          <a href="#process-details-content" class="mt-auto">
+            <button class="process-tab-btn" data-tab="step1Tab">Details</button>
+          </a>
+        </div>
+      </div>
+      <!-- Step 2 -->
+      <div class="col-md-3">
+        <div class="booklet-process-step">
+          <div class="booklet-process-number">2</div>
+          <h3 class="h5">[Step 2 Title]</h3>
+          <p class="small">[Brief description for step 2.]</p>
+          <a href="#process-details-content" class="mt-auto">
+            <button class="process-tab-btn" data-tab="step2Tab">Details</button>
+          </a>
+        </div>
+      </div>
+      <!-- Step 3 -->
+      <div class="col-md-3">
+        <div class="booklet-process-step">
+          <h3 class="h5">[Step 3 Title]</h3>
+          <p class="small">[Brief description for step 3.]</p>
+          <a href="#process-details-content" class="mt-auto">
+            <button class="process-tab-btn" data-tab="step3Tab">Details</button>
+          </a>
+        </div>
+      </div>
+      <!-- Step 4 -->
+      <div class="col-md-3">
+        <div class="booklet-process-step">
+          <div class="booklet-process-number">4</div>
+          <h3 class="h5">[Step 4 Title]</h3>
+          <p class="small">[Brief description for step 4.]</p>
+          <a href="#process-details-content" class="mt-auto">
+            <button class="process-tab-btn" data-tab="step4Tab">Details</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Content Area -->
+    <div class="row mt-4" id="process-details-content">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="process-tab-content">
+              <!-- Step 1 Content -->
+              <div id="step1Tab" class="process-tab">
+                <h4 class="h5 mb-3">[Detailed Title for Step 1]</h4>
+                <p>[Detailed content for step 1 goes here...]</p>
+              </div>
+              <!-- Step 2 Content -->
+              <div id="step2Tab" class="process-tab">
+                <h4 class="h5 mb-3">[Detailed Title for Step 2]</h4>
+                <p>[Detailed content for step 2 goes here...]</p>
+              </div>
+              <!-- Step 3 Content -->
+              <div id="step3Tab" class="process-tab">
+                <h4 class="h5 mb-3">[Detailed Title for Step 3]</h4>
+                <p>[Detailed content for step 3 goes here...]</p>
+              </div>
+              <!-- Step 4 Content -->
+              <div id="step4Tab" class="process-tab">
+                <h4 class="h5 mb-3">[Detailed Title for Step 4]</h4>
+                <p>[Detailed content for step 4 goes here...]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Self-contained script for the Interactive Process Steps component
+  document.addEventListener("DOMContentLoaded", function() {
+    const processContainer = document.querySelector('.booklet-section');
+    if (!processContainer) return;
+
+    const tabButtons = processContainer.querySelectorAll(".process-tab-btn");
+    const tabContents = processContainer.querySelectorAll(".process-tab");
+
+    // Function to set the active tab
+    function setActiveTab(tabId) {
+      // Hide all content tabs and deactivate all buttons
+      tabContents.forEach(tab => tab.classList.remove("active"));
+      tabButtons.forEach(btn => btn.classList.remove("active"));
+      
+      // Show the selected tab and activate its button
+      const contentToShow = processContainer.querySelector("#" + tabId);
+      const buttonToActivate = processContainer.querySelector(`[data-tab='${tabId}']`);
+      
+      if (contentToShow) contentToShow.classList.add("active");
+      if (buttonToActivate) buttonToActivate.classList.add("active");
+    }
+
+    // Set a default active tab (e.g., the first one)
+    if (tabButtons.length > 0) {
+        const firstTabId = tabButtons[0].getAttribute("data-tab");
+        setActiveTab(firstTabId);
+    }
+    
+    // Add click listeners to all buttons
+    tabButtons.forEach(button => {
+      button.addEventListener("click", function() {
+        const tabId = this.getAttribute("data-tab");
+        setActiveTab(tabId);
+        
+        // Mobile smooth scroll
+        if (window.innerWidth < 768) {
+          const contentArea = document.getElementById('process-details-content');
+          if (contentArea) {
+            contentArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+  });
+</script>
