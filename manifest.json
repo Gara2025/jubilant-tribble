@@ -81,6 +81,13 @@
           "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-visual-guide-tabs.gif"
         },  
 {
+          "id": "snippet-selection-guide-tables",
+          "name": "Snippet: Product Options Selection Guide",
+          "description": "A detailed guide component with multiple tables and sections for helping users choose between different product options (like coating, covers, colors, etc.). Includes an optional 'Quick decision' alert box.",
+          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-selection-guide-tables.html",
+          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-selection-guide-tables.jpg"
+        },  
+{
           "id": "snippet-best-for-checklist",
           "name": "Snippet: 'Best For' Use Case Checklist",
           "description": "A component that provides a quick, scannable list of ideal use cases (pros) and non-ideal use cases (cons) for a product, with a final paragraph linking to a comparison guide.",
