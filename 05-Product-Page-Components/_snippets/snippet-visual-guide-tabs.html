@@ -1,1 +1,55 @@
+<!-- SNIPPET: Visual Guide with Interactive Tabs -->
+<!-- A component with two tabs: one for an embedded video and one for image examples. -->
 
+<!-- 
+  IMPORTANT: This component uses a small, self-contained <style> block below.
+  The CSS inside is required for the yellow "attention" highlight on the second tab.
+-->
+
+<style>
+  /* Styles for the 'Visual Guide' Tabbed Component */
+  #visual-specs .nav-tabs .nav-link.nav-attn { background: #fff3cd; color: #7a5900; border-color: #ffe69c #ffe69c #dee2e6; }
+  #visual-specs .nav-tabs .nav-link.nav-attn:hover { background: #ffec99; color: #6c4f00; border-color: #ffe066 #ffe066 #dee2e6; }
+  #visual-specs .nav-tabs .nav-link.nav-attn.active { background: #ffd43b; color: #3b2f00; border-color: #ffd43b #ffd43b #fff; }
+</style>
+
+<article id="visual-specs" class="rounded p-3 mt-4 light-modern-gray-block">
+  <h3 class="h5 mb-2">[Visual Guide Title]</h3>
+  
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="video-tab" data-toggle="tab" href="#video-content" role="tab">[Tab 1 Title (e.g., Video)]</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav-attn" id="image-tab" data-toggle="tab" href="#image-content" role="tab"><strong>[Tab 2 Title (e.g., Safe Zone)]</strong></a>
+    </li>
+  </ul>
+
+  <div class="tab-content pt-3">
+    <!-- Tab 1 Content (Video) -->
+    <div id="video-content" class="tab-pane fade show active" role="tabpanel" aria-labelledby="video-tab">
+      <p class="small mb-2">[A brief description for the video tab content goes here.]</p>
+      <div class="embed-responsive embed-responsive-16by9 rounded">
+        <iframe class="embed-responsive-item" src="[YOUTUBE_EMBED_URL]" title="[Video Title for Accessibility]" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+    
+    <!-- Tab 2 Content (Images) -->
+    <div id="image-content" class="tab-pane fade" role="tabpanel" aria-labelledby="image-tab">
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <figure>
+            <img src="[URL_FOR_IMAGE_1]" class="img-fluid rounded" alt="[Descriptive alt text for image 1]">
+            <figcaption class="small text-muted mt-2">[Caption for image 1 goes here.]</figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6">
+          <figure>
+            <img src="[URL_FOR_IMAGE_2]" class="img-fluid rounded" alt="[Descriptive alt text for image 2]">
+            <figcaption class="small text-muted mt-2">[Caption for image 2 goes here.]</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
