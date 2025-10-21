@@ -74,6 +74,13 @@
       ]
     },
 {
+          "id": "snippet-visual-guide-tabs",
+          "name": "Snippet: Visual Guide with Interactive Tabs",
+          "description": "An interactive component with two tabs for displaying a video and image examples. It is self-contained and includes its own <style> block for a yellow 'attention' tab highlight, but still requires Bootstrap 4 JS for the tab functionality.",
+          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-visual-guide-tabs.html",
+          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-visual-guide-tabs.gif"
+        },  
+{
           "id": "snippet-specifications-table",
           "name": "Snippet: Specifications at a Glance Table",
           "description": "A structured, two-column table for displaying key product features and specifications, typically used in the DESCRIPTION 1 area of a product page.",
