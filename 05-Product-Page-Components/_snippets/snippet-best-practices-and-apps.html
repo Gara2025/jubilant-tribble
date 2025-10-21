@@ -1,1 +1,85 @@
+<!-- SNIPPET: Best Practices & Popular Applications -->
+<!-- A two-part component with styled cards and "chips" for showing file prep guidelines and common product uses. -->
 
+<!-- 
+  IMPORTANT: This component requires the self-contained <style> block below to function correctly.
+  It defines the look of the main shell, title, cards, and chips.
+-->
+
+<style>
+  /* ---- Scoped Styles for Best Practices & Applications Component ---- */
+  .guide-v2 { --ink: #243b55; --sub: #6c7a90; --bg: #f7f9fc; --card: #ffffff; --accent: #e63946; --accent-2: #0d6efd; --ring: rgba(230, 57, 70, 0.25); --shadow: 0 6px 18px rgba(27, 39, 66, 0.08); --radius: 14px; }
+  .guide-v2 .guide-shell { background: linear-gradient(180deg, #fafcff 0%, #f4f7fb 100%); border: 1px solid rgba(14, 34, 66, 0.06); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px 24px; }
+  .guide-v2 h3.guide-title { color: var(--ink); font-weight: 700; letter-spacing: 0.2px; margin-bottom: 16px; position: relative; }
+  .guide-v2 h3.guide-title:after { content: ""; display: block; width: 64px; height: 3px; margin-top: 10px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 3px; }
+  .guide-v2 .card-lite { background: var(--card); border: 1px solid rgba(14, 34, 66, 0.06); border-radius: 12px; padding: 16px 16px 14px; height: 100%; transition: all 0.15s ease; }
+  .guide-v2 .card-lite:hover { transform: translateY(-2px); box-shadow: 0 10px 22px rgba(14, 34, 66, 0.08); border-color: rgba(14, 34, 66, 0.12); }
+  .guide-v2 .card-lite h4 { font-weight: 700; color: var(--ink); margin-bottom: 0.25rem; }
+  .guide-v2 .card-lite p, .guide-v2 .muted { color: var(--sub); }
+  .guide-v2 .list-check { padding-left: 0; margin-bottom: 0; list-style: none; }
+  .guide-v2 .list-check li { position: relative; padding-left: 1.4rem; margin: 0.4rem 0; color: var(--ink); }
+  .guide-v2 .list-check li:before { content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900; color: var(--accent-2); position: absolute; left: 0; }
+  .guide-v2 .list-hint { font-size: 0.9rem; color: var(--sub); }
+  .guide-v2 .chip { display: inline-block; font-size: 0.78rem; font-weight: 600; padding: 0.2rem 0.5rem; border-radius: 999px; margin: 0.15rem; background: #eef2ff; color: #1b3ea9; border: 1px solid rgba(27, 62, 169, 0.15); }
+  .guide-v2 .chip.alt { background: #fff1f1; color: #9a1a23; border-color: rgba(230, 57, 70, 0.25); }
+</style>
+
+<div class="guide-v2 my-4">
+  <div class="guide-shell">
+
+    <!-- ========== Best Practices Section ========== -->
+    <section id="best-practices" class="mb-4">
+      <h3 class="guide-title">[Section 1 Title e.g., Best Practices]</h3>
+      <div class="row">
+        <div class="col-lg-6 mb-3">
+          <div class="card-lite h-100">
+            <h4 class="mb-2">[Card 1 Title e.g., File Format]</h4>
+            <ul class="list-check">
+              <li>[Requirement 1]</li>
+              <li>[Requirement 2]</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-3">
+          <div class="card-lite h-100">
+            <h4 class="mb-2">[Card 2 Title e.g., Design Specs]</h4>
+            <ul class="list-check">
+              <li>[Requirement 3]</li>
+              <li>[Requirement 4]</li>
+            </ul>
+            <p class="list-hint mt-2">[An important hint or warning goes here.]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Applications Section ========== -->
+    <section id="applications">
+      <h3 class="guide-title">[Section 2 Title e.g., Popular Applications]</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <article class="card-lite h-100">
+            <h4 class="mb-1">[Application 1 Title]</h4>
+            <p class="muted mb-2">[A brief description of the application.]</p>
+            <div>
+              <span class="chip">[Spec 1]</span>
+              <span class="chip">[Spec 2]</span>
+              <span class="chip alt">[Special Feature]</span>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4 mb-3">
+          <article class="card-lite h-100">
+            <!-- Content for Application 2 -->
+          </article>
+        </div>
+        <div class="col-md-4 mb-3">
+          <article class="card-lite h-100">
+            <!-- Content for Application 3 -->
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
