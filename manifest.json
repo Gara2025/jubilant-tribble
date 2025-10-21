@@ -81,6 +81,13 @@
           "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-visual-guide-tabs.gif"
         },  
 {
+          "id": "snippet-best-for-checklist",
+          "name": "Snippet: 'Best For' Use Case Checklist",
+          "description": "A component that provides a quick, scannable list of ideal use cases (pros) and non-ideal use cases (cons) for a product, with a final paragraph linking to a comparison guide.",
+          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-for-checklist.html",
+          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-for-checklist.jpg"
+        },  
+{
           "id": "snippet-specifications-table",
           "name": "Snippet: Specifications at a Glance Table",
           "description": "A structured, two-column table for displaying key product features and specifications, typically used in the DESCRIPTION 1 area of a product page.",
