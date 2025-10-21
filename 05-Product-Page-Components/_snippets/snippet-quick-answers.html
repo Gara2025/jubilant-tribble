@@ -1,1 +1,49 @@
+<!-- SNIPPET: Collapsible 'Quick Answers' Block -->
+<!-- An interactive block that shows key points upfront and reveals more details on click. -->
+<article class="rounded p-3 light-modern-gray-block" aria-labelledby="quick-answers-h3">
+  <header class="mb-2">
+    <h3 id="quick-answers-h3" class="h5 mb-1">Quick Answers</h3>
+    <p class="small text-muted mb-0">
+      Skim these rules of thumb. Open details as needed.
+    </p>
+  </header>
 
+  <!-- Section 1 -->
+  <h4 class="h6 d-flex align-items-center justify-content-between mt-3">
+    <span>1) [First Quick Answer Title]</span>
+  </h4>
+  <div class="mb-3">
+    <!-- Content for first quick answer goes here (e.g., lists, paragraphs) -->
+    <p class="small">[Details for first quick answer...]</p>
+  </div>
+
+  <!-- Section 2 -->
+  <h4 class="h6 d-flex align-items-center justify-content-between mt-3">
+    <span>2) [Second Quick Answer Title]</span>
+  </h4>
+  <div class="mb-3">
+    <!-- Content for second quick answer goes here -->
+    <p class="small">[Details for second quick answer...]</p>
+  </div>
+
+  <!-- Collapsible Section for More Details -->
+  <div class="collapse" id="quick-answers-more-details">
+    
+    <!-- Section 3 (Hidden by default) -->
+    <h4 class="h6 d-flex align-items-center justify-content-between mt-3">
+      <span>3) [Third Quick Answer Title]</span>
+    </h4>
+    <div class="mb-3">
+      <!-- Content for third quick answer goes here -->
+      <p class="small">[Details for third quick answer...]</p>
+    </div>
+
+    <!-- Add more hidden sections as needed -->
+
+  </div>
+
+  <!-- The Toggle Button -->
+  <button class="btn btn-link p-0" type="button" data-toggle="collapse" data-target="#quick-answers-more-details" aria-expanded="false" aria-controls="quick-answers-more-details">
+    More details
+  </button>
+</article>
