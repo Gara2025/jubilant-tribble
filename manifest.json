@@ -73,6 +73,14 @@
         }
       ]
     },
+{
+          "id": "snippet-specifications-table",
+          "name": "Snippet: Specifications at a Glance Table",
+          "description": "A structured, two-column table for displaying key product features and specifications, typically used in the DESCRIPTION 1 area of a product page.",
+          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.html",
+          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.jpg"
+        },
+  
     {
       "id": "demonstration-stress-test",
       "name": "Demonstration: Stress Test Page",
