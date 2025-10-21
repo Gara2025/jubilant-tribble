@@ -109,6 +109,13 @@
           "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.jpg"
         },
   {
+          "id": "snippet-process-steps-interactive",
+          "name": "Snippet: Interactive Process Steps",
+          "description": "A 4-step interactive timeline that reveals detailed content for each step. It is a self-contained component with its own <style> and <script> blocks, but requires Bootstrap 4 and jQuery to be loaded on the page.",
+          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-process-steps-interactive.html",
+          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-process-steps-interactive.gif"
+        },
+  {
           "id": "snippet-quick-answers",
           "name": "Snippet: Collapsible Quick Answers Block",
           "description": "An interactive block that uses Bootstrap's collapse functionality to show key points upfront and reveal more details when a 'More details' button is clicked.",
