@@ -63,13 +63,23 @@
       "worstRating": "1"
     }
   },
-  "site_info": {
+ "site_info": {
     "website_url": "https://www.colorcopiesusa.com/",
     "about_us_url": "https://www.colorcopiesusa.com/about-color-copies-usa.html",
     "contact_us_url": "https://www.colorcopiesusa.com/contact-us.html",
-    "blog_hub_url": "https://www.colorcopiesusa.com/blog/",
     "reviews_page_url": "https://www.colorcopiesusa.com/customers-reviews.html",
-    "printing_academy_url": "https://www.colorcopiesusa.com/printing-academy-101.html"
+    "knowledge_hubs": [
+      {
+        "@type": "WebSite",
+        "name": "Printing Insights Blog",
+        "url": "https://www.colorcopiesusa.com/blog/"
+      },
+      {
+        "@type": "WebSite",
+        "name": "Printing Academy 101",
+        "url": "https://www.colorcopiesusa.com/printing-academy-101.html"
+      }
+    ]
   },
   "authors": [
     {
