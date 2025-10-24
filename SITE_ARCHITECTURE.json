@@ -1,1 +1,68 @@
-
+{
+  "description": "This document is the master architectural map of the ColorCopiesUSA.com website. It defines the key sections, knowledge hubs, and product categories for AI use in generating interconnected schema.",
+  "main_pages": [
+    {
+      "name": "Homepage",
+      "url": "https://www.colorcopiesusa.com/",
+      "description": "The main entry point of the website."
+    },
+    {
+      "name": "About Us Page",
+      "url": "https://www.colorcopiesusa.com/about-color-copies-usa.html",
+      "description": "Information about the company's history, team, and mission."
+    },
+    {
+      "name": "Contact Us Page",
+      "url": "https://www.colorcopiesusa.com/contact-us.html",
+      "description": "Provides contact information, hours, and address."
+    }
+  ],
+  "knowledge_base": [
+    {
+      "name": "Printing Academy 101",
+      "url": "https://www.colorcopiesusa.com/printing-academy-101.html",
+      "description": "The primary pillar page for all educational content, tutorials, and guides."
+    },
+    {
+      "name": "Printing Insights Blog",
+      "url": "https://www.colorcopiesusa.com/blog/",
+      "description": "The company blog, featuring articles on industry trends, tips, and announcements."
+    }
+  ],
+  "product_infrastructure": {
+    "main_product_list_page": {
+      "name": "All Products",
+      "url": "https://www.colorcopiesusa.com/product_list.html",
+      "description": "A comprehensive list of all products and services offered."
+    },
+    "product_categories": [
+      {
+        "name": "Binding Services Hub",
+        "url": "https://www.colorcopiesusa.com/books-booklets-stapled-catalogs/products/",
+        "description": "The main category page for all booklet and book binding options."
+      },
+      {
+        "name": "Envelope Hub",
+        "url": "https://www.colorcopiesusa.com/custom-printed-envelopes-multiple-sizes/products/",
+        "description": "The main category page for all envelope products."
+      },
+      {
+        "name": "Postcard & Flyer Hub",
+        "url": "https://www.colorcopiesusa.com/standard-postcards-flyers-and-magnetic-postcards-and-specialty-postcards/products/",
+        "description": "The main category page for all postcard and flyer products."
+      }
+    ]
+  },
+  "support_pages": [
+    {
+      "name": "Customer Reviews Page",
+      "url": "https://www.colorcopiesusa.com/customers-reviews.html",
+      "description": "A collection of testimonials and reviews from clients."
+    },
+    {
+      "name": "Help & FAQ Page",
+      "url": "https://www.colorcopiesusa.com/help-is-here.html",
+      "description": "Answers to common questions about accounts, shipping, and services."
+    }
+  ]
+}
