@@ -122,6 +122,13 @@
           "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-quick-answers.html",
           "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-quick-answers.jpg"
         },  
+   {
+          "id": "snippet-pricing-examples",
+          "name": "Snippet: Pricing Examples Table",
+          "description": "A simple but powerful table used on product pages to provide concrete, indexable pricing examples for different configurations. Each example links directly to the pre-configured product URL.",
+          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-pricing-examples.html",
+          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-pricing-examples.jpg"
+        },
     {
       "id": "demonstration-stress-test",
       "name": "Demonstration: Stress Test Page",
