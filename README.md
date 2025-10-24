@@ -46,6 +46,25 @@ All components are designed to work within the following pre-existing environmen
 *   **All Content is an Example:** The text, images, and links found inside the component HTML files are for demonstration purposes only. **Even though this content is not explicitly marked as a "placeholder," it MUST be treated as such.**
 *   **Content Must Be Replaced:** When using a component, you must **completely replace** the example content with the new, required content for your project. Do not mix or merge the new content with the example content.
 *   **Use Placeholder Images:** When a component requires an image and a specific one isn't provided, use the default placeholder image defined in the `manifest.json`.
+
+### Standard Page Architectures
+
+This section defines the standard "blueprints" for assembling common page types. It dictates which components are required and where they should be placed.
+
+#### **The "In-Depth" Content Page**
+*   **Purpose:** Comprehensive, educational articles (e.g., guides, deep dives).
+*   **Required Shell:** `page-template-hero-sticky-nav`.
+*   **Required Content:** Must contain detailed text, headings, and may use any snippets from the `pillar-page-snippet-collection`.
+
+#### **The "Product" Page**
+*   **Purpose:** To present a configurable product and its pricing calculator.
+*   **Required Shell:** Can use the `page-template-hero-sticky-nav` or another shell.
+*   **Required Structure:**
+    1.  **Calculator Area:** The main interactive pricing calculator provided by the CMS.
+    2.  **Description 1 Area:** This area sits directly below the calculator and **must** contain the `snippet-specifications-table` component from the `05-Product-Page-Components` collection.
+    3.  **Description 2 Area:** This area contains all other marketing copy and informational snippets, such as the `snippet-intro-summary`, `snippet-best-for-checklist`, and the new `snippet-pricing-examples`.
+
+
 ---
 
 ## 3. The Component & Template Library
