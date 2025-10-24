@@ -1,7 +1,12 @@
-<!-- SNIPPET: Pricing Examples Table -->
-<!-- A simple table to showcase concrete pricing examples for a product with a calculator. -->
-<div class="pricing-examples-container my-4">
-  <h3 class="h5 mb-3 text-center">[Title e.g., Example Pricing]</h3>
+<!-- SNIPPET: Pricing Examples Table (with Semantic Microdata) -->
+<!-- 
+  This component uses schema.org Microdata to embed structured data directly into the HTML.
+  This makes the pricing examples machine-readable, which is critical for AI and SEO.
+-->
+<div class="pricing-examples-container my-4" itemscope itemtype="https://schema.org/Product">
+
+  <h3 class="h5 mb-3 text-center" itemprop="name">[Title e.g., Example Pricing for Custom Booklets]</h3>
+  
   <table class="table table-bordered table-striped text-center">
     <thead class="thead-light">
       <tr>
@@ -11,24 +16,34 @@
       </tr>
     </thead>
     <tbody>
-      <!-- Example Row 1 -->
-      <tr>
-        <td>[Example 1: e.g., 500 Copies, 80# Gloss Text, Coil Bound]</td>
-        <td class="font-weight-bold">[Price 1 e.g., $95.00]</td>
-        <td><a href="[Platform-Generated_URL_1]" class="btn btn-sm custom-red-button">View Configuration</a></td>
+      
+      <!-- Example Row 1: This entire row is a single "Offer" -->
+      <tr itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+        <td itemprop="description">[Example 1: e.g., 500 Copies, 80# Gloss Text, Coil Bound]</td>
+        <td class="font-weight-bold" itemprop="price" content="95.00">[Price 1 e.g., $95.00]
+          <meta itemprop="priceCurrency" content="USD" />
+        </td>
+        <td><a href="[Platform-Generated_URL_1]" class="btn btn-sm custom-red-button" itemprop="url">View Configuration</a></td>
       </tr>
-      <!-- Example Row 2 -->
-      <tr>
-        <td>[Example 2: e.g., 1000 Copies, 100# Matte Cover, Perfect Bound]</td>
-        <td class="font-weight-bold">[Price 2 e.g., $180.00]</td>
-        <td><a href="[Platform-Generated_URL_2]" class="btn btn-sm custom-red-button">View Configuration</a></td>
+
+      <!-- Example Row 2: This entire row is another "Offer" -->
+      <tr itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+        <td itemprop="description">[Example 2: e.g., 1000 Copies, 100# Matte Cover, Perfect Bound]</td>
+        <td class="font-weight-bold" itemprop="price" content="180.00">[Price 2 e.g., $180.00]
+          <meta itemprop="priceCurrency" content="USD" />
+        </td>
+        <td><a href="[Platform-Generated_URL_2]" class="btn btn-sm custom-red-button" itemprop="url">View Configuration</a></td>
       </tr>
+
       <!-- Example Row 3 (Optional) -->
-      <tr>
-        <td>[Example 3: e.g., 250 Copies, 28# Uncoated, Saddle Stitched]</td>
-        <td class="font-weight-bold">[Price 3 e.g., $45.50]</td>
-        <td><a href="[Platform-Generated_URL_3]" class="btn btn-sm custom-red-button">View Configuration</a></td>
+      <tr itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+        <td itemprop="description">[Example 3: e.g., 250 Copies, 28# Uncoated, Saddle Stitched]</td>
+        <td class="font-weight-bold" itemprop="price" content="45.50">[Price 3 e.g., $45.50]
+          <meta itemprop="priceCurrency" content="USD" />
+        </td>
+        <td><a href="[Platform-Generated_URL_3]" class="btn btn-sm custom-red-button" itemprop="url">View Configuration</a></td>
       </tr>
+
     </tbody>
   </table>
   <p class="small text-muted text-center mb-0">
