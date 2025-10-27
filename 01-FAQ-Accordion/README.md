@@ -26,6 +26,38 @@ For details, please refer to the **main project `README.md` file**.
     *   For each question, edit the text inside the `<button>` tag.
     *   For each answer, edit the content inside the `<div class="faq-body">`. You can include paragraphs, lists, and links in the answer.
 
+----
+### ⚠️ IMPORTANT: What NOT to Change
+
+For the accordion to work properly, **DO NOT modify** the following:
+
+1. **Class names** - Keep all classes as they are (e.g., `accordion`, `card`, `card-header`, `collapse`, `faq-body`)
+2. **IDs** - These MUST match:
+   - The main accordion ID: `id="faqAccordion"`
+   - Each question's header ID: `id="faq1"`, `id="faq2"`, etc.
+   - Each answer's collapse ID: `id="collapse1"`, `id="collapse2"`, etc.
+3. **Bootstrap attributes**:
+   - `data-toggle="collapse"`
+   - `data-target="#collapse1"` (must match the collapse ID)
+   - `data-parent="#faqAccordion"` (must match the main accordion ID)
+
+**When adding more questions:**
+- Copy the entire card block
+- Increment the numbers in IDs: `faq2`, `collapse2`, `faq3`, `collapse3`, etc.
+- Make sure `data-target` matches the new `collapse` ID
+
+**Only change:**
+- The heading text inside `<h2>`
+- The question text inside `<button>`
+- The answer content inside `<div class="faq-body">`
+
+
+
+
+----
+
+
+
 ### Code Structure Example
 
 The component uses a standard Bootstrap 4 accordion structure. Each question/answer pair is a `<div class="card">`.
