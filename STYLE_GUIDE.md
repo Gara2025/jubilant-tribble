@@ -77,7 +77,7 @@ This section documents the special global CSS classes that can be applied to ele
 
 | # | Component / Effect | Best For | Key CSS Classes | Preview |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | White Fonts on Dark BG (Hero) | Hero sections, dark backgrounds | `.hero-block`, `.on-dark` | ![Hero Preview](image.jpg) |
+| **1** | White Fonts on Dark BG (Hero) | Hero sections, dark backgrounds | `.hero-block`, `.on-dark` | ![Hero Preview](./_assets/style-guide-images/hero-block-on-dark-readable-width.jpg)  |
 | **2** | Pulsing Red Button | CTAs on dark backgrounds | `.custom-red-button`, `.animate-pulse` | ![Button Preview](image.jpg) |
 | **3** | Featured Promo Box | Important announcements, promotions | `.promoBox`, `.is-featured` | ![Promo Preview](image.jpg) |
 | **4** | Pulsing Blue Button | CTAs on light backgrounds | `.custom-blue-button`, `.animate-pulse` | ![Button Preview](image.jpg) |
