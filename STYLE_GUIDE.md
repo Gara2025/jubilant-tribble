@@ -72,7 +72,7 @@ This section documents the special global CSS classes that can be applied to ele
 
 ### Summary Table
 
-| # | Component / Effect | Context | Key CSS Classes | Preview |
+| # | Component / Effect | Best For | Key CSS Classes | Preview |
 | :-- | :-- | :-- | :-- | :-- |
 | **1** | **White Fonts on Dark BG (Hero)** | Hero Section | `` `.hero-block` ``, `` `.on-dark` `` | ![Hero Preview](./_assets/style-guide-images/hero-block-on-dark-readable-width.jpg) |
 | **2** | **Pulsing Red Button** | On Hero / Dark BG | `` `.custom-red-button` ``, `` `.animate-pulse` `` | ![Pulsing Red Button Preview](./_assets/style-guide-images/custom-red-button-animate-pulse.gif) |
