@@ -106,7 +106,7 @@ This section documents the special global CSS classes that can be applied to ele
 #### 1. White Fonts on Dark Background (Hero)
 Use `.hero-block` and `.on-dark` to create a hero with white text.
 
-```html
+```
 <div class="hero-block on-dark readable-width" style="--hero-bg-image: url('...');">
   <h1>This text will be white.</h1>
 </div>```
@@ -114,7 +114,7 @@ Use `.hero-block` and `.on-dark` to create a hero with white text.
 #### 2. Pulsing Red Button
 Add `.animate-pulse` to a `.custom-red-button` to make it pulse.
 
-```html
+```
 <a href="#" class="custom-red-button animate-pulse" style="margin-top: 20px;">
   A Pulsing Button
 </a>             
