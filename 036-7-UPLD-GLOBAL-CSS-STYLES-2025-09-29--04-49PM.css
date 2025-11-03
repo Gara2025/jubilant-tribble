@@ -209,6 +209,109 @@ h2 a:hover,
   text-align: center !important;
   margin-bottom: 3rem;
 }
+/* ================================================================= */
+/*  GRADIENT BACKGROUND BLOCKS - Add to Global CSS                   */
+/*  Use with .on-dark for automatic white text and light blue links  */
+/* ================================================================= */
+
+/* --- Blue Gradient Backgrounds --- */
+.blue-gradient-block {
+  background: linear-gradient(135deg, #1e337e 0%, #4a90c2 100%) !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.blue-gradient-block-vertical {
+  background: linear-gradient(180deg, #1e337e 0%, #4a90c2 100%) !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* --- Green Gradient Backgrounds --- */
+.green-gradient-block {
+  background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%) !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.green-gradient-block-vertical {
+  background: linear-gradient(180deg, #2ecc71 0%, #27ae60 100%) !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* --- Dark Gradient Backgrounds --- */
+.dark-gradient-block {
+  background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3a 100%) !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* --- Professional Blue Gradient (lighter, for subtle accents) --- */
+.professional-gradient-block {
+  background: linear-gradient(135deg, #4a90c2 0%, #6bb6ff 100%) !important;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* ================================================================= */
+/*  ENHANCED .alert-link BEHAVIOR                                    */
+/*  Ensures alert-link works on both plain and gradient backgrounds  */
+/* ================================================================= */
+
+/* 
+  IMPORTANT: These rules ensure .alert-link works correctly on:
+  - Plain color backgrounds (.trust-blue-block, .dark-background-block, etc.)
+  - Gradient backgrounds (.blue-gradient-block, .green-gradient-block, etc.)
+  - Any element with .on-dark class
+*/
+
+/* Alert links on dark backgrounds (plain or gradient) */
+#product-description .on-dark a.alert-link,
+#cms_page .on-dark a.alert-link,
+#site-wrapper .on-dark a.alert-link,
+.on-dark a.alert-link {
+  color: #d7e9fc !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+  text-underline-offset: 2px;
+}
+
+#product-description .on-dark a.alert-link:hover,
+#cms_page .on-dark a.alert-link:hover,
+#site-wrapper .on-dark a.alert-link:hover,
+.on-dark a.alert-link:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+/* Alert links on white/light backgrounds (default Bootstrap behavior enhanced) */
+a.alert-link {
+  color: #1e337e !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+a.alert-link:hover {
+  color: #4a90c2 !important;
+  text-decoration: underline !important;
+}
+
+/* ================================================================= */
+/*  END: GRADIENT BACKGROUND BLOCKS                                  */
+/* ================================================================= */
+
+
+
+
+
+
 
 /* --- 2.3: Universal Modifiers --- */
 .info-card-hover,
@@ -845,3 +948,4 @@ h2 a:hover,
   display: inline;
 }
 /* ================================================================= */
+
