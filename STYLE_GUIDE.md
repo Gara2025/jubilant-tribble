@@ -70,6 +70,17 @@ This is the default style for all content placed on a white or light grey backgr
 
 This section documents the special global CSS classes that can be applied to elements to add visual styles and effects. For a live demonstration of all these classes working together, see the file in the `_demonstrations` folder.
 
+This section documents 19 reusable CSS components and effects available in our global stylesheet.
+
+**Structure:**
+- **Summary Table** (below) - Quick visual reference with preview images
+- **Detailed Code Examples** (further below) - Complete HTML code for each component
+
+**How to Navigate:**
+The **#** column in the Summary Table corresponds directly to the numbered code examples. For example:
+- Row **#12** in the table → Scroll to **Example 12** for the HTML code
+- Row **#14** in the table → Scroll to **Example 14** for the HTML code
+
 ### Summary Table
 
 | # | Component / Effect | Best For | Key CSS Classes | Preview |
