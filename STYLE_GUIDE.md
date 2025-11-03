@@ -88,6 +88,14 @@ This section documents the special global CSS classes that can be applied to ele
 | **Nested Green Button** | Button in Box | `` `.promoBox` ``, `` `.custom-green-button` `` | ![Nested Green Button Preview](./_assets/style-guide-images/green-btn-neste-on-promobox-hover.gif) |
 | **Alert Link** | Dark BG Only | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-blue.jpg) |
 | **Alert Link on white bkg** | on White Option | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-white.jpg) |
+| **Blue Gradient Block (Diagonal)** | Hero / Intro Section | `` `.blue-gradient-block` ``, `` `.on-dark` `` | ![Blue Gradient Diagonal](./_assets/style-guide-images/blue-gradient-block-diagonal.jpg) |
+| **Blue Gradient Block (Vertical)** | Sidebar / Vertical Banner | `` `.blue-gradient-block-vertical` ``, `` `.on-dark` `` | ![Blue Gradient Vertical](./_assets/style-guide-images/blue-gradient-block-vertical.jpg) |
+| **Green Gradient Block (Diagonal)** | Success / Confirmation | `` `.green-gradient-block` ``, `` `.on-dark` `` | ![Green Gradient Success](./_assets/style-guide-images/gradient-green-success-confimation.jpg) |
+| **Green Gradient Block (Vertical)** | Sidebar Success Message | `` `.green-gradient-block-vertical` ``, `` `.on-dark` `` | ![Green Gradient Vertical](./_assets/style-guide-images/green-gradient-block-vertical.jpg) |
+| **Dark Gradient Block** | Premium / Sophisticated | `` `.dark-gradient-block` ``, `` `.on-dark` `` | ![Dark Gradient](./_assets/style-guide-images/dark-gradient-block.jpg) |
+| **Professional Gradient Block** | Subtle Info / Secondary | `` `.professional-gradient-block` ``, `` `.on-dark` `` | ![Professional Gradient](./_assets/style-guide-images/professional-gradient-block.jpg) |
+| **Hero Call-to-Action** | Main CTA Section | `` `.blue-gradient-block` ``, `` `.on-dark` ``, `` `.text-center` ``, `` `.alert-link` `` | ![Hero CTA](./_assets/style-guide-images/hero-call-to-action.jpg) |
+| **Informational Card (White)** | Standard Content Card | `` `.card` ``, `` `.card-body` ``, `` `.alert-link` `` | ![Info Card White](./_assets/style-guide-images/Informational-Card-White-Background.jpg) |
 
 ---
 
