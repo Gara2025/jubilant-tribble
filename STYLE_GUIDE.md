@@ -210,7 +210,7 @@ Use `.blue-gradient-block` with `.on-dark` to create a diagonal blue gradient ba
        <a href="#" class="alert-link">alert link</a> for primary actions.</p>
   </div>
 </div>
-```
+```html
 
 #### 13. Blue Gradient Block (Vertical)
 Use `.blue-gradient-block-vertical` for a top-to-bottom gradient flow. Ideal for sidebars and vertical banners.
