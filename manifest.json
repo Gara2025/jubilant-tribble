@@ -6,12 +6,64 @@
     "content": "Inner text, image src, and link href attributes found inside component files are considered placeholders and must be populated with new content.",
     "placeholder_content_rule": "CRITICAL RULE: The content inside component HTML files (text, images, links) is for demonstration only and is NOT explicitly marked as a 'placeholder'. You MUST treat all such content as a temporary example that MUST be completely replaced with new content during implementation. Do not merge, append, or mix the example content with the new content.",
     "environment_dependencies": {
-      "description": "All components are designed to work within this specific technical environment. The custom_css file contains many important, pre-built styles that should be leveraged.",
+      "description": "All components are designed to work within this specific technical environment. The custom_css file contains gradient background blocks, button styles, the .on-dark utility, and many other pre-built styles that should be leveraged.",
       "bootstrap": "4.6",
       "jquery": "3.5.1",
       "fancybox": "3.5.7",
       "font_awesome": "6.5.1",
-      "custom_css": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css"
+      "custom_css": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css",
+      "custom_css_last_updated": "2025-11-03",
+      "style_guide": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/STYLE_GUIDE.md",
+      "key_global_utilities": {
+        "gradient_backgrounds": {
+          "description": "Six gradient background classes that MUST be used with .on-dark for readable white text",
+          "classes": [
+            ".blue-gradient-block - Diagonal blue gradient for hero sections and main callouts",
+            ".blue-gradient-block-vertical - Vertical blue gradient for sidebars",
+            ".green-gradient-block - Diagonal green gradient for success messages",
+            ".green-gradient-block-vertical - Vertical green gradient for success indicators",
+            ".dark-gradient-block - Diagonal dark gradient for premium/sophisticated content",
+            ".professional-gradient-block - Diagonal lighter blue gradient for subtle sections"
+          ],
+          "critical_rule": "ALWAYS use .on-dark with gradient blocks or text will be unreadable"
+        },
+        "buttons": {
+          "classes": [
+            ".custom-blue-button - Primary blue button",
+            ".custom-red-button - Call-to-action red button",
+            ".custom-green-button - Success/confirmation green button"
+          ],
+          "modifier": ".animate-pulse - Add pulsing animation to any button"
+        },
+        "dark_background_utilities": {
+          "description": "The .on-dark class makes all text white and links light blue on dark backgrounds",
+          "classes": [
+            ".on-dark - Apply to any dark background container",
+            ".hero-block - Special hero section with background image support",
+            ".dark-background-block - Solid dark background",
+            ".trust-blue-block - Corporate blue background"
+          ]
+        },
+        "links": {
+          "description": "Special link styling for different contexts",
+          "classes": [
+            ".alert-link - High-contrast links on dark backgrounds (very light blue, bold)",
+            ".alert-link (on white) - Professional emphasis links on light backgrounds (navy, bold)"
+          ]
+        },
+        "interactive_effects": {
+          "classes": [
+            ".hover-lift - Lift effect on hover (works with nesting)",
+            ".animate-pulse - Pulsing animation for CTAs",
+            ".promoBox - White card with optional .is-featured modifier"
+          ]
+        },
+        "layout_utilities": {
+          "classes": [
+            ".readable-width - Constrains text width for better readability"
+          ]
+        }
+      }
     }
   },
   "global_defaults": {
@@ -132,7 +184,7 @@
     {
       "id": "demonstration-stress-test",
       "name": "Demonstration: Stress Test Page",
-      "description": "This is a reference file, NOT a reusable component. It shows live examples of all the global CSS classes from the STYLE_GUIDE.md, such as .on-dark, .lift, and .aura.",
+      "description": "This is a reference file, NOT a reusable component. It shows live examples of all the global CSS classes from the STYLE_GUIDE.md, including .on-dark, gradient blocks, buttons, and interactive effects.",
       "documentation_url": "https://github.com/Gara2025/jubilant-tribble/blob/main/_demonstrations/README.md",
       "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/_demonstrations/01-stress-test-dark-background-and-nested-elements.html",
       "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/_demonstrations/01-stress-test-dark-background-and-nested-elements.jpg"
