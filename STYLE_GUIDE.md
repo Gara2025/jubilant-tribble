@@ -75,55 +75,27 @@ This section documents the special global CSS classes that can be applied to ele
 
 ### Summary Table
 
-| # | Component / Effect | Best For | Key CSS Classes | Preview |
-| :---: | :--- | :--- | :--- | :--- |
-| **1** | White Fonts on Dark BG (Hero) | Hero sections, dark backgrounds | `.hero-block`, `.on-dark` | ![Hero Preview](./_assets/style-guide-images/hero-block-on-dark-readable-width.jpg)  |
-| **2** | Pulsing Red Button | CTAs on dark backgrounds | `.custom-red-button`, `.animate-pulse` | ![Button Preview](image.jpg) |
-| **3** | Featured Promo Box | Important announcements, promotions | `.promoBox`, `.is-featured` | ![Promo Preview](image.jpg) |
-| **4** | Pulsing Blue Button | CTAs on light backgrounds | `.custom-blue-button`, `.animate-pulse` | ![Button Preview](image.jpg) |
-| **5** | Readable Width Text | Inside dark blocks for better readability | `.readable-width` | ![Readable Preview](image.jpg) |
-| **6** | Table on Dark BG | Data tables on dark backgrounds | `.on-dark`, `style="color: white"` | ![Table Preview](image.jpg) |
-| **7** | Nested Hover/Lift Box | Interactive cards, promotional boxes | `.hover-lift` | ![Hover Preview](image.jpg) |
-| **8** | Standard Buttons | Any context, primary actions | `.custom-blue-button`, `.custom-red-button`, `.custom-green-button` | ![Buttons Preview](image.jpg) |
-| **9** | Nested Green Button | CTAs inside promotional boxes | `.promoBox`, `.custom-green-button` | ![Green Button Preview](image.jpg) |
-| **10** | Alert Link (Dark Background) | High-priority links on dark backgrounds | `.alert-link`, `.on-dark` | ![Alert Link Preview](image.jpg) |
-| **11** | Alert Link (White Background) | Emphasis links on light backgrounds | `.alert-link` | ![Alert Link White Preview](image.jpg) |
-| **12** | Blue Gradient (Diagonal) | Hero sections, main callouts | `.blue-gradient-block`, `.on-dark` | ![Blue Gradient Preview](image.jpg) |
-| **13** | Blue Gradient (Vertical) | Sidebars, vertical banners | `.blue-gradient-block-vertical`, `.on-dark` | ![Blue Vertical Preview](image.jpg) |
-| **14** | Green Gradient (Diagonal) | Success messages, confirmations | `.green-gradient-block`, `.on-dark` | ![Green Gradient Preview](image.jpg) |
-| **15** | Green Gradient (Vertical) | Vertical success indicators | `.green-gradient-block-vertical`, `.on-dark` | ![Green Vertical Preview](image.jpg) |
-| **16** | Dark Gradient | Premium features, sophisticated content | `.dark-gradient-block`, `.on-dark` | ![Dark Gradient Preview](image.jpg) |
-| **17** | Professional Gradient | Subtle info boxes, secondary callouts | `.professional-gradient-block`, `.on-dark` | ![Professional Preview](image.jpg) |
-| **18** | Hero Call-to-Action | Main CTAs with multiple elements | `.blue-gradient-block`, `.on-dark`, `.text-center` | ![Hero CTA Preview](image.jpg) |
-| **19** | Informational Card (White) | Content cards with emphasis links | `.card`, `.card-body`, `.alert-link` | ![Info Card Preview](image.jpg) |
-
--------------------------------------
-
-
-
-
-
-| Component / Effect | Context | Key CSS Classes | Preview |
-| :--- | :--- | :--- | :--- |
-| **White Fonts on Dark BG (Hero)** | Hero Section | `` `.hero-block` ``, `` `.on-dark` `` | ![Hero Preview](./_assets/style-guide-images/hero-block-on-dark-readable-width.jpg) |
-| **Pulsing Red Button** | On Hero / Dark BG | `` `.custom-red-button` ``, `` `.animate-pulse` `` | ![Pulsing Red Button Preview](./_assets/style-guide-images/custom-red-button-animate-pulse.gif) |
-| **Featured Promo Box** | Message Block | `` `.promoBox` ``, `` `.is-featured` `` | ![Featured Card Preview](./_assets/style-guide-images/promobox-is-featured.jpg) |
-| **Pulsing Blue Button** | On Light BG | `` `.custom-blue-button` ``, `` `.animate-pulse` `` | ![Pulsing Blue Button Preview](./_assets/style-guide-images/custom-blue-button-animate-pulse.gif) |
-| **Readable Width Text** | Inside Dark Block | `` `.readable-width` `` | ![Readable Width Preview](./_assets/style-guide-images/readable-width.jpg) |
-| **Table on Dark BG** | Inside Dark Block | `` `.on-dark` ``, `style="color: white"` | ![Table on Dark BG Preview](./_assets/style-guide-images/table-black-bkgd-white-fonts.jpg) |
-| **Nested Hover/Lift Box** | Nesting Blocks | `` `.hover-lift` `` | ![Nested Hover/Lift Preview](./_assets/style-guide-images/blue-bx-nested-gray-hover-lift.gif) |
-| **Standard Buttons** | Any | `` `.custom-blue-button` ``, etc. | ![Standard Buttons Preview](./_assets/style-guide-images/blue-red-green-buttons.gif) |
-| **Nested Green Button** | Button in Box | `` `.promoBox` ``, `` `.custom-green-button` `` | ![Nested Green Button Preview](./_assets/style-guide-images/green-btn-neste-on-promobox-hover.gif) |
-| **Alert Link** | Dark BG Only | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-blue.jpg) |
-| **Alert Link on white bkg** | on White Option | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-white.jpg) |
-| **Blue Gradient Block (Diagonal)** | Hero / Intro Section | `` `.blue-gradient-block` ``, `` `.on-dark` `` | ![Blue Gradient Diagonal](./_assets/style-guide-images/blue-gradient-block-diagonal.jpg) |
-| **Blue Gradient Block (Vertical)** | Sidebar / Vertical Banner | `` `.blue-gradient-block-vertical` ``, `` `.on-dark` `` | ![Blue Gradient Vertical](./_assets/style-guide-images/blue-gradient-block-vertical.jpg) |
-| **Green Gradient Block (Diagonal)** | Success / Confirmation | `` `.green-gradient-block` ``, `` `.on-dark` `` | ![Green Gradient Success](./_assets/style-guide-images/gradient-green-success-confimation.jpg) |
-| **Green Gradient Block (Vertical)** | Sidebar Success Message | `` `.green-gradient-block-vertical` ``, `` `.on-dark` `` | ![Green Gradient Vertical](./_assets/style-guide-images/green-gradient-block-vertical.jpg) |
-| **Dark Gradient Block** | Premium / Sophisticated | `` `.dark-gradient-block` ``, `` `.on-dark` `` | ![Dark Gradient](./_assets/style-guide-images/dark-gradient-block.jpg) |
-| **Professional Gradient Block** | Subtle Info / Secondary | `` `.professional-gradient-block` ``, `` `.on-dark` `` | ![Professional Gradient](./_assets/style-guide-images/professional-gradient-block.jpg) |
-| **Hero Call-to-Action** | Main CTA Section | `` `.blue-gradient-block` ``, `` `.on-dark` ``, `` `.text-center` ``, `` `.alert-link` `` | ![Hero CTA](./_assets/style-guide-images/hero-call-to-action.jpg) |
-| **Informational Card (White)** | Standard Content Card | `` `.card` ``, `` `.card-body` ``, `` `.alert-link` `` | ![Info Card White](./_assets/style-guide-images/Informational-Card-White-Background.jpg) |
+| # | Component / Effect | Context | Key CSS Classes | Preview |
+| :---| :--- | :--- | :--- | :--- |
+| **1** | **White Fonts on Dark BG (Hero)** | Hero Section | `` `.hero-block` ``, `` `.on-dark` `` | ![Hero Preview](./_assets/style-guide-images/hero-block-on-dark-readable-width.jpg) |
+| **2** | **Pulsing Red Button** | On Hero / Dark BG | `` `.custom-red-button` ``, `` `.animate-pulse` `` | ![Pulsing Red Button Preview](./_assets/style-guide-images/custom-red-button-animate-pulse.gif) |
+| **3** | **Featured Promo Box** | Message Block | `` `.promoBox` ``, `` `.is-featured` `` | ![Featured Card Preview](./_assets/style-guide-images/promobox-is-featured.jpg) |
+| **4** | **Pulsing Blue Button** | On Light BG | `` `.custom-blue-button` ``, `` `.animate-pulse` `` | ![Pulsing Blue Button Preview](./_assets/style-guide-images/custom-blue-button-animate-pulse.gif) |
+| **5** | **Readable Width Text** | Inside Dark Block | `` `.readable-width` `` | ![Readable Width Preview](./_assets/style-guide-images/readable-width.jpg) |
+| **6** | **Table on Dark BG** | Inside Dark Block | `` `.on-dark` ``, `style="color: white"` | ![Table on Dark BG Preview](./_assets/style-guide-images/table-black-bkgd-white-fonts.jpg) |
+| **7** | **Nested Hover/Lift Box** | Nesting Blocks | `` `.hover-lift` `` | ![Nested Hover/Lift Preview](./_assets/style-guide-images/blue-bx-nested-gray-hover-lift.gif) |
+| **8** | **Standard Buttons** | Any | `` `.custom-blue-button` ``, etc. | ![Standard Buttons Preview](./_assets/style-guide-images/blue-red-green-buttons.gif) |
+| **9** | **Nested Green Button** | Button in Box | `` `.promoBox` ``, `` `.custom-green-button` `` | ![Nested Green Button Preview](./_assets/style-guide-images/green-btn-neste-on-promobox-hover.gif) |
+| **10** | **Alert Link** | Dark BG Only | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-blue.jpg) |
+| **11** | **Alert Link on white bkg** | on White Option | `` `.alert-link` `` | ![Alert Link on Blue Preview](./_assets/style-guide-images/alert-link-on-white.jpg) |
+| **12** | **Blue Gradient Block (Diagonal)** | Hero / Intro Section | `` `.blue-gradient-block` ``, `` `.on-dark` `` | ![Blue Gradient Diagonal](./_assets/style-guide-images/blue-gradient-block-diagonal.jpg) |
+| **13** | **Blue Gradient Block (Vertical)** | Sidebar / Vertical Banner | `` `.blue-gradient-block-vertical` ``, `` `.on-dark` `` | ![Blue Gradient Vertical](./_assets/style-guide-images/blue-gradient-block-vertical.jpg) |
+| **14** | **Green Gradient Block (Diagonal)** | Success / Confirmation | `` `.green-gradient-block` ``, `` `.on-dark` `` | ![Green Gradient Success](./_assets/style-guide-images/gradient-green-success-confimation.jpg) |
+| **15** | **Green Gradient Block (Vertical)** | Sidebar Success Message | `` `.green-gradient-block-vertical` ``, `` `.on-dark` `` | ![Green Gradient Vertical](./_assets/style-guide-images/green-gradient-block-vertical.jpg) |
+| **16** | **Dark Gradient Block** | Premium / Sophisticated | `` `.dark-gradient-block` ``, `` `.on-dark` `` | ![Dark Gradient](./_assets/style-guide-images/dark-gradient-block.jpg) |
+| **17** | **Professional Gradient Block** | Subtle Info / Secondary | `` `.professional-gradient-block` ``, `` `.on-dark` `` | ![Professional Gradient](./_assets/style-guide-images/professional-gradient-block.jpg) |
+| **18** | **Hero Call-to-Action** | Main CTA Section | `` `.blue-gradient-block` ``, `` `.on-dark` ``, `` `.text-center` ``, `` `.alert-link` `` | ![Hero CTA](./_assets/style-guide-images/hero-call-to-action.jpg) |
+| **19** | **Informational Card (White)** | Standard Content Card | `` `.card` ``, `` `.card-body` ``, `` `.alert-link` `` | ![Info Card White](./_assets/style-guide-images/Informational-Card-White-Background.jpg) |
 
 ---
 
