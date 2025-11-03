@@ -1,7 +1,29 @@
 {
   "name": "Jubilant Tribble Component Library",
   "description": "A collection of reusable HTML components for the Bootstrap 4.6 CMS environment. This file is the master blueprint for AI use.",
-"usage_rules": {
+
+  "core_documentation": {
+    "description": "Essential strategic documents that govern the entire system. These should be consulted when building pages or planning content strategy.",
+    "style_guide": {
+      "name": "Style Guide",
+      "purpose": "Brand rulebook documenting colors, typography, and CSS utilities including gradient blocks, buttons, and .on-dark utility",
+      "url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/STYLE_GUIDE.md",
+      "last_updated": "2025-11-03"
+    },
+    "internal_link_inventory": {
+      "name": "Internal Link Inventory",
+      "purpose": "SEO strategy map defining pillar/cluster architecture and internal linking strategy for the entire website",
+      "url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/INTERNAL_LINK_INVENTORY.md",
+      "importance": "CRITICAL - Consult this when adding internal links to ensure proper pillar/cluster relationships"
+    },
+    "master_index": {
+      "name": "Master Index of Raw URLs",
+      "purpose": "Complete catalog of all raw file URLs in the repository, organized by category",
+      "note": "This is maintained separately as a reference guide. The manifest.json provides the structured component inventory."
+    }
+  },
+
+  "usage_rules": {
     "structure": "Do not modify the class names or HTML structure of components. Use them exactly as provided in the files.",
     "content": "Inner text, image src, and link href attributes found inside component files are considered placeholders and must be populated with new content.",
     "placeholder_content_rule": "CRITICAL RULE: The content inside component HTML files (text, images, links) is for demonstration only and is NOT explicitly marked as a 'placeholder'. You MUST treat all such content as a temporary example that MUST be completely replaced with new content during implementation. Do not merge, append, or mix the example content with the new content.",
@@ -13,7 +35,6 @@
       "font_awesome": "6.5.1",
       "custom_css": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css",
       "custom_css_last_updated": "2025-11-03",
-      "style_guide": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/STYLE_GUIDE.md",
       "key_global_utilities": {
         "gradient_backgrounds": {
           "description": "Six gradient background classes that MUST be used with .on-dark for readable white text",
@@ -69,7 +90,7 @@
   "global_defaults": {
     "placeholder_image_url": "https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/opt/products_gallery_images/business-card_1.jpg.webp?v=4324"
   },
-"components": [
+  "components": [
     {
       "id": "faq-accordion",
       "name": "FAQ Accordion",
@@ -78,7 +99,7 @@
       "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/01-FAQ-Accordion/01-faq-formatting.html",
       "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/01-FAQ-Accordion/01-faq-formatting.gif"
     },
-  {
+    {
       "id": "faq-with-infographic",
       "name": "FAQ Section with Infographic",
       "description": "A responsive, two-column component that displays a visual infographic on one side and a Bootstrap accordion for FAQs on the other. It is semantically structured with figure and figcaption.",
@@ -94,13 +115,34 @@
       "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero-Sticky-Nav/011-Hero+stickyTOC%2BFAQ%2Bother-bottom-content.html",
       "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/011-Hero-Sticky-Nav/011-Hero%2BstickyTOC%2BFAQ%2Bother-bottom-content.jpg",
       "placeholders": [
-        { "name": "BREADCRUMB_HTML", "description": "Replace the inner HTML of the `<ul class='breadcrumb'>`..." },
-        { "name": "AUTHOR_NAME", "description": "Update the text of the author's name..." },
-        { "name": "PUBLISH_DATE", "description": "Update the text of the publish date." },
-        { "name": "LAST_UPDATED_DATE", "description": "Update the text of the last updated date." },
-        { "name": "HERO_TITLE", "description": "Update the text inside the `<h1>` tag..." },
-        { "name": "HERO_SUBTITLE", "description": "Update the text inside the `<p class='subhead-hero'>`." },
-        { "name": "INTERNAL_NAV_LINKS_HTML", "description": "Replace the inner HTML of the `<ul class='nav'>`..." }
+        {
+          "name": "BREADCRUMB_HTML",
+          "description": "Replace the inner HTML of the `<ul class='breadcrumb'>`..."
+        },
+        {
+          "name": "AUTHOR_NAME",
+          "description": "Update the text of the author's name..."
+        },
+        {
+          "name": "PUBLISH_DATE",
+          "description": "Update the text of the publish date."
+        },
+        {
+          "name": "LAST_UPDATED_DATE",
+          "description": "Update the text of the last updated date."
+        },
+        {
+          "name": "HERO_TITLE",
+          "description": "Update the text inside the `<h1>` tag..."
+        },
+        {
+          "name": "HERO_SUBTITLE",
+          "description": "Update the text inside the `<p class='subhead-hero'>`."
+        },
+        {
+          "name": "INTERNAL_NAV_LINKS_HTML",
+          "description": "Replace the inner HTML of the `<ul class='nav'>`..."
+        }
       ]
     },
     {
@@ -125,62 +167,62 @@
         }
       ]
     },
-  {
-          "id": "snippet-best-practices-and-apps",
-          "name": "Snippet: Best Practices & Popular Applications",
-          "description": "A self-contained, two-part component with styled cards and 'chips' for showing file preparation guidelines and common product uses. It includes its own <style> block.",
-          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-practices-and-apps.html",
-          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-practices-and-apps.jpg"
-        },
-{
-          "id": "snippet-visual-guide-tabs",
-          "name": "Snippet: Visual Guide with Interactive Tabs",
-          "description": "An interactive component with two tabs for displaying a video and image examples. It is self-contained and includes its own <style> block for a yellow 'attention' tab highlight, but still requires Bootstrap 4 JS for the tab functionality.",
-          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-visual-guide-tabs.html",
-          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-visual-guide-tabs.gif"
-        },  
-{
-          "id": "snippet-selection-guide-tables",
-          "name": "Snippet: Product Options Selection Guide",
-          "description": "A detailed guide component with multiple tables and sections for helping users choose between different product options (like coating, covers, colors, etc.). Includes an optional 'Quick decision' alert box.",
-          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-selection-guide-tables.html",
-          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-selection-guide-tables.jpg"
-        },  
-{
-          "id": "snippet-best-for-checklist",
-          "name": "Snippet: 'Best For' Use Case Checklist",
-          "description": "A component that provides a quick, scannable list of ideal use cases (pros) and non-ideal use cases (cons) for a product, with a final paragraph linking to a comparison guide.",
-          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-for-checklist.html",
-          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-for-checklist.jpg"
-        },  
-{
-          "id": "snippet-specifications-table",
-          "name": "Snippet: Specifications at a Glance Table",
-          "description": "A structured, two-column table for displaying key product features and specifications, typically used in the DESCRIPTION 1 area of a product page.",
-          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.html",
-          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.jpg"
-        },
-  {
-          "id": "snippet-process-steps-interactive",
-          "name": "Snippet: Interactive Process Steps",
-          "description": "A 4-step interactive timeline that reveals detailed content for each step. It is a self-contained component with its own <style> and <script> blocks, but requires Bootstrap 4 and jQuery to be loaded on the page.",
-          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-process-steps-interactive.html",
-          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-process-steps-interactive.gif"
-        },
-  {
-          "id": "snippet-quick-answers",
-          "name": "Snippet: Collapsible Quick Answers Block",
-          "description": "An interactive block that uses Bootstrap's collapse functionality to show key points upfront and reveal more details when a 'More details' button is clicked.",
-          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-quick-answers.html",
-          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-quick-answers.jpg"
-        },  
-   {
-          "id": "snippet-pricing-examples",
-          "name": "Snippet: Pricing Examples Table",
-          "description": "A simple but powerful table used on product pages to provide concrete, indexable pricing examples for different configurations. Each example links directly to the pre-configured product URL.",
-          "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-pricing-examples.html",
-          "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-pricing-examples.jpg"
-        },
+    {
+      "id": "snippet-best-practices-and-apps",
+      "name": "Snippet: Best Practices & Popular Applications",
+      "description": "A self-contained, two-part component with styled cards and 'chips' for showing file preparation guidelines and common product uses. It includes its own <style> block.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-practices-and-apps.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-practices-and-apps.jpg"
+    },
+    {
+      "id": "snippet-visual-guide-tabs",
+      "name": "Snippet: Visual Guide with Interactive Tabs",
+      "description": "An interactive component with two tabs for displaying a video and image examples. It is self-contained and includes its own <style> block for a yellow 'attention' tab highlight, but still requires Bootstrap 4 JS for the tab functionality.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-visual-guide-tabs.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-visual-guide-tabs.gif"
+    },
+    {
+      "id": "snippet-selection-guide-tables",
+      "name": "Snippet: Product Options Selection Guide",
+      "description": "A detailed guide component with multiple tables and sections for helping users choose between different product options (like coating, covers, colors, etc.). Includes an optional 'Quick decision' alert box.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-selection-guide-tables.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-selection-guide-tables.jpg"
+    },
+    {
+      "id": "snippet-best-for-checklist",
+      "name": "Snippet: 'Best For' Use Case Checklist",
+      "description": "A component that provides a quick, scannable list of ideal use cases (pros) and non-ideal use cases (cons) for a product, with a final paragraph linking to a comparison guide.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-for-checklist.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-best-for-checklist.jpg"
+    },
+    {
+      "id": "snippet-specifications-table",
+      "name": "Snippet: Specifications at a Glance Table",
+      "description": "A structured, two-column table for displaying key product features and specifications, typically used in the DESCRIPTION 1 area of a product page.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-specifications-table.jpg"
+    },
+    {
+      "id": "snippet-process-steps-interactive",
+      "name": "Snippet: Interactive Process Steps",
+      "description": "A 4-step interactive timeline that reveals detailed content for each step. It is a self-contained component with its own <style> and <script> blocks, but requires Bootstrap 4 and jQuery to be loaded on the page.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-process-steps-interactive.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-process-steps-interactive.gif"
+    },
+    {
+      "id": "snippet-quick-answers",
+      "name": "Snippet: Collapsible Quick Answers Block",
+      "description": "An interactive block that uses Bootstrap's collapse functionality to show key points upfront and reveal more details when a 'More details' button is clicked.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-quick-answers.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-quick-answers.jpg"
+    },
+    {
+      "id": "snippet-pricing-examples",
+      "name": "Snippet: Pricing Examples Table",
+      "description": "A simple but powerful table used on product pages to provide concrete, indexable pricing examples for different configurations. Each example links directly to the pre-configured product URL.",
+      "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-pricing-examples.html",
+      "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-pricing-examples.jpg"
+    },
     {
       "id": "demonstration-stress-test",
       "name": "Demonstration: Stress Test Page",
