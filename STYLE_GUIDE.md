@@ -127,9 +127,10 @@ This section documents the special global CSS classes that can be applied to ele
 
 ---
 
-### Code Examples
+### Code Examples ###
 
 #### 1. White Fonts on Dark Background (Hero)
+
 Use `.hero-block` and `.on-dark` to create a hero with white text.
 
 ```html
