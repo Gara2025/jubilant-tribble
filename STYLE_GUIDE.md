@@ -188,10 +188,179 @@ Class .alert-link on white background (without the background-block on-dark will
   This is a sentence with a special <a href="#" class="alert-link">Alert Link</a>.
 </div>
 
-#### 10. Alert Link on white bkg
+#### 11. Alert Link on white bkg
 The same class looks differently under white background (when no dark-background classes are applied) producing a professional blue no-underline bold link. nice lookng
 
 ```html
   This is a sentence with a special <a href="#" class="alert-link">Alert Link</a>.
 </div>
 
+
+#### 12. Blue Gradient Block (Diagonal)
+Use `.blue-gradient-block` with `.on-dark` to create a diagonal blue gradient background. Perfect for hero sections and important callouts.
+
+```html
+<div class="blue-gradient-block on-dark">
+  <div class="p-3">
+    <h3>Transform Your Print Marketing</h3>
+    <p>We offer professional printing services for businesses of all sizes. 
+       This is a <a href="#">regular link</a> and this is an 
+       <a href="#" class="alert-link">alert link</a> for primary actions.</p>
+  </div>
+</div>
+```
+
+#### 13. Blue Gradient Block (Vertical)
+Use `.blue-gradient-block-vertical` for a top-to-bottom gradient flow. Ideal for sidebars and vertical banners.
+
+```html
+<div class="blue-gradient-block-vertical on-dark">
+  <h4>Vertical Color Flow</h4>
+  <p>Perfect for sidebars. <a href="#">Learn more</a> or 
+     <a href="#" class="alert-link">get started now</a>.</p>
+</div>
+```
+
+#### 14. Green Gradient Block (Diagonal)
+Use `.green-gradient-block` with `.on-dark` for success messages, confirmations, and positive outcomes.
+
+```html
+<div class="green-gradient-block on-dark">
+  <h3>✓ Order Confirmed!</h3>
+  <p>Your order has been successfully processed. 
+     <a href="#" class="alert-link">Track your order</a> or 
+     <a href="#">view order details</a>.</p>
+</div>
+```
+
+#### 15. Green Gradient Block (Vertical)
+Use `.green-gradient-block-vertical` for vertical success indicators and sidebar confirmations.
+
+```html
+<div class="green-gradient-block-vertical on-dark">
+  <h4>✓ Success</h4>
+  <p>Files uploaded successfully. <a href="#">View uploads</a>.</p>
+</div>
+```
+
+#### 16. Dark Gradient Block
+Use `.dark-gradient-block` with `.on-dark` for premium features and sophisticated content sections.
+
+```html
+<div class="dark-gradient-block on-dark">
+  <h3>Premium Feature</h3>
+  <p>Exclusive content for professional members. 
+     <a href="#" class="alert-link">Upgrade to Premium</a> or 
+     <a href="#">learn about benefits</a>.</p>
+</div>
+```
+
+#### 17. Professional Gradient Block
+Use `.professional-gradient-block` with `.on-dark` for subtle backgrounds and secondary callouts. This lighter blue gradient is perfect for informational sections.
+
+```html
+<div class="professional-gradient-block on-dark">
+  <h4>Did You Know?</h4>
+  <p>Our design team offers free file setup assistance. 
+     <a href="#" class="alert-link">Request help</a> or 
+     <a href="#">browse templates</a>.</p>
+</div>
+```
+
+#### 18. Hero Call-to-Action (Complex Example)
+Combine `.blue-gradient-block`, `.on-dark`, and Bootstrap utilities for a centered hero section with alert links.
+
+```html
+<div class="blue-gradient-block on-dark text-center p-4">
+  <h2>Ready to Print Your Marketing Materials?</h2>
+  <p class="mb-3">Join thousands of satisfied customers who trust ColorCopiesUSA 
+     for professional printing services. We offer fast turnaround, competitive 
+     pricing, and exceptional quality.</p>
+  <p><a href="#" class="alert-link">Get Your Free Quote Now</a> or 
+     <a href="#">browse our product catalog</a>.</p>
+</div>
+```
+
+#### 19. Informational Card (White Background)
+Use Bootstrap's `.card` component with `.alert-link` for professional emphasis on white backgrounds.
+
+```html
+<article class="card">
+  <div class="card-body">
+    <h4>Design Templates Available</h4>
+    <p>Save time and ensure your files are print-ready with our professionally 
+       designed templates. Available for all common sizes in multiple formats.</p>
+    <p class="mb-0"><a href="#" class="alert-link">Download Templates</a> or 
+       <a href="#">watch the setup video</a>.</p>
+  </div>
+</article>
+```
+
+
+---
+## SECTION 4: ADD USAGE NOTES
+---
+Copy this entire section and paste after all code examples (after "#### 19"):
+
+---
+
+### Important: Using Gradient Blocks
+
+**CRITICAL:** Gradient blocks MUST be used with the `.on-dark` class for text to be readable. Never use a gradient block without `.on-dark`.
+
+**Correct Usage:**
+```html
+<div class="blue-gradient-block on-dark">
+  <p>Text is white and readable</p>
+</div>
+```
+
+**Incorrect Usage (Text will be unreadable):**
+```html
+<div class="blue-gradient-block">
+  <p>Text will be dark on dark background!</p>
+</div>
+```
+
+**When to Use Each Gradient:**
+
+| Gradient Class | Use For | Direction |
+| :--- | :--- | :--- |
+| `.blue-gradient-block` | Hero sections, main callouts, important announcements | Diagonal (135°) |
+| `.blue-gradient-block-vertical` | Sidebars, vertical banners | Vertical (top→bottom) |
+| `.green-gradient-block` | Success messages, confirmations, positive outcomes | Diagonal (135°) |
+| `.green-gradient-block-vertical` | Vertical success indicators | Vertical (top→bottom) |
+| `.dark-gradient-block` | Premium features, sophisticated content | Diagonal (135°) |
+| `.professional-gradient-block` | Subtle info boxes, secondary callouts | Diagonal (135°) |
+
+**Best Practices:**
+- Use 1-2 gradients per page maximum (e.g., hero intro + closing CTA)
+- Always pair gradient blocks with `.on-dark`
+- Use `.alert-link` for 1-2 primary CTAs per gradient section
+- Combine with Bootstrap utilities (`.text-center`, `.p-4`, etc.) for layout
+
+---
+
+### Quick Reference for Developers
+
+```html
+<!-- Blue gradient hero -->
+<div class="blue-gradient-block on-dark text-center p-4">
+  <h2>Heading</h2>
+  <p><a href="#" class="alert-link">Primary CTA</a></p>
+</div>
+
+<!-- Green gradient success -->
+<div class="green-gradient-block on-dark p-4">
+  <h3>✓ Success</h3>
+  <p><a href="#" class="alert-link">Next Step</a></p>
+</div>
+
+<!-- White card with emphasis link -->
+<article class="card">
+  <div class="card-body">
+    <h4>Title</h4>
+    <p><a href="#" class="alert-link">Primary Action</a></p>
+  </div>
+</article>
+```
