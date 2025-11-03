@@ -75,6 +75,34 @@ This section documents the special global CSS classes that can be applied to ele
 
 ### Summary Table
 
+| # | Component / Effect | Best For | Key CSS Classes | Preview |
+| :---: | :--- | :--- | :--- | :--- |
+| **1** | White Fonts on Dark BG (Hero) | Hero sections, dark backgrounds | `.hero-block`, `.on-dark` | ![Hero Preview](image.jpg) |
+| **2** | Pulsing Red Button | CTAs on dark backgrounds | `.custom-red-button`, `.animate-pulse` | ![Button Preview](image.jpg) |
+| **3** | Featured Promo Box | Important announcements, promotions | `.promoBox`, `.is-featured` | ![Promo Preview](image.jpg) |
+| **4** | Pulsing Blue Button | CTAs on light backgrounds | `.custom-blue-button`, `.animate-pulse` | ![Button Preview](image.jpg) |
+| **5** | Readable Width Text | Inside dark blocks for better readability | `.readable-width` | ![Readable Preview](image.jpg) |
+| **6** | Table on Dark BG | Data tables on dark backgrounds | `.on-dark`, `style="color: white"` | ![Table Preview](image.jpg) |
+| **7** | Nested Hover/Lift Box | Interactive cards, promotional boxes | `.hover-lift` | ![Hover Preview](image.jpg) |
+| **8** | Standard Buttons | Any context, primary actions | `.custom-blue-button`, `.custom-red-button`, `.custom-green-button` | ![Buttons Preview](image.jpg) |
+| **9** | Nested Green Button | CTAs inside promotional boxes | `.promoBox`, `.custom-green-button` | ![Green Button Preview](image.jpg) |
+| **10** | Alert Link (Dark Background) | High-priority links on dark backgrounds | `.alert-link`, `.on-dark` | ![Alert Link Preview](image.jpg) |
+| **11** | Alert Link (White Background) | Emphasis links on light backgrounds | `.alert-link` | ![Alert Link White Preview](image.jpg) |
+| **12** | Blue Gradient (Diagonal) | Hero sections, main callouts | `.blue-gradient-block`, `.on-dark` | ![Blue Gradient Preview](image.jpg) |
+| **13** | Blue Gradient (Vertical) | Sidebars, vertical banners | `.blue-gradient-block-vertical`, `.on-dark` | ![Blue Vertical Preview](image.jpg) |
+| **14** | Green Gradient (Diagonal) | Success messages, confirmations | `.green-gradient-block`, `.on-dark` | ![Green Gradient Preview](image.jpg) |
+| **15** | Green Gradient (Vertical) | Vertical success indicators | `.green-gradient-block-vertical`, `.on-dark` | ![Green Vertical Preview](image.jpg) |
+| **16** | Dark Gradient | Premium features, sophisticated content | `.dark-gradient-block`, `.on-dark` | ![Dark Gradient Preview](image.jpg) |
+| **17** | Professional Gradient | Subtle info boxes, secondary callouts | `.professional-gradient-block`, `.on-dark` | ![Professional Preview](image.jpg) |
+| **18** | Hero Call-to-Action | Main CTAs with multiple elements | `.blue-gradient-block`, `.on-dark`, `.text-center` | ![Hero CTA Preview](image.jpg) |
+| **19** | Informational Card (White) | Content cards with emphasis links | `.card`, `.card-body`, `.alert-link` | ![Info Card Preview](image.jpg) |
+
+-------------------------------------
+
+
+
+
+
 | Component / Effect | Context | Key CSS Classes | Preview |
 | :--- | :--- | :--- | :--- |
 | **White Fonts on Dark BG (Hero)** | Hero Section | `` `.hero-block` ``, `` `.on-dark` `` | ![Hero Preview](./_assets/style-guide-images/hero-block-on-dark-readable-width.jpg) |
