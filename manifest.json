@@ -210,6 +210,30 @@
       "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/05-Product-Page-Components/_snippets/snippet-process-steps-interactive.gif"
     },
     {
+  "id": "sticky-on-page-navigation",
+  "name": "Sticky On-Page Navigation",
+  "description": "A sticky navigation bar that remains fixed at the top of the page as users scroll. Features automatic section highlighting based on scroll position, smooth scrolling to target sections, and mobile-responsive collapsible menu.",
+  "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/16-Sticky-On-Page-Navigation/16-STICKY-ON-PAGE-NAVIGATION.html",
+  "placeholders": [
+    {
+      "name": "NAVIGATION_LINKS",
+      "description": "Customize the <a> tags inside the <nav> element to match your page sections. Each href attribute should correspond to a section id on your page (e.g., href='#section-name')."
+    },
+    {
+      "name": "SECTION_IDS",
+      "description": "Ensure each target section on your page has an id attribute that matches a navigation href. Use <section id='section-name'> tags for best results."
+    },
+    {
+      "name": "SCROLL_OFFSET",
+      "description": "In the JavaScript, adjust the -120 offset value (scrollTop: target.offset().top - 120) if your sticky nav has a different height or if sections aren't aligning properly when clicked."
+    },
+    {
+      "name": "ACTIVE_THRESHOLD",
+      "description": "In the JavaScript scroll function, adjust the -150 offset (var sectionTop = $(this).offset().top - 150) to change when sections are considered 'active' during scrolling."
+    }
+  ]
+},
+    {
       "id": "snippet-quick-answers",
       "name": "Snippet: Collapsible Quick Answers Block",
       "description": "An interactive block that uses Bootstrap's collapse functionality to show key points upfront and reveal more details when a 'More details' button is clicked.",
