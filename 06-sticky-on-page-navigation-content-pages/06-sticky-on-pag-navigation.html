@@ -1,1 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky On-Page Navigation - Example Usage</title>
+    
+    <!-- Bootstrap 4.6 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    
+    <!-- Global CSS Styles - Replace with your actual stylesheet -->
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/036-7-UPLD-GLOBAL-CSS-STYLES-2025-09-29--04-49PM.css">
+    
+    <style>
+        /* Component-specific styles */
+        .blue-background-block.on-dark a {
+            color: #87cefa !important;
+            text-decoration: underline !important;
+            transition: all 0.3s ease;
+        }
+
+        .blue-background-block.on-dark a:hover {
+            color: #ffffff !important;
+            text-decoration: underline !important;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .blue-background-block.on-dark a.active {
+            background-color: #d01e25 !important;
+            color: #ffffff !important;
+            font-weight: 600;
+            text-decoration: none !important;
+        }
+        
+        /* Demo section styling */
+        section {
+            min-height: 500px;
+            padding: 3rem 0;
+        }
+        
+        section:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero Section (example) -->
+<div class="hero-block on-dark readable-width" style="--hero-bg-image: url('https://d3vmbilae16g7h.cloudfront.net/colorcopi/images/contentimages/images/media/Printing-Bleed-Explained.gif');">
+    <h1>Example Page with Sticky Navigation</h1>
+    <p class="subhead-hero">This demonstrates the sticky on-page navigation component</p>
+</div>
+
+<!-- ================================================================= -->
+<!-- STICKY ON-PAGE NAVIGATION COMPONENT STARTS HERE                   -->
+<!-- ================================================================= -->
+<div class="blue-background-block on-dark sticky-top" style="top: 0; z-index: 1000; margin-top: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg p-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#stickyNav" style="border-color: rgba(255,255,255,0.3);">
+                <span class="navbar-toggler-icon" style="background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.8%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="stickyNav">
+                <div class="p-3 w-100">
+                    <nav style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+                        <a href="#introduction" style="padding: 0.5rem 1rem; border-radius: 4px;">Introduction</a>
+                        <a href="#features" style="padding: 0.5rem 1rem; border-radius: 4px;">Features</a>
+                        <a href="#how-it-works" style="padding: 0.5rem 1rem; border-radius: 4px;">How It Works</a>
+                        <a href="#benefits" style="padding: 0.5rem 1rem; border-radius: 4px;">Benefits</a>
+                        <a href="#examples" style="padding: 0.5rem 1rem; border-radius: 4px;">Examples</a>
+                        <a href="#faq" style="padding: 0.5rem 1rem; border-radius: 4px;">FAQs</a>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- ================================================================= -->
+<!-- STICKY ON-PAGE NAVIGATION COMPONENT ENDS HERE                     -->
+<!-- ================================================================= -->
+
+<!-- Main Content -->
+<div class="container my-5">
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>This is the introduction section. As you scroll down the page, watch the sticky navigation at the top. It will automatically highlight the section you're currently viewing.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <p>This section demonstrates the features of the sticky navigation component.</p>
+        <ul>
+            <li>Automatic section highlighting based on scroll position</li>
+            <li>Smooth scrolling to target sections</li>
+            <li>Mobile responsive with collapsible menu</li>
+            <li>Design system compliant colors</li>
+            <li>Easy to customize</li>
+        </ul>
+        <p>Scroll down to see more sections and watch the active link change in the navigation above.</p>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>The sticky navigation uses JavaScript to detect which section is currently in the viewport.</p>
+        <p>When you click a navigation link, it smoothly scrolls to the target section and highlights the clicked link. When you manually scroll, it automatically detects which section you're viewing and updates the active state accordingly.</p>
+        <div class="alert alert-info mt-3">
+            <strong>Try it:</strong> Click any link in the navigation above or scroll naturally - the component works both ways!
+        </div>
+    </section>
+
+    <section id="benefits">
+        <h2>Benefits</h2>
+        <p>Using a sticky on-page navigation provides several benefits for long-form content:</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Improved UX</h5>
+                        <p class="card-text">Users can quickly jump to any section without scrolling back to the top.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Visual Feedback</h5>
+                        <p class="card-text">The active state shows users exactly where they are in the content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Professional Look</h5>
+                        <p class="card-text">Modern websites use sticky navigation - it's expected by users.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="examples">
+        <h2>Examples</h2>
+        <p>This sticky navigation component works great for:</p>
+        <ul>
+            <li>Long-form articles and guides</li>
+            <li>Product documentation</li>
+            <li>Tutorial pages</li>
+            <li>FAQ sections</li>
+            <li>Service pages with multiple sections</li>
+            <li>Landing pages with segmented content</li>
+        </ul>
+        <p>Notice how the "Examples" link in the navigation is now highlighted? That's the auto-active feature at work!</p>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <h4>Q: Will this work on mobile devices?</h4>
+        <p>A: Yes! The component is fully responsive. On smaller screens, it collapses into a hamburger menu.</p>
+        
+        <h4>Q: Can I customize the colors?</h4>
+        <p>A: The colors are defined by the design system classes (.blue-background-block and .on-dark). You can override them in your custom CSS if needed.</p>
+        
+        <h4>Q: How do I add more links?</h4>
+        <p>A: Simply add more `<a>` tags in the navigation section, making sure each href matches a section id on your page.</p>
+        
+        <h4>Q: Does it work without jQuery?</h4>
+        <p>A: This version requires jQuery. If you need a vanilla JavaScript version, the logic can be converted.</p>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2025 ColorCopiesUSA.com - Sticky Navigation Component Demo</p>
+</footer>
+
+<!-- jQuery 3.5.1 -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Bootstrap 4.6 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Component JavaScript -->
+<script>
+$(document).ready(function(){
+    
+    // ===== SMOOTH SCROLLING =====
+    $('.blue-background-block.on-dark a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        
+        if(target.length) {
+            event.preventDefault();
+            
+            // Remove active class from all nav links
+            $('.blue-background-block.on-dark a').removeClass('active');
+            // Add active class to clicked link
+            $(this).addClass('active');
+            
+            // Smooth scroll to target
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top - 120
+            }, 800);
+        }
+    });
+    
+    // ===== AUTOMATIC ACTIVE STATE ON SCROLL =====
+    $(window).scroll(function() {
+        var scrollDistance = $(window).scrollTop();
+        var foundActive = false;
+        
+        // Check each section with an id attribute
+        $('section[id]').each(function(i) {
+            var sectionTop = $(this).offset().top - 150;
+            var sectionBottom = sectionTop + $(this).outerHeight();
+            var sectionId = $(this).attr('id');
+            
+            // If this section is in the viewport, mark its nav link as active
+            if (scrollDistance >= sectionTop && scrollDistance < sectionBottom && !foundActive) {
+                $('.blue-background-block.on-dark a').removeClass('active');
+                $('.blue-background-block.on-dark a[href="#' + sectionId + '"]').addClass('active');
+                foundActive = true;
+            }
+        });
+    });
+    
+    // ===== INITIALIZE ON PAGE LOAD =====
+    $(window).trigger('scroll');
+});
+</script>
+
+</body>
+</html>
 
