@@ -63,7 +63,7 @@ This section defines the standard "blueprints" for assembling common page types.
     1.  **Calculator Area:** The main interactive pricing calculator provided by the CMS.
     2.  **Description 1 Area:** This area sits directly below the calculator and **must** contain the `snippet-specifications-table` component from the `05-Product-Page-Components` collection.
     3.  **Description 2 Area:** This area contains all other marketing copy and informational snippets, such as the `snippet-intro-summary`, `snippet-best-for-checklist`, and the new `snippet-pricing-examples`.
-    4.  - **[16-Sticky-On-Page-Navigation](./06-sticky-on-page-navigation-content-pages/)** - A sticky navigation bar that remains fixed at the top as users scroll. Features automatic section highlighting and smooth scrolling. Best for long-form content pages.
+ 
 
 
 ---
@@ -85,6 +85,7 @@ These are libraries of smaller, reusable HTML blocks designed to be placed insid
 - **[01-FAQ-Accordion](./01-FAQ-Accordion/)** - Contains a simple, accessible FAQ component.
 - **[04-FAQ-with-Infographic](./04-FAQ-with-Infographic/)** - A two-column component that pairs an infographic with an accordion.
 - **[03-Pillar-Page-Snippets](./03-Pillar-Page-Snippets/)** - A rich collection of advanced content blocks (comparison tables, feature cards, CTAs, etc.) for building detailed informational pages.
+- **[06-sticky-on-page-navigation-content-pages](./06-sticky-on-page-navigation-content-pages/)** - A sticky navigation bar that remains fixed at the top as users scroll. Features automatic section highlighting and smooth scrolling. Best for long-form content pages.
 
 ---
 
