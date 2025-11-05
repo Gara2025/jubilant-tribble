@@ -21,6 +21,10 @@ Before using any component, you **must** be familiar with the three core documen
 - ### [**`INTERNAL_LINK_INVENTORY.md`**](./INTERNAL_LINK_INVENTORY.md)
   **Purpose:** The Website's Architectural Map. This document defines our "Pillar and Cluster" SEO strategy and provides a master list of key pages for internal linking.
 
+- ### [**`COMPANY_DATA.json`**](./COMPANY_DATA.json)
+  **Purpose:** The Company Information Repository. This document contains all official company details including organization name, contact information, logo URLs, founder information, operating hours, and social media profiles. Always reference this file when creating pages that require company information to ensure consistency across all content.
+
+
 ---
 
 ## 2. Development Environment & Rules
