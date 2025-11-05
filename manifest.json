@@ -16,6 +16,11 @@
       "url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/INTERNAL_LINK_INVENTORY.md",
       "importance": "CRITICAL - Consult this when adding internal links to ensure proper pillar/cluster relationships"
     },
+    "company_data": {
+  "name": "Company Data Repository",
+  "purpose": "Centralized source of truth for all company information including organization details, contact information, logo URLs, author bios, and schema.org structured data",
+  "note": "Always reference this file when creating pages that require company information, contact details, or author attribution to ensure consistency across all content."
+},
     "master_index": {
       "name": "Master Index of Raw URLs",
       "purpose": "Complete catalog of all raw file URLs in the repository, organized by category",
