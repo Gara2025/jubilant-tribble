@@ -24,11 +24,43 @@
     {
   "id": "06-sticky-on-page-navigation-content-pages",
   "name": "Sticky On-Page Navigation for Content Pages",
-  "description": "A responsive sticky navigation component that remains fixed at the top of the viewport as users scroll through long-form content pages. Designed specifically for tutorial pages and educational content with multiple sections.",
+  "description": "A responsive sticky navigation bar that remains fixed at the top of the viewport as users scroll through long-form content. Features automatic section highlighting based on scroll position, smooth scrolling to target sections, mobile collapse menu, and proper styling according to the ColorCopiesUSA design system. Includes jQuery-powered active state management and customizable scroll offset.",
   "documentation_url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/README.md",
   "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/06-sticky-on-pag-navigation.html",
   "example_usage": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/example-usage.html",
-  "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/visual-sticky-nav.png"
+  "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/visual-sticky-nav.png",
+  "placeholders": [
+    {
+      "name": "NAVIGATION_LINKS",
+      "description": "Replace the <a> tags in the <nav> section with links matching your page's section IDs. Each href should correspond to a section id on your page (e.g., change href='#section-1' to href='#what-is-bleed')."
+    },
+    {
+      "name": "STICKY_TOP_OFFSET",
+      "description": "Adjust the 'top' value in style attribute (default: 60px) to change the sticky position offset based on your header height."
+    },
+    {
+      "name": "SCROLL_OFFSET",
+      "description": "Modify the scroll offset in JavaScript (default: -120px) to adjust how much space appears above the section when scrolling to it."
+    }
+  ],
+  "technical_notes": {
+    "version": "1.0",
+    "last_updated": "2025-11-04",
+    "color_scheme": {
+      "background": "Corporate Blue (#1c3481) via .blue-background-block",
+      "default_links": "Light Blue (#87cefa) with underline",
+      "hover_state": "White (#ffffff) with subtle background (rgba(255,255,255,0.1))",
+      "active_state": "Corporate Red (#d01e25) background, white text, no underline"
+    },
+    "key_features": [
+      "Automatic section highlighting on scroll",
+      "Smooth scrolling to target sections (800ms animation)",
+      "Mobile-responsive collapse menu",
+      "jQuery-powered active state management",
+      "Customizable scroll offset",
+      "z-index: 300 for proper layering"
+    ]
+  }
 },
     "master_index": {
       "name": "Master Index of Raw URLs",
