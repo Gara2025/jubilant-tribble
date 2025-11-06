@@ -21,6 +21,15 @@
   "purpose": "Centralized source of truth for all company information including organization details, contact information, logo URLs, author bios, and schema.org structured data",
   "note": "Always reference this file when creating pages that require company information, contact details, or author attribution to ensure consistency across all content."
 },
+    {
+  "id": "06-sticky-on-page-navigation-content-pages",
+  "name": "Sticky On-Page Navigation for Content Pages",
+  "description": "A responsive sticky navigation component that remains fixed at the top of the viewport as users scroll through long-form content pages. Designed specifically for tutorial pages and educational content with multiple sections.",
+  "documentation_url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/README.md",
+  "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/06-sticky-on-pag-navigation.html",
+  "example_usage": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/example-usage.html",
+  "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/06-sticky-on-page-navigation-content-pages/visual-sticky-nav.png"
+},
     "master_index": {
       "name": "Master Index of Raw URLs",
       "purpose": "Complete catalog of all raw file URLs in the repository, organized by category",
