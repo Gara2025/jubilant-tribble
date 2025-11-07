@@ -511,6 +511,22 @@ Before saying "it's done":
 
 ---
 
+## Step Progress Bar Positioning
+
+| Scenario | Calculation | CSS Value |
+|----------|-------------|-----------|
+| **No sticky navigation** | 0 | `top: 0px` |
+| **Global nav only** (70px tall) | 70 + 5 gap | `top: 75px` |
+| **Global nav (55px) + Internal nav (60px)** | 55 + 60 + 5 gap | `top: 120px` |
+| **Custom setup** | [nav-top] + [nav-height] + 5px gap | Calculate |
+
+### How to Adjust:
+1. Measure your sticky nav's `top` value
+2. Measure your sticky nav's height (inspect element)
+3. Add 5px for spacing
+4. Update `.step-progress-bar { top: [result]px; }`
+ --------------------------------
+ 
 ## 🆘 NEED HELP?
 
 **Check these resources:**
