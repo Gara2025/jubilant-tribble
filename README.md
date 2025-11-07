@@ -90,7 +90,7 @@ These are libraries of smaller, reusable HTML blocks designed to be placed insid
 - **[04-FAQ-with-Infographic](./04-FAQ-with-Infographic/)** - A two-column component that pairs an infographic with an accordion.
 - **[03-Pillar-Page-Snippets](./03-Pillar-Page-Snippets/)** - A rich collection of advanced content blocks (comparison tables, feature cards, CTAs, etc.) for building detailed informational pages.
 - **[06-sticky-on-page-navigation-content-pages](./06-sticky-on-page-navigation-content-pages/)** - A sticky navigation bar that remains fixed at the top as users scroll. Features automatic section highlighting and smooth scrolling. Best for long-form content pages.
-
+- **[07-step-progress-bar](./07-step-progress-bar/)** - A contextual progress indicator for multi-step tutorials. Features automatic step detection, click-to-navigate bubbles, and mobile-responsive design. Only appears when in the step section.
 ---
 
 ## 4. Live Demonstrations
