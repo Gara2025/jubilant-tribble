@@ -300,6 +300,81 @@
       "documentation_url": "https://github.com/Gara2025/jubilant-tribble/blob/main/_demonstrations/README.md",
       "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/_demonstrations/01-stress-test-dark-background-and-nested-elements.html",
       "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/_demonstrations/01-stress-test-dark-background-and-nested-elements.jpg"
-    }
+    },
+    {
+  "id": "step-progress-bar",
+  "name": "Step Progress Bar",
+  "description": "A contextual, sticky progress indicator that tracks user position through multi-step tutorials and processes. Features automatic step detection on scroll, click-to-navigate bubbles, Prev/Next buttons, and mobile-responsive design with smooth animations. Only appears when in the step section of the page.",
+  "documentation_url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/17-step-progress-bar/README.md",
+  "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar.html",
+  "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar-preview.gif",
+  "component_files": {
+    "html": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar.html",
+    "css": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar.css",
+    "js": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar.js"
+  },
+  "documentation_files": {
+    "readme": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/README.md",
+    "quick_start": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/QUICK-START-GUIDE.md",
+    "implementation_recipe": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/IMPLEMENTATION-RECIPE.md",
+    "full_documentation": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/DOCUMENTATION.md"
+  },
+  "dependencies": {
+    "jquery": "3.5.1+",
+    "bootstrap": "4.6+",
+    "font_awesome": "6.5.1+"
+  },
+  "features": [
+    "Contextual visibility (shows only in step section)",
+    "Auto-detection of current step on scroll",
+    "Click-to-navigate step bubbles",
+    "Prev/Next button navigation",
+    "Mobile responsive with horizontal scroll",
+    "Smooth fade in/out animations",
+    "Visual progress states (completed, active, upcoming)",
+    "Sticky positioning below main navigation"
+  ],
+  "configuration_required": {
+    "javascript_variables": [
+      {
+        "name": "totalSteps",
+        "description": "Total number of steps in the tutorial",
+        "example": "const totalSteps = 6;"
+      },
+      {
+        "name": "$stepSection",
+        "description": "jQuery selector for the section containing all steps",
+        "example": "const $stepSection = $('#step-by-step');"
+      }
+    ],
+    "html_requirements": [
+      {
+        "name": "Step Container IDs",
+        "description": "Each step container must have sequential IDs",
+        "example": "id=\"step-1\", id=\"step-2\", id=\"step-3\""
+      },
+      {
+        "name": "Step Names",
+        "description": "Customize step names in the progress bar bubbles",
+        "location": "span.step-name elements in HTML"
+      }
+    ]
+  },
+  "usage_examples": [
+    "https://colorcopiesusa.com/photoshop-full-bleed-tutorial",
+    "https://colorcopiesusa.com/indesign-full-bleed-tutorial"
+  ],
+  "use_cases": [
+    "Multi-step software tutorials (3-10 steps)",
+    "Product setup wizards",
+    "Guided learning processes",
+    "Sequential instruction pages",
+    "Step-by-step how-to guides"
+  ],
+  "browser_support": "Chrome 90+, Firefox 88+, Safari 14+, Edge 90+, iOS Safari 14+, Chrome Android 90+",
+  "version": "1.0.0",
+  "status": "stable",
+  "last_updated": "2024-11-07"
+}
   ]
 }
