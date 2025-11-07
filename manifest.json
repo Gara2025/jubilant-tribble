@@ -305,13 +305,14 @@
   "id": "step-progress-bar",
   "name": "Step Progress Bar",
   "description": "A contextual, sticky progress indicator that tracks user position through multi-step tutorials and processes. Features automatic step detection on scroll, click-to-navigate bubbles, Prev/Next buttons, and mobile-responsive design with smooth animations. Only appears when in the step section of the page.",
-  "documentation_url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/17-step-progress-bar/README.md",
-  "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar.html",
-  "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar-preview.gif",
+  "documentation_url": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/refs/heads/main/07-step-progress-bar/README.md",
+  "file_location": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/07-step-progress-bar/step-progress-bar.html",
+  "visual_asset": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/07-step-progress-bar/step-progress-bar-preview.gif",
   "component_files": {
-    "html": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar.html",
-    "css": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar.css",
-    "js": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/step-progress-bar.js"
+    "html": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/07-step-progress-bar/step-progress-bar.html",
+    "css": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/07-step-progress-bar/step-progress-bar.css",
+    "js": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/07-step-progress-bar/step-progress-bar.js",
+    "Visual-Reference": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/07-step-progress-bar/step-progress-bar.js"
   },
   "documentation_files": {
     "readme": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/README.md",
