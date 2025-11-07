@@ -1,1 +1,120 @@
+<!-- ================================================================= -->
+<!-- COMPONENT: Step Progress Bar                                      -->
+<!-- Component ID: 17-step-progress-bar                                -->
+<!-- Version: 1.0.0                                                    -->
+<!-- Dependencies: jQuery 3.5.1+, Bootstrap 4.6+, Font Awesome 6.5.1+ -->
+<!-- ================================================================= -->
+
+<!-- 
+INSTRUCTIONS:
+1. Copy this HTML after your main sticky navigation
+2. Update totalSteps in JavaScript to match your number of steps
+3. Add id="step-1", id="step-2", etc. to your step containers
+4. Customize step names and titles as needed
+-->
+
+<div class="step-progress-bar sticky-top">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between flex-wrap">
+      
+      <!-- Progress Label -->
+      <div class="text-muted small mb-2 mb-md-0">
+        <strong>Your Progress:</strong> 
+        <span id="current-step-label">Step 1 of 6</span>
+      </div>
+      
+      <!-- Step Bubbles Container -->
+      <div class="step-bubbles d-flex align-items-center flex-wrap" style="gap: 0.5rem;">
+        
+        <!-- Step 1 -->
+        <a href="#step-1" class="step-bubble active" data-step="1" title="Step 1 Title">
+          <span class="step-number-bubble">1</span>
+          <span class="step-name d-none d-lg-inline">Step1</span>
+        </a>
+        <div class="step-connector"></div>
+        
+        <!-- Step 2 -->
+        <a href="#step-2" class="step-bubble" data-step="2" title="Step 2 Title">
+          <span class="step-number-bubble">2</span>
+          <span class="step-name d-none d-lg-inline">Step2</span>
+        </a>
+        <div class="step-connector"></div>
+        
+        <!-- Step 3 -->
+        <a href="#step-3" class="step-bubble" data-step="3" title="Step 3 Title">
+          <span class="step-number-bubble">3</span>
+          <span class="step-name d-none d-lg-inline">Step3</span>
+        </a>
+        <div class="step-connector"></div>
+        
+        <!-- Step 4 -->
+        <a href="#step-4" class="step-bubble" data-step="4" title="Step 4 Title">
+          <span class="step-number-bubble">4</span>
+          <span class="step-name d-none d-lg-inline">Step4</span>
+        </a>
+        <div class="step-connector"></div>
+        
+        <!-- Step 5 -->
+        <a href="#step-5" class="step-bubble" data-step="5" title="Step 5 Title">
+          <span class="step-number-bubble">5</span>
+          <span class="step-name d-none d-lg-inline">Step5</span>
+        </a>
+        <div class="step-connector"></div>
+        
+        <!-- Step 6 -->
+        <a href="#step-6" class="step-bubble" data-step="6" title="Step 6 Title">
+          <span class="step-number-bubble">6</span>
+          <span class="step-name d-none d-lg-inline">Step6</span>
+        </a>
+        
+        <!-- 
+        TO ADD MORE STEPS:
+        Copy a step block and connector, update:
+        - href="#step-X"
+        - data-step="X"
+        - title="Your Title"
+        - number inside bubble
+        - step name text
+        -->
+        
+      </div>
+      
+      <!-- Navigation Buttons -->
+      <div class="step-navigation d-flex align-items-center mt-2 mt-md-0" style="gap: 0.5rem;">
+        <button id="prev-step" class="btn btn-sm btn-outline-primary" disabled>
+          <i class="fas fa-chevron-left"></i>
+          <span class="d-none d-sm-inline ml-1">Prev</span>
+        </button>
+        <button id="next-step" class="btn btn-sm btn-primary">
+          <span class="d-none d-sm-inline mr-1">Next</span>
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- 
+STEP CONTAINER REQUIREMENTS:
+Each step must have a container with unique ID following this pattern:
+
+<div class="step-container" id="step-1">
+  <div class="step-number">1</div>
+  <div class="step-content">
+    <h3>Step 1: Your Title</h3>
+    <p>Step content...</p>
+  </div>
+</div>
+
+<div class="step-container" id="step-2">
+  <div class="step-number">2</div>
+  <div class="step-content">
+    <h3>Step 2: Your Title</h3>
+    <p>Step content...</p>
+  </div>
+</div>
+
+Important: ID format must be "step-{number}" (e.g., step-1, step-2, step-3)
+-->
 
