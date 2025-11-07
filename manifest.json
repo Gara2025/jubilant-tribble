@@ -317,8 +317,8 @@
   "documentation_files": {
     "readme": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/README.md",
     "quick_start": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/QUICK-START-GUIDE.md",
-    "implementation_recipe": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/IMPLEMENTATION-RECIPE.md",
-    "full_documentation": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/17-step-progress-bar/DOCUMENTATION.md"
+    "implementation_recipe": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/07-step-progress-bar/IMPLEMENTATION-RECIPE.md",
+    "full_documentation": "https://raw.githubusercontent.com/Gara2025/jubilant-tribble/main/07-step-progress-bar/step-by-step-sticky-bar.jpg"
   },
   "dependencies": {
     "jquery": "3.5.1+",
