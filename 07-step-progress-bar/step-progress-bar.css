@@ -1,1 +1,212 @@
+/* ================================================================= */
+/* COMPONENT: Step Progress Bar                                      */
+/* Component ID: 17-step-progress-bar                                */
+/* Version: 1.0.0                                                    */
+/* ================================================================= */
+
+/* 
+INSTRUCTIONS:
+1. Copy this entire CSS block into your stylesheet
+2. Customize colors if needed (see COLOR CUSTOMIZATION section below)
+3. Adjust top position if your main nav has different height
+*/
+
+/* ================================================================= */
+/* MAIN CONTAINER                                                    */
+/* ================================================================= */
+
+.step-progress-bar {
+  position: sticky;
+  top: 110px; /* CUSTOMIZE: Adjust based on your main navigation height */
+  z-index: 999;
+  background: #ffffff;
+  border-bottom: 2px solid #e9ecef;
+  padding: 0.75rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  display: none; /* Hidden by default - JavaScript controls visibility */
+}
+
+/* ================================================================= */
+/* STEP BUBBLES LAYOUT                                               */
+/* ================================================================= */
+
+.step-bubbles {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+/* Individual Step Bubble Link */
+.step-bubble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.25rem;
+  border-radius: 4px;
+}
+
+.step-bubble:hover {
+  background-color: rgba(28, 52, 129, 0.05);
+  text-decoration: none;
+}
+
+/* ================================================================= */
+/* STEP NUMBER CIRCLE                                                */
+/* ================================================================= */
+
+.step-number-bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  color: #6c757d;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: 2px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+/* ================================================================= */
+/* STEP NAME LABEL                                                   */
+/* ================================================================= */
+
+.step-name {
+  font-size: 0.75rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+/* ================================================================= */
+/* STEP STATES                                                       */
+/* ================================================================= */
+
+/* Active Step (Current) */
+.step-bubble.active .step-number-bubble {
+  background: linear-gradient(135deg, #1c3481 0%, #2a4a9f 100%);
+  color: #ffffff;
+  border-color: #1c3481;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(28, 52, 129, 0.3);
+}
+
+.step-bubble.active .step-name {
+  color: #1c3481;
+  font-weight: 600;
+}
+
+/* Completed Step */
+.step-bubble.completed .step-number-bubble {
+  background-color: #28a745;
+  color: #ffffff;
+  border-color: #28a745;
+}
+
+.step-bubble.completed .step-name {
+  color: #28a745;
+}
+
+/* ================================================================= */
+/* CONNECTOR LINES                                                   */
+/* ================================================================= */
+
+.step-connector {
+  width: 24px;
+  height: 2px;
+  background-color: #dee2e6;
+  flex-shrink: 0;
+}
+
+.step-connector.completed {
+  background-color: #28a745;
+}
+
+/* ================================================================= */
+/* MOBILE RESPONSIVE                                                 */
+/* ================================================================= */
+
+@media (max-width: 768px) {
+  .step-progress-bar {
+    top: 95px; /* Slightly lower on mobile */
+    padding: 0.5rem 0;
+  }
+  
+  /* Horizontal scroll styling for mobile */
+  .step-bubbles {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #1c3481 #f8f9fa;
+  }
+  
+  .step-bubbles::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .step-bubbles::-webkit-scrollbar-track {
+    background: #f8f9fa;
+  }
+  
+  .step-bubbles::-webkit-scrollbar-thumb {
+    background: #1c3481;
+    border-radius: 2px;
+  }
+  
+  /* Smaller bubbles on mobile */
+  .step-number-bubble {
+    width: 28px;
+    height: 28px;
+    font-size: 0.8rem;
+  }
+  
+  /* Shorter connectors on mobile */
+  .step-connector {
+    width: 16px;
+  }
+}
+
+/* Very Small Screens (Portrait Phones) */
+@media (max-width: 576px) {
+  .step-progress-bar .container > div {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .step-bubbles {
+    justify-content: flex-start;
+    margin: 0.5rem 0;
+  }
+}
+
+/* ================================================================= */
+/* COLOR CUSTOMIZATION                                               */
+/* ================================================================= */
+
+/*
+TO CUSTOMIZE COLORS:
+Replace the hex codes below with your brand colors
+
+Example:
+.step-bubble.active .step-number-bubble {
+  background: linear-gradient(135deg, #YOUR_COLOR 0%, #YOUR_DARK_COLOR 100%);
+  border-color: #YOUR_COLOR;
+}
+*/
+
+/* Active Step Primary Color: #1c3481 (Corporate Blue) */
+/* Active Step Secondary Color: #2a4a9f (Darker Blue) */
+/* Completed Step Color: #28a745 (Success Green) */
+/* Default Step Background: #e9ecef (Light Gray) */
+/* Default Step Border: #dee2e6 (Medium Gray) */
+/* Default Step Text: #6c757d (Dark Gray) */
 
