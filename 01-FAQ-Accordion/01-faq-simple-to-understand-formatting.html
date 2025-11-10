@@ -1,0 +1,86 @@
+ <!-- 
+      ================================
+      === SINGLE FAQ ITEM - START  ===
+      ================================
+      This is the repeating block for one question and answer.
+      To add a new FAQ, just copy this entire <div class="card"> block.
+    -->
+    <div class="card">
+      <div class="card-header" id="faq1">
+        <h3 class="h5 mb-0">
+          <!-- 
+            THE CLICKABLE BUTTON/QUESTION
+            - `data-target` MUST point to the ID of the answer `<div>` below (e.g., "#collapse1").
+            - `collapsed` class is present by default, meaning the item is closed.
+          -->
+          <button
+            class="faq-toggle collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapse1"
+          >
+            <!-- ===> REPLACE THIS WITH YOUR QUESTION <=== -->
+            What is the first question?
+            <span class="faq-icon"><i class="bi bi-chevron-down"></i></span>
+          </button>
+        </h3>
+      </div>
+
+      <!-- 
+        THE COLLAPSIBLE ANSWER
+        - The `id` here MUST match the `data-target` from the button above (e.g., "collapse1").
+        - `data-parent` points to the main container to create the accordion effect.
+      -->
+      <div id="collapse1" class="collapse" data-parent="#faqAccordion">
+        <div class="faq-content">
+          <div class="faq-body">
+            <!-- ===> REPLACE THIS WITH YOUR ANSWER <=== -->
+            <p>
+              This is the answer to the first question. You can use standard HTML tags
+              like paragraphs, lists, and bold text inside this `faq-body` div.
+            </p>
+            <ul>
+              <li>List item one.</li>
+              <li>List item two.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- === SINGLE FAQ ITEM - END === -->
+
+
+    <!-- === ANOTHER FAQ ITEM (EXAMPLE) === -->
+    <div class="card">
+      <div class="card-header" id="faq2">
+        <h3 class="h5 mb-0">
+          <button
+            class="faq-toggle collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapse2"
+          >
+            <!-- ===> REPLACE THIS WITH YOUR QUESTION <=== -->
+            What about the second question?
+            <span class="faq-icon"><i class="bi bi-chevron-down"></i></span>
+          </button>
+        </h3>
+      </div>
+      <div id="collapse2" class="collapse" data-parent="#faqAccordion">
+        <div class="faq-content">
+          <div class="faq-body">
+            <!-- ===> REPLACE THIS WITH YOUR ANSWER <=== -->
+            <p>
+              This is the answer to the second question. Notice how the `id` and `data-target` have been changed from "collapse1" to "collapse2" to link this specific question and answer pair.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =============================================================================== -->
+<!-- END OF THE FAQ SECTION TEMPLATE                                                 -->
+<!-- =============================================================================== -->
